@@ -1,0 +1,65 @@
+.videoContainer {
+    width: 100%;
+    width: calc(min(100vw, 100vh));
+    max-width: calc(min(120vh, 100vw));
+    /* min-width:calc(min(100%,400px)); */
+    margin: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    display: block;
+    top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 80vh !important;
+    /* scale: 1.4; */
+
+}
+
+@media screen and (max-aspect-ratio:8/6) {
+    .project .videoContainer {
+        overflow: hidden;
+    }
+}
+
+.scrollVideo {
+    scale: 1.4;
+}
+
+
+@media (max-device-aspect-ratio: 5/8) {
+    .project .videoContainer {
+        display: block;
+        top: 30vh !important;
+        z-index: 9999 !important;
+        /* background-image: url("../../../Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min2.png"); */
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        overflow: hidden;
+        height: 80vh !important;
+        margin: auto;
+        position: sticky;
+        top: 200px;
+        /* background: white; */
+    }
+
+    .videoContainer {
+        scale: 1.4;
+    }
+
+    #savingAid .videoContainer {
+        scale: 1.4;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .scrollVideo {
+        /* If you make the scale too large it stops working on smaller screens, no idea why */
+        /* scale: 1.0;
+        transform: translateY(0px); */
+    }
+}

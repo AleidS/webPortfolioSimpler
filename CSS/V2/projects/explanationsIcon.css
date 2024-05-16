@@ -1,0 +1,12 @@
+.iconContainer {
+    font-size: 3rem;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-aspect-ratio:5/8) {
+    .iconContainer {
+        display: none !important;
+    }
+}

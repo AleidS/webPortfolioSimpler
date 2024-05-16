@@ -1,0 +1,8 @@
+start xampp
+open localhost/3dportfolio - basic 
+WITHOUT index.php!
+
+Use clear cache extension chrome
+Add isset for not-working php commands
+
+Make sure you've clicked watch scss in the bottom bar

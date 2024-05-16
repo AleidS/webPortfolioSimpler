@@ -1,0 +1,328 @@
+@use '../main/variables' as *;
+
+.scrollAnchor {
+    scroll-margin-top: 120px;
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-family: 'montserrat', sans-serif;
+
+    background: $card-background2;
+    // background: $card-background;
+    max-width: calc(min(90vhq, 95vw));
+    // border-radius: 10px;
+    overflow: hidden;
+    padding-top: 0px;
+    color: $card-text !important;
+    // border: 2px solid $accent-color;
+
+    h2 a {
+        text-decoration: none;
+    }
+
+
+    h2 {
+        width: 100%;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 10px;
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
+        margin: 0px;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: auto;
+        bottom: 100px;
+        font-size: clamp(12pt, 2.4rem, 7vw);
+        font-weight: 400;
+
+        .name {
+
+            margin: 0px;
+            height: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            text-align: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            color: $text-color2;
+        }
+
+        .year {
+            /* background: rgba(144, 144, 150, 0.175); */
+            padding: 10px;
+            border-left: 0px solid rgba(255, 255, 255, 0.375);
+            margin: 0px;
+            height: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            text-align: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            color: $text-color2;
+        }
+    }
+
+    .cardHeader {
+        background: $accent-color;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .textContainer {
+        color: $text-color !important;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .textContainerInner {
+        padding: 10px;
+        text-align: center;
+        color: $card-text;
+    }
+
+    .title {
+        display: block;
+        font-size: clamp(10pt, 1.6rem, 5vw);
+        font-weight: 400;
+        line-height: clamp(10pt, 1.6rem, 5vw) !important;
+        text-transform: capitalize;
+        padding: 0px;
+        margin-bottom: 9px;
+        color: $card-text;
+    }
+
+
+    .verticalScrollScreen {
+        background: rgba(190, 99, 99, 0.001);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 10;
+        opacity: 0;
+        will-change: opacity;
+        pointer-events: none;
+    }
+
+
+    .imgContainer {
+        max-width: calc(min(100%, 1000px)) !important;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        margin: auto;
+
+
+        .swiper-wrapper {
+            max-width: 100%;
+            padding-bottom: 30px;
+        }
+
+        .swiper-slide {
+            width: 400px;
+            max-width: 80vw;
+            color: $card-text;
+        }
+
+    }
+
+    img,
+    video {
+        width: 100%;
+        height: auto;
+        // clip-path: polygon(1% 1%, 99% 1%, 99% 99%, 0% 99%);
+        border-radius: 5px;
+        clip-path: inset(1% 1% 1% 1% round 5px);
+    }
+
+    .playbutton {
+        position: absolute;
+        bottom: 40%;
+        left: 45%;
+        font-size: 3rem;
+        opacity: 1;
+        cursor: pointer;
+        z-index: 2;
+        filter: drop-shadow(0px 0px 10px rgba(133, 133, 133, 0.548));
+        transition-duration: 0.2s;
+        will-change: opacity;
+        color: white !important;
+    }
+
+    .fa-pause {
+        opacity: 0;
+        will-change: opacity;
+    }
+
+
+
+    .playbutton:hover {
+        opacity: 1;
+
+    }
+
+    @keyframes fade {
+        0% {
+            opacity: 1;
+        }
+
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    .fa-pause:hover {
+        opacity: 1;
+        animation: fade 1.5s forwards;
+        animation-delay: 1s;
+    }
+
+
+}
+
+.projectTools {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 90vw;
+    max-width: fit-content;
+    margin: auto;
+    list-style: none;
+    margin-bottom: 20px;
+    color: $text-color2;
+
+    li {
+        margin-left: 20px;
+        font-size: 1rem;
+    }
+}
+
+// Arrows
+.swiper-interface {
+    z-index: 20;
+    text-shadow: 0px 0px 10px rgb(149, 149, 149);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    pointer-events: all !important;
+    /* background: red; */
+    z-index: 20 !important;
+    position: absolute;
+    cursor: pointer;
+    /* background: blue; */
+    top: 50%;
+    width: 5%;
+    height: 20%;
+    margin-left: calc(min(30%, 50px));
+    margin-right: calc(min(30%, 50px));
+    box-shadow: none;
+    text-shadow: none;
+    color: rgba(255, 255, 255, 0) !important;
+
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    content: '';
+    background-image: url("../../../Images/icons/ArrowRight.png");
+
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    pointer-events: none;
+    z-index: 2;
+    opacity: 1;
+    filter: invert(0)brightness(100%)drop-shadow(1px 1px 4px rgba(158, 158, 158, 0.483));
+    /* filter: invert(0)brightness(890%)drop-shadow(1px 1px 10px rgb(203, 203, 203)); */
+}
+
+.swiper-button-prev:after {
+    background-image: url("../../../Images/icons/ArrowLeft.png");
+}
+
+.swiperFooter {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    backdrop-filter: blur(100px)brightness(100%);
+    z-index: 1 !important;
+    pointer-events: none;
+
+    .swiper-pagination {
+        height: 20px;
+        z-index: 20;
+
+    }
+
+    .swiper-pagination-bullet {
+        background-color: $accent-color !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        color: white !important;
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 10px rgb(159, 159, 159);
+        box-shadow: 0px 0px 10px rgb(214, 214, 214);
+    }
+
+    .swiper-scroll {
+        background: white;
+    }
+}
+
+
+
+
+
+.cardFooter {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: $text-color2 !important;
+    padding: 10px;
+    min-height: fit-content;
+    position: -webkit-sticky;
+    top: 90vh;
+    z-index: 20;
+    transition-duration: 2s;
+    background-position: auto;
+    height: fit-content;
+    padding: 1vw;
+    // border-bottom-left-radius: 1vw;
+    // border-bottom-right-radius: 1vw;
+    background: #5a875d;
+    background: $accent-color;
+
+    a {
+        color: $text-color2 !important;
+        text-decoration: none;
+    }
+}

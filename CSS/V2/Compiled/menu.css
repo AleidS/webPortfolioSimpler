@@ -1,0 +1,187 @@
+#menuContainer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 9900;
+  position: fixed;
+  width: 100%;
+  min-height: 60px;
+  margin: 0px !important;
+  width: 100% !important;
+  padding: 0px !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
+  background: none !important;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+#menu {
+  overflow: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  max-width: 100vw;
+  margin: auto;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 10px;
+  height: 60px;
+  top: 0;
+  font-size: 1.5rem;
+  font-size: min(1.1rem, 3.4vw);
+  font-size: clamp(10pt, 1.1rem, 3.4vw);
+  font-weight: 100;
+  font-family: "roboto";
+  font-stretch: condensed;
+  text-transform: uppercase;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  height: 100%;
+  min-height: max(55px, -webkit-fit-content);
+  min-height: max(55px, -moz-fit-content);
+  min-height: max(55px, fit-content);
+  -webkit-box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.361);
+          box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.361);
+  -webkit-backdrop-filter: blur(5px) brightness(100%) !important;
+          backdrop-filter: blur(5px) brightness(100%) !important;
+  background: #ECFAE2;
+  background: #73AB79;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300 !important;
+  color: white !important;
+}
+
+#ao {
+  max-height: 30px;
+  margin-right: 20px;
+}
+
+#menu li {
+  cursor: pointer;
+}
+
+#menu a,
+.projectsMenu {
+  color: white !important;
+  height: auto;
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px;
+  font-size: clamp(12pt, 1.2rem, 5vw);
+  text-transform: capitalize;
+  font-weight: 300 !important;
+  text-decoration: none;
+  background: #73AB79;
+}
+
+.nav-item {
+  text-align: right !important;
+  padding-right: 10px;
+}
+
+.active {
+  width: 100% !important;
+  font-size: 1.2rem;
+}
+
+.dropdown-menu {
+  background: #73AB79 !important;
+  border: none;
+}
+
+/* dropdownmenu with inline style because of bootstrap issues */
+#expandMenu {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  margin-top: -1px;
+  position: absolute;
+  width: 100%;
+  border-radius: 0px;
+  z-index: 20;
+}
+
+.dropdown-item {
+  width: 100% !important;
+  text-align: left;
+}
+
+.dropdown-item:hover {
+  background: inherit !important;
+  font-weight: 800 !important;
+}
+
+#menu a:hover {
+  font-weight: 400 !important;
+}
+
+#menuCollapse {
+  display: none;
+}
+
+.navbar {
+  -webkit-transition: top 0.5s ease;
+  transition: top 0.5s ease;
+}
+
+.navbar-hide {
+  top: -80px;
+}
+
+#reduceMotion {
+  background: rgba(255, 255, 255, 0) !important;
+  -webkit-backdrop-filter: blurr(10px) brightness(300%);
+          backdrop-filter: blurr(10px) brightness(300%);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  line-height: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  padding: 2px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+#reduceMotion span,
+#reduceMotion i {
+  margin: 4px;
+}
+#reduceMotion .navbar-toggler-icon {
+  color: white !important;
+  background: white !important;
+}/*# sourceMappingURL=menu.css.map */

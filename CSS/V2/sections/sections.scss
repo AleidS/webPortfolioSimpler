@@ -1,0 +1,102 @@
+@use '../main/variables' as *;
+
+.sectionContainer {
+    z-index: 300;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* max-height: fit-content;
+    overflow: hidden; */
+}
+
+.section {
+    word-wrap: break-word;
+    padding-top: 50px;
+    background: white;
+}
+
+
+.story {
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.sectionTitle {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 20pt;
+    margin: auto;
+    opacity: 1;
+    /* max-width: 800px !important; */
+    margin-bottom: 10px;
+    color: $accent-color-semidark !important;
+    font-size: 50pt !important;
+    font-size: clamp(25pt, 2rem, 14vw);
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+.sectionText {
+    position: relative;
+    margin-top: 0px;
+    /* background-image:url("..Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min.png"); */
+    background-position: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    width: calc(min(100%, 600px));
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.216);
+    border-radius: 10px;
+    padding: calc(min(30px, 5vw));
+    padding-bottom: 70px;
+    padding-top: 0px;
+    text-align: justify;
+    font-size: 1.1rem;
+    background: none;
+    color: black;
+    font-family: 'roboto';
+    font-weight: 300;
+    padding-left: 10px;
+    // background: rgba(211, 218, 219, 0.025);
+    padding-left: 10px;
+    border-radius: 20px;
+    padding: 30px;
+    -webkit-backdrop-filter: blur(40px)brightness(190%);
+    backdrop-filter: blur(100px)brightness(160%)hue-rotate(0deg)contrast(100%);
+
+    padding-top: 20px;
+    padding-bottom: 80px;
+    // background: $accent-color-light;
+    margin-bottom: 100px;
+
+    a {
+        color: black;
+    }
+
+}
+
+
+#edu,
+#tools,
+#contact,
+.scrollMargin {
+    scroll-margin-top: 50px !important;
+}
+
+
+.section:last-child {
+    margin-bottom: 200px !important;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+.courseDescription {
+  font-size: 0.9rem;
+  margin-left: 20px;
+  -webkit-text-emphasis: 1;
+  text-emphasis: 1;
+  font-weight: 100;
+  font-style: italic;
+  display: none;
+}
+
+.courses {
+  color: rgba(255, 255, 255, 0.827);
+  background-color: rgba(0, 0, 0, 0.32);
+  /* background-image: none; */
+  text-align: left !important;
+}
+
+.courses strong {
+  font-weight: 300 !important;
+}
+
+.courses h3 {
+  font-weight: 400 !important;
+  font-family: roboto;
+}
+
+.courses i {
+  cursor: pointer;
+}
+
+.small {
+  font-size: 1rem;
+}
+
+.hidden,
+#builtEnvironment,
+#psychology,
+#lighting,
+#research,
+#marketing {
+  display: none;
+}/*# sourceMappingURL=courses.css.map */

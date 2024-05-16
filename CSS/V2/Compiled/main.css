@@ -1,0 +1,144 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: wrap !important;
+  text-wrap: wrap !important;
+  font-family: "montserrat", sans-serif;
+}
+
+html {
+  font-size: 2;
+  /* overflow-x: hidden; */
+  scroll-behavior: smooth;
+  -webkit-transition-duration: 4s;
+          transition-duration: 4s;
+  word-wrap: break-word;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  margin: 0px;
+  top: 0px;
+  color: black;
+  font-family: tahoma;
+  max-width: 100%;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: "roboto", sans-serif;
+  max-width: 100vw !important;
+  /* position:absolute; */
+  overflow-x: hidden;
+  background-color: #eff5ef;
+}
+
+/* Fixed bg doesn't work on IOS */
+.backgroundImage {
+  width: 100%;
+  height: 120vh;
+  z-index: -1;
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-image: url("../../../Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min2.png");
+  background-attachment: absolute;
+  background-size: cover;
+}
+
+.menuBackground {
+  height: 100%;
+  position: absolute;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+h2 {
+  font-weight: 900;
+  text-align: center;
+  margin-top: 0px;
+  color: black !important;
+}
+
+h3 {
+  margin: auto !important;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+  font-size: 1.4rem !important;
+}
+
+#workflow h4 {
+  font-weight: 400 !important;
+  font-size: 2rem !important;
+}
+
+p {
+  font-size: 20pt;
+  font-weight: 100;
+  font-family: helvetica;
+  font-size: 24px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(26, 1, 37, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #38563a;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffecec;
+}
+
+#drawingApp {
+  scroll-margin-top: -200px !important;
+}
+
+.mainArea {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  margin: auto;
+  top: 0px;
+  max-width: 100vw !important;
+  padding-top: 100px;
+  background: white;
+}
+
+.menuOverlay {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  margin-top: 0px;
+  padding-top: 200px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.menuOverlay,
+.overlay {
+  display: none;
+  background: rgba(17, 17, 17, 0.158);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,59 @@
+@use '../main/variables' as *;
+
+#contactText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: $accent-color;
+    color: white;
+    margin-top: 50px;
+    padding-top: 100px;
+}
+
+.socials {
+    display: flex;
+    width: 100%;
+    max-width: calc(min(400px, 80vw)) !important;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 00px;
+}
+
+.socials a {
+    font-size: 3rem;
+    color: white;
+    transition-duration: 2s;
+}
+
+.socials a:hover {
+    scale: 1.5;
+    color: white !important;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.9);
+}
+
+#sayHello {
+    margin-top: 50px;
+    font-size: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.276);
+    background-color: $accent-color-semidark;
+    color: white !important;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 10px;
+    transition-duration: 2s;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.34);
+    text-decoration: none;
+}
+
+#sayHello:hover {
+    backdrop-filter: brightness(120%);
+    scale: 1.1;
+    background-color: rgba(143, 192, 187, 0.153);
+    box-shadow: 0px 0px 20px 5px rgba(197, 251, 255, 0.54);
+}

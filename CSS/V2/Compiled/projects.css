@@ -1,0 +1,191 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+#projectsContainer {
+  /* Create a parallax effect */
+  /* background-image: url("../../../Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min2.png");
+  background-attachment: fixed;
+  background-position: auto;
+  background-size: cover; */
+  width: 100%;
+  z-index: 300;
+  margin: auto;
+  overflow-wrap: normal;
+  overflow-y: visible;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  scroll-behavior: smooth;
+  border: none;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+  overflow-x: visible;
+  margin-bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scrollMargin {
+  scroll-margin-top: 100px !important;
+  display: block;
+  height: 1px;
+}
+
+.projectTitle {
+  width: 100%;
+  top: 70px;
+  position: sticky;
+  display: block;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  font-family: "roboto mono";
+  font-weight: 100;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  width: 100%;
+  width: 100vw;
+  left: 0px !important;
+  margin: 0px !important;
+  -ms-flex-preferred-size: 1;
+  flex-basis: 1;
+  padding: 10px;
+  opacity: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-image: url("../../../Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min.png");
+  background-image: url("../../../Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min2.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: auto;
+  z-index: 2000;
+  border-radius: 0px;
+}
+
+/* Video and explanations container, video time depends on position within this container (script/script.js) */
+.project {
+  /* Determines length of video / space for explanations */
+  height: 5000px;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  max-width: 800px !important;
+  margin: auto;
+  z-index: 1;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  /* background-image: url("../../../Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min2.png"); */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: auto;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+  max-width: 900px !important;
+}
+
+@media (max-device-aspect-ratio: 5/8) {
+  .project {
+    padding: 0px !important;
+    height: 520vh !important;
+  }
+  /* So that explanation balloons dont show under the video */
+  .mobileCover {
+    display: none;
+    position: sticky;
+    top: 80vh;
+    height: 20vh;
+    width: 100%;
+    background-image: url("../../../Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: auto;
+    /* background: blue; */
+    z-index: 9997;
+  }
+}
+.projectTitle a {
+  color: white !important;
+}
+
+/* .skipButton {
+    color: white !important;
+    opacity: 0.5;
+    font-size: 1.2rem;
+} */
+/* With the website link */
+.projectFooter {
+  position: sticky;
+  position: -webkit-sticky;
+  display: block;
+  bottom: 0;
+  top: 94vh;
+  height: 6vh;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  width: 100vw;
+  left: 0px !important;
+  margin: 0px !important;
+  -ms-flex-preferred-size: 1;
+  flex-basis: 1;
+  padding: 10px;
+  text-align: center;
+  font-family: "roboto mono";
+  font-size: 1rem;
+  font-weight: 400;
+  z-index: 99999;
+  color: white;
+  opacity: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-image: url("../../../Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min2.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: auto;
+  border: none;
+  font-size: 0.8rem !important;
+}
+
+.projectFooter a {
+  color: rgba(255, 255, 255, 0.923) !important;
+  text-decoration: underline;
+  text-decoration-thickness: 2pt !important;
+  text-decoration-color: rgba(0, 0, 0, 0.433) !important;
+  text-decoration: underline !important;
+}
+
+.projectFooter a:hover {
+  color: pink !important;
+}
+
+/* Not in use */
+.squeegee {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+  display: none;
+}
+
+#savingAid-bound,
+#artPortfolio-bound,
+#recipeApp-bound,
+#drawingApp-bound {
+  opacity: 0;
+  pointer-events: none;
+  display: none;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}/*# sourceMappingURL=projects.css.map */

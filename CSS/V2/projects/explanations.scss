@@ -1,0 +1,188 @@
+/* explanation container that spans all width. Height determines distance between explanations*/
+.exc {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin: auto;
+    min-height: 600px;
+    max-width: 900px !important;
+    position: relative;
+
+}
+
+/* Show some of the video before first explanation balloon */
+.exc:first-child {
+    min-height: 1200px !important;
+}
+
+.exc:first-child .explanation {
+    margin-top: 500px !important;
+}
+
+@media (max-device-aspect-ratio: 5/8) {
+
+    .exc {
+        min-height: 70vh !important;
+        /* -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+                from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 2)));
+        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1) 63%); */
+        z-index: 9999;
+        /* z-index: -1; */
+    }
+
+    .exc:first-child {
+        /* padding-top: 150vh !important; */
+        min-height: 40vh !important;
+    }
+
+    .exc:first-child .explanation {
+        /* padding-top: 150vh !important; */
+        margin-top: 10vh !important;
+    }
+
+
+    /* .explanation {
+        position: relative;
+        transform: translateY(120px);
+        opacity: 0;
+        transition: 1s all ease;
+    }
+
+    .explanation.active {
+        transform: translateY(0);
+        opacity: 1;
+    } */
+}
+
+/* Alternate left/right position of explanations */
+.exc:nth-child(odd) {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+/* visually attach explanations to side of narrower screens */
+@media only screen and (max-width: 800px) {
+    .exc:nth-child(odd) .explanation {
+
+        border-left: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .exc:nth-child(even) .explanation {
+
+        border-right: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
+.explanation {
+    width: 40%;
+    color: rgba(255, 255, 255, 0.927);
+    /* border: 1px solid rgba(254, 222, 254, 0.371); */
+    min-width: calc(min(100%, 180px));
+    max-width: 290px !important;
+    padding: calc(min(3vw, 15px));
+    text-align: left;
+    font-family: 'karla';
+    font-size: 14pt;
+    font-size: calc(max(1.1rem, 16pt));
+    font-size: clamp(12pt, 1rem, 30pt);
+    font-weight: 100;
+    border-radius: 20px;
+    background-color: rgba(112, 77, 103, 0.505);
+    backdrop-filter: blur(10px)brightness(50%) !important;
+    /* background: rgba(53, 8, 53, 0.082); */
+    /* -webkit-backdrop-filter: blur(10px)brightness(10%); */
+    /* backdrop-filter: blur(10px)brightness(30%); */
+    /* box-shadow: 0px 0px 20px 10px rgba(72, 72, 72, 0.253); */
+    /* transform:translatex(20px); */
+    /* background-image: url("../../../Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min4.png"); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: auto;
+    position: -webkit-sticky;
+    position: sticky !important;
+    display: block;
+    top: 200px;
+    margin-bottom: 100px;
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: stretch;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-height: none;
+    border: 1px solid white;
+    will-change: opacity;
+
+}
+
+@media only screen and (max-width: 500px) {
+    .explanation {
+        /* z-index: -20 !important; */
+        width: 100% !important;
+        width: 100vw !important;
+        margin: auto;
+        border: none;
+        max-width: 99% !important;
+        top: 28vh;
+        font-size: 14pt;
+        /* border-top: 0px solid rgba(255, 255, 255, 0.386);
+        border-bottom: 0px solid rgba(255, 255, 255, 0.386); */
+        border-top: 1px solid rgba(255, 255, 255, 0.555) !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.538) !important;
+        border-radius: 0px !important;
+        /* box-shadow: 0px 0px 5px 4px rgba(68, 51, 60, 0.319); */
+        /* background-image: none; */
+        /* background-color: rgba(73, 35, 62, 0.478);
+        backdrop-filter: blur(10px)brightness(50%) !important; */
+        /* background-image: url("../../../Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-darker-blur2.jpg"); */
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: auto;
+        z-index: 9999 !important;
+    }
+}
+
+/* arrows/triangles */
+.explanation::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: calc(100% + 20px);
+    left: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ffffffd7;
+    left: 50%;
+    margin-left: -20px;
+    opacity: 0.8;
+}
+
+.explanation a {
+    color: rgb(168, 228, 234);
+    font-weight: 500;
+}

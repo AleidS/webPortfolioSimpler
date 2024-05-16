@@ -1,0 +1,61 @@
+.videoContainer {
+  width: 100%;
+  width: min(100vw, 100vh);
+  max-width: min(120vh, 100vw);
+  /* min-width:calc(min(100%,400px)); */
+  margin: auto;
+  position: sticky;
+  display: block;
+  top: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 80vh !important;
+  /* scale: 1.4; */
+}
+
+@media screen and (max-aspect-ratio: 8/6) {
+  .videoContainer {
+    overflow: hidden;
+  }
+}
+video {
+  scale: 1.4;
+}
+
+@media (max-device-aspect-ratio: 5/8) {
+  .videoContainer {
+    display: block;
+    top: 30vh !important;
+    z-index: 9999 !important;
+    /* background-image: url("../../../Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min2.png"); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    overflow: hidden;
+    height: 80vh !important;
+    margin: auto;
+    /* background: white; */
+  }
+  video {
+    /* If you make the scale too large it stops working on smaller screens, no idea why */
+    scale: 1.5;
+    position: absolute;
+    top: 200px;
+  }
+}/*# sourceMappingURL=video.css.map */
