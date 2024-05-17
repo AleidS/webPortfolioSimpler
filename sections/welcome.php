@@ -17,17 +17,34 @@
     </div>
     <div class="welcomeContainer">
         <div class="imgAndText">
-            <h2 id="hello" data-aos="fade-down"> Hello!
-                <i data-aos="rotate" class="fa-solid fa-hand" style="transform:rotateZ(20deg)"></i>
+            <h2 id="hello" data-aos="fade-down">
+                <span class='EN'>
+                    Hello!
+                    <i data-aos="rotate" class="fa-solid fa-hand" style="transform:rotateZ(20deg)"></i>
+                </span>
+                <span class='NL'>
+                    Hallo!
+                    <i data-aos="rotate" class="fa-solid fa-hand" style="transform:rotateZ(20deg)"></i>
+                </span>
+
             </h2>
 
             <div id="welcomeText">
                 <p>
                     <br />
                     <br />
-                    I'm Aleid, a starting web developer, with an interest in design,
-                    and recent
-                    <a href="#edu">graduate</a> Human Technology Interaction.
+
+                    <span class='EN'>
+                        I'm Aleid, a starting web developer, with an interest in design,
+                        and recent</span>
+                    <span class='NL'>
+                        Mijn naam is Aleid, een beginnend web ontwikkelaar, met interesse in design,
+                        en recent
+                    </span>
+                    <a href="#edu">
+                        <span class='EN'>graduate</span>
+                        <span class='NL'>afgestudeerd aan</span>
+                    </a>Human Technology Interaction.
                     <br />
                     <br />
                     <br />
@@ -42,7 +59,9 @@
         </div>
         <div class="welcomeTools">
             <div class='welcomeTitle'>
-                Tools I've worked with:
+                <span class='EN'> Tools I've worked with:</span>
+                <span class='NL'> Tools waar ik mee gewerkt heb:</span>
+
             </div>
             <div class='logoContainer'>
                 <img loading="lazy" class="logo" alt="logo" src="Images/logos/HTML5_logo_wikipedia.png" />
@@ -60,10 +79,34 @@
                 <img loading="lazy" style="transform:scale(0.7);" class="logo Lazy" alt="logo"
                     src="Images/logos/git-logo-name.png" />
             </div>
+            <div class='welcomeTitle'>
+                <span class='EN'> Skills: </span>
+                <span class='NL'> Skills: </span>
+            </div>
+            <span class='EN'>
+                Web design,
+                front-end web development,
+                programming, wireframing,
+                data analysis,
+                qualitative and quantitative research,
+                teamwork,
+                planning </span>
+            <span class='NL' style="font-size:1.2rem;padding:20px;">
+                Web design,
+                front-end web ontwikkeling,
+                programmeren,
+                wireframing (prototyping),
+                data analyse,
+                qualitatieve en quantitative onderzoeksmethoden,
+                teamwork,
+                planning
+            </span>
+            <a href="<?php echo $urlWebsite ?>/tools">
 
+                <span class='EN'> And more! Click to view</span>
+                <span class='NL'> En meer! Klik om te bekijken </span>
+            </a>
 
-
-            <a href="<?php echo $urlWebsite ?>/tools"> And more! Click to view</a>
 
         </div>
     </div>

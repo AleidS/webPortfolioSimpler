@@ -1,7 +1,7 @@
-@use '../main/variables' as *;
+@use './main/variables' as *;
 
 .welcome {
-    width: 800px;
+    width: 1000px;
     max-width: 100%;
     margin: auto;
     margin-bottom: 150px;
@@ -28,17 +28,20 @@
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;
         margin-right: 20px;
-        margin-top: 20px;
+        margin-top: 10px;
         font-weight: 500;
         width: 90%;
         padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1.4rem;
     }
 
 
     .welcomeTools {
         padding: 0px;
         font-size: 1.5rem;
-        width: 300px;
+        width: 500px;
         z-index: 1;
         flex-grow: 1;
         display: flex;

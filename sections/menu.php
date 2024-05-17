@@ -11,9 +11,11 @@
 
         <div id="reduceMotion" onClick="reduceMotion(this.id)">
             <span class='EN'>Reduce <br /> motion </span>
-            <span class='NL'> Minder <br /> beweging </span>
+            <span class='NL'> minder <br /> animaties </span>
             <i class="fa-solid fa-video"></i>
         </div>
+        <div></div>
+
         <div class='NL' id="reduceMotion" onClick="changeLanguage('English')">
             EN
             <i class="fa-solid fa-flag"></i>
@@ -23,15 +25,41 @@
             <i class="fa-solid fa-flag"></i>
         </div>
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Projects
+            <span class='EN'> Projects</span>
+            <span class='NL'> Projecten </span>
+
         </a>
         <div id="expandMenu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#savingAid-scroll"> Saving Aid</a>
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#recipeApp-scroll"> Recipe App</a>
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#drawingApp-scroll"> Drawing App</a>
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#artPortfolio-scroll"> Art Portfolio</a>
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#portfolioOld-scroll"> 3D Portfolio</a>
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#figmaDesigns-scroll"> Figma Designs</a>
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#savingAid-scroll">
+                <span class='EN'> Saving Aid</span>
+                <span class='NL'> Bespaarhulp </span>
+
+            </a>
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#recipeApp-scroll">
+                <span class='EN'> Recipe App</span>
+                <span class='NL'> Recepten</span>
+
+            </a>
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#drawingApp-scroll">
+                <span class='EN'> Drawing App</span>
+                <span class='NL'> Teken app</span>
+
+            </a>
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#artPortfolio-scroll">
+                <span class='EN'> Art Portfolio</span>
+                <span class='NL'> Kunstgallerij </span>
+
+            </a>
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#portfolioOld-scroll">
+                <span class='EN'>3D Portfolio </span>
+                <span class='NL'> 3D Portfolio</span>
+
+            </a>
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#figmaDesigns-scroll">
+                <span class='EN'> Figma Designs </span>
+                <span class='NL'> Figma Designs</span>
+
+            </a>
             <!-- <a class="dropdown-item" href="#artPortfolio" onclick="showMenu()"> Art Portfolio</a> -->
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
@@ -40,19 +68,31 @@
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="<?php echo $urlWebsite ?>#edu" class="nav-link active"> Education
+                    <a href="<?php echo $urlWebsite ?>#edu" class="nav-link active">
+
+                        <span class='EN'> Education</span>
+                        <span class='NL'> Opleiding </span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="<?php echo $urlWebsite ?>tools"> Tools & Skills
+                    <a class="nav-link active" href="<?php echo $urlWebsite ?>tools">
+
+                        <span class='EN'> Tools & Skills </span>
+                        <span class='NL'> Tools & Skills </span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?php echo $urlWebsite ?>#contact" class="nav-link active"> Contact </a>
+                    <a href="<?php echo $urlWebsite ?>#contact" class="nav-link active">
+
+                        <span class='EN'> Contact</span>
+                        <span class='NL'> Contact</span>
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a href="<?php echo $urlWebsite ?>workflow" class="nav-link active">
-                        Workflow
+                        <span class='EN'> Workflow</span>
+                        <span class='NL'> Werkwijze</span>
+
                     </a>
                 </li>
                 <li class="nav-item">

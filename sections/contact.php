@@ -8,11 +8,23 @@
         </span>
     </h2>
     <div class="sectionText" id="contactText">
-        I'm curious to learn what brought you here. Let's have a chat!
-        <a href="mailto:aleid_oonk@hotmail.com?subject=Web portfolio" id="sayHello" style="color:white">Say
-            Hello!</a>
+        <span class='EN'>
+            I'm curious to learn what brought you here. Let's have a chat!
+        </span>
+        <span class='NL'>
+            Ik ben benieuwd wie je bent en wat we voor elkaar kunnen betekenen. Laat iets van je horen! ->
+        </span>
+
+        <a href="mailto:aleid_oonk@hotmail.com?subject=Web portfolio" id="sayHello" style="color:white">
+            <span class='EN'> Say Hello!
+            </span>
+            <span class='NL'> Zeg hallo!</span>
+
+        </a>
         <br /><br />
-        or connect via
+        <span class='EN'> or connect via</span>
+        <span class='NL'> of connect via </span>
+
         <div class="socials">
             <!-- <a href="https://twitter.com/aleidsuzan" target="_blank"><i class="fa-brands fa-x-twitter"></i></a> -->
             <a href="https://www.linkedin.com/in/aleido" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
