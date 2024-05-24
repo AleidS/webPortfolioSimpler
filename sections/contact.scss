@@ -1,4 +1,4 @@
-@use '../main/variables' as *;
+@use './main/variables' as *;
 
 #contactText {
     display: -webkit-box;
@@ -40,7 +40,7 @@
     margin-top: 50px;
     font-size: 3rem;
     border: 1px solid rgba(255, 255, 255, 0.276);
-    background-color: $accent-color-semidark;
+    background-color: $accent-color-semisemilight;
     color: white !important;
     font-weight: 400;
     padding: 20px;

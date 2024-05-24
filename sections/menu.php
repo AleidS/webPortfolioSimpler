@@ -3,7 +3,7 @@
     <div class="container" id="menu">
         <div class="menuBackground"></div>
         <div class="menuOverlay"></div>
-        <a href="<?php echo $urlWebsite ?>#welcome" class="navbar-brand">
+        <a href="<?php echo $urlWebsite ?>?lang=nl&motion=false#welcome" class="navbar-brand">
             <!-- <i class="fa-solid fa-home"></i> -->
             <img src="Images/AO.png" id="ao"></img>
 
@@ -30,32 +30,32 @@
 
         </a>
         <div id="expandMenu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#savingAid-scroll">
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&motion=false#savingAid-scroll">
                 <span class='EN'> Saving Aid</span>
                 <span class='NL'> Bespaarhulp </span>
 
             </a>
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#recipeApp-scroll">
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&motion=false#recipeApp-scroll">
                 <span class='EN'> Recipe App</span>
                 <span class='NL'> Recepten</span>
 
             </a>
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#drawingApp-scroll">
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&motion=false#drawingApp-scroll">
                 <span class='EN'> Drawing App</span>
                 <span class='NL'> Teken app</span>
 
             </a>
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#artPortfolio-scroll">
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&motion=false#artPortfolio-scroll">
                 <span class='EN'> Art Portfolio</span>
                 <span class='NL'> Kunstgallerij </span>
 
             </a>
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#portfolioOld-scroll">
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&motion=false#portfolioOld-scroll">
                 <span class='EN'>3D Portfolio </span>
                 <span class='NL'> 3D Portfolio</span>
 
             </a>
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>#figmaDesigns-scroll">
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&motion=false#figmaDesigns-scroll">
                 <span class='EN'> Figma Designs </span>
                 <span class='NL'> Figma Designs</span>
 
@@ -68,28 +68,28 @@
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="<?php echo $urlWebsite ?>#edu" class="nav-link active">
+                    <a href="<?php echo $urlWebsite ?>?lang=nl&motion=false#edu" class="nav-link active">
 
                         <span class='EN'> Education</span>
                         <span class='NL'> Opleiding </span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="<?php echo $urlWebsite ?>tools">
+                    <a class="nav-link active" href="<?php echo $urlWebsite ?>tools?lang=nl&motion=false">
 
                         <span class='EN'> Tools & Skills </span>
                         <span class='NL'> Tools & Skills </span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?php echo $urlWebsite ?>#contact" class="nav-link active">
+                    <a href="<?php echo $urlWebsite ?>?lang=nl&motion=false#contact" class="nav-link active">
 
                         <span class='EN'> Contact</span>
                         <span class='NL'> Contact</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?php echo $urlWebsite ?>workflow" class="nav-link active">
+                    <a href="<?php echo $urlWebsite ?>workflow?lang=nl&motion=false" class="nav-link active">
                         <span class='EN'> Workflow</span>
                         <span class='NL'> Werkwijze</span>
 

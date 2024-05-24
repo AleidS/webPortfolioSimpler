@@ -30,6 +30,7 @@ $version = 'V2'
     <!-- Own stylesheets -->
     <link type="text/css" href="CSS/<?php echo ($version) ?>/Compiled/main.css" rel="stylesheet">
     <link type="text/css" href="CSS/<?php echo ($version) ?>/Compiled/menu.css" rel="stylesheet">
+    <link type="text/css" href="CSS/<?php echo ($version) ?>/Compiled/sideMenu.css" rel="stylesheet">
 
 
     <link type="text/css" href="CSS/<?php echo ($version) ?>/projects/video.css" rel="stylesheet">
@@ -101,8 +102,6 @@ $version = 'V2'
 
         <?php
 
-        $host = "baba.stackoverflow.com"; // Your Sub domain
-
         if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')
             $url = "https://";
         else
@@ -115,12 +114,23 @@ $version = 'V2'
             // Append the requested resource location to the URL   
             $url .= $_SERVER['REQUEST_URI'];
 
-            $base = basename($url);
+            // Exclude URL parameters after question mark (language)
+            $urlNoParams = strtok($url, "?");
+            $base = basename($urlNoParams);
+
+            //obtain langiage parameter 
+            $parts = parse_url($url);
+            if (isset($parts['query'])) {
+                parse_str($parts['query'], $query);
+                $lang = $query['lang'];
+            } else
+                $lang = 'nl';
 
             $urlWebsite = "http://localhost/3d_portfolio%20-%20simple/";
 
 
-            include "sections/menu.php"
+            include "sections/menu.php";
+
         ?>
 
             <div class="backgroundImage"></div>
@@ -137,6 +147,7 @@ $version = 'V2'
             elseif ($base == 'coursesTaken')
                 include "sections/coursesTaken.php";
             else {
+                include "sections/sideMenu.php";
                 include "sections/welcome.php";
                 include "sections/projects.php";
                 include "sections/education.php";
@@ -144,7 +155,8 @@ $version = 'V2'
             }
         } else {
 
-            include "sections/menu.php"
+            include "sections/menu.php";
+            include "sections/sideMenu.php";
             ?>
 
             <div class="backgroundImage"></div>

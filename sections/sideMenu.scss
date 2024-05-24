@@ -1,0 +1,79 @@
+@use './main/variables' as *;
+
+
+@keyframes hideSideMenu {
+    0% {
+        transform: translateX(0px);
+    }
+
+    80% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-50px)
+    }
+}
+
+.socialsSide {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 99999;
+    background: rgba(255, 255, 255, 0.151);
+    height: 100%;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    top: 0px;
+    backdrop-filter: blur(20px);
+    transition-duration: 1s;
+    transform: translateX(-50px);
+    animation: hideSideMenu;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    width: 40px;
+
+
+
+    a {
+        padding: 10px;
+        margin-top: 5vh;
+        background: $accent-color;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        width: 40px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+
+    }
+
+    .pullSideMenu {
+        background: $accent-color;
+        width: 75px;
+        margin-left: 0px;
+        height: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        border: 1px solid white;
+        box-shadow: 5px 0px 10px 0px rgba(255, 255, 255, 0.085);
+        display: flex;
+        padding-left: 40px;
+
+        i {
+            float: right;
+            margin: auto;
+            color: white;
+            font-size: 0.8rem;
+
+        }
+    }
+
+}
+
+.socialsSide:hover {
+    transform: translateX(0px);
+}

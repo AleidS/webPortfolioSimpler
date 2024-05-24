@@ -24,6 +24,12 @@ function removeAnimations(id) {
         $('#arrow').css('animation-name', 'none');
         $('#arrow').css('opacity', '1');
 
+        $('a[href*="motion"]').each(function () {
+            oldLink = $(this).attr('href')
+            newLink = oldLink.replace('motion=true', 'motion=false')
+            $(this).attr('href', newLink)
+        })
+
         // Hide switches that enable 3D animations, unless one is already open
         // $('.learnmore').each(function () {
 
@@ -89,7 +95,18 @@ window.addEventListener('load', () => {
         $('#reduceMotionSlider').css("display", 'none');
         reduced = true
     }
-    removeAnimations('reduceMotion')
 
+    const queryString = window.location.search;
+    console.log(queryString);
+    const urlParams = new URLSearchParams(queryString);
+    const urlMotion = urlParams.get('motion')
+
+    if (urlMotion == 'true') {
+        reduce = false
+    }
+    if (urlMotion == 'false') {
+        reduce = true
+    }
+    removeAnimations('reduceMotion')
 })
 

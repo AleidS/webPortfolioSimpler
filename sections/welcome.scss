@@ -13,22 +13,25 @@
     margin-top: 200px;
     width: fit-content;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
-    border-radius: 5vw;
-    align-items: center;
+    border-radius: 70px;
+    overflow: hidden;
+    align-items: stretch;
     border: 10px solid #73AB79;
     height: fit-content;
     color: black;
+    background: $accent-color-extra-light;
 
     .welcomeTitle {
-        background: $accent-color-light;
+        background: $accent-color;
+        color: white;
         border-radius: 10px;
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;
         margin-right: 20px;
-        margin-top: 10px;
+        margin-top: 5px;
         font-weight: 500;
         width: 90%;
         padding: 20px;
@@ -38,8 +41,10 @@
     }
 
 
-    .welcomeTools {
+    .welcomeToolsSkills {
         padding: 0px;
+        padding-top: 40px;
+        padding-bottom: 20px;
         font-size: 1.5rem;
         width: 500px;
         z-index: 1;
@@ -48,6 +53,16 @@
         align-items: flex-start;
         flex-direction: column;
         color: black !important;
+
+        .skill {
+            display: inline-flex;
+            background: $accent-color-semisemilight;
+            color: white;
+            font-weight: 400;
+            padding: 4px;
+            margin: 3px;
+            border-radius: 10px;
+        }
 
         a {
             margin: auto;
@@ -64,14 +79,14 @@
             height: auto;
             margin: 10px;
             display: inline-flex;
-            filter: brightness(80%)saturate(00%)contrast(80%);
+            filter: brightness(80%)saturate(00%)contrast(100%);
             opacity: 0.9;
         }
 
         .logoContainer {
             margin-top: 15px;
             position: relative;
-            background: white;
+            background: $accent-color-extra-light;
             display: flex;
             flex-wrap: wrap;
             width: 100%;
@@ -79,7 +94,7 @@
             max-width: calc(max(100%, 250px));
             overflow: hidden;
             justify-content: center;
-            filter: saturate(160%);
+            filter: saturate(100%);
         }
 
         .logoContainer::after {
@@ -121,9 +136,32 @@
         }
     }
 
+    .welcomeSkills {
+        font-size: 1.2rem;
+        padding: 20px;
+    }
+
+    .welcomeLink {
+        background: $accent-color;
+        color: white !important;
+        border-radius: 10px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none !important;
+
+        span,
+        a {
+            color: white !important;
+            text-decoration-color: white !important;
+            text-decoration: none !important;
+        }
+    }
+
     .imgAndText {
         width: calc(min(100vw, 450px));
         position: relative;
+        height: auto;
         display: flex;
         flex-grow: 1;
         flex-direction: column;
@@ -135,9 +173,11 @@
         border-top: 1px solid white;
         border-bottom: 1px solid white;
         // box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.094);
-        border-radius: 3vw !important;
+        border-radius: 50px;
         border: 2px solid #73AB79;
         background: #73AB79;
+        box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
+        z-index: 2;
     }
 
 }

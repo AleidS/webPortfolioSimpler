@@ -17,7 +17,13 @@
 
             <div class="toolSectionGroup">
                 <div class="toolSectionContainer">
-                    <h3> Front end - Markup and styling </h3>
+                    <h3>
+
+                        <span class='EN'> Front end - Markup and styling</span>
+                        <span class='NL'> Front-end - Markup en styling </span>
+
+
+                    </h3>
                     <div class="toolSection">
                         <div class="tool">
                             HTML
@@ -149,7 +155,11 @@
 
 
                 <div class="toolSectionContainer">
-                    <h3>Back end (very limited)
+                    <h3>
+
+                        <span class='EN'> Back end (very limited)</span>
+                        <span class='NL'> Back-end (heel beperkt)</span>
+
                         <!-- <i id='showBackend' style="cursor:pointer" onClick="showTools('backEnd',this.id)"
                             class="fa-solid fa-plus-circle">
                         </i> -->
@@ -275,7 +285,10 @@
                     </div>
                 </div>
                 <div class="toolSectionContainer">
-                    <h3> Data analytics
+                    <h3>
+
+                        <span class='EN'>Data analytics</span>
+                        <span class='NL'> Data analyse </span>
                         <!-- <i id='showDA' style="cursor:pointer" onClick="showTools('dataAnalytics',this.id)"
                             class="fa-solid fa-plus-circle">
                         </i> -->

@@ -2,8 +2,8 @@
   padding: 0px;
   padding-top: 40px;
   padding-bottom: 40px;
-  background: #73AB79;
-  color: white;
+  background: #d5ead6 !important;
+  color: black;
 }
 
 .workflowtext div {
@@ -79,8 +79,6 @@
   /* border-top: 1px solid rgba(255, 255, 255, 0.531); */
   padding: 10px;
   border-radius: 4px;
-}
-
-.workflowtext h4 {
-  background: none;
+  background: #73AB79;
+  color: white;
 }/*# sourceMappingURL=workflow.css.map */

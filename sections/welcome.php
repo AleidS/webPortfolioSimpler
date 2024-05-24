@@ -41,67 +41,76 @@
                         Mijn naam is Aleid, een beginnend web ontwikkelaar, met interesse in design,
                         en recent
                     </span>
-                    <a href="#edu">
-                        <span class='EN'>graduate</span>
-                        <span class='NL'>afgestudeerd aan</span>
-                    </a>Human Technology Interaction.
+
+                    <span class='EN'>
+                        <a href="#edu"> graduate</a> Human Technology Interaction (TU Eindhoven)
+                    </span>
+
+                    <span class='NL'>
+                        <a href="#edu">afgestudeerd</a> aan Human Technology Interaction (TU Eindhoven).
+                    </span>
+                    </a>
+
+
                     <br />
                     <br />
                     <br />
 
-                <div
-                    style="width:100%!important;text-align:center; font-size:2rem; text-decoration:none!important; font-weight:600;">
+                <div style="width:100%!important;text-align:center; font-size:2rem; text-decoration:none!important; font-weight:600;">
                     <a href="#contact">contact</a>
                 </div>
                 <br /><br /><br />
                 </p>
             </div>
         </div>
-        <div class="welcomeTools">
+        <div class="welcomeToolsSkills">
+            <div class='welcomeTitle'>
+                <span class='EN'> Skills: </span>
+                <span class='NL'> Skills: </span>
+            </div>
+            <div class='welcomeSkills'>
+                <span class='EN'>
+                    <span class='skill'>•Web design</span>
+                    <span class='skill'>•front-end web development</span>
+                    <span class='skill'>•programming</span>
+                    <span class='skill'>•wireframing</span>
+                    <span class='skill'>•data analysis</span>
+                    <span class='skill'>•research methods</span>
+                    <span class='skill'>•teamwork</span>
+                    <span class='skill'>•planning</span>
+                </span>
+                <span class='NL'>
+                    <span class='skill'>•Web design</span>
+                    <span class='skill'>•front-end web ontwikkeling</span>
+                    <span class='skill'>•programmeren</span>
+                    <span class='skill'>•wireframing (prototyping)</span>
+                    <span class='skill'>•data analyse</span>
+                    <span class='skill'>•onderzoeksmethoden</span>
+                    <span class='skill'>•teamwork</span>
+                    <span class='skill'>•planning </span>
+
+                </span>
+            </div>
             <div class='welcomeTitle'>
                 <span class='EN'> Tools I've worked with:</span>
-                <span class='NL'> Tools waar ik mee gewerkt heb:</span>
+                <span class='NL'> Tools waar ik mee kan werken:</span>
 
             </div>
             <div class='logoContainer'>
                 <img loading="lazy" class="logo" alt="logo" src="Images/logos/HTML5_logo_wikipedia.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/CSS3_logo_wikipediapng.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Sass_logo.png" />
-                <img loading="lazy" style="filter:saturate(0%)brightness(70%)contrast(120%);" class="logo Lazy"
-                    alt="logo" src="Images/logos/JavaScript-logo-name.png" />
-                <img loading="lazy" style="filter:saturate(0%)brightness(50%)contrast(120%);" class="logo Lazy"
-                    alt="logo" src="Images/logos/React-icon-name.png" />
-                <img loading="lazy" style="transform:scale(0.8);" class="logo Lazy" alt="logo"
-                    src="Images/logos/PHP-logo.svg.png" />
+                <img loading="lazy" style="filter:saturate(0%)brightness(70%)contrast(120%);" class="logo Lazy" alt="logo" src="Images/logos/JavaScript-logo-name.png" />
+                <img loading="lazy" style="filter:saturate(0%)brightness(50%)contrast(120%);" class="logo Lazy" alt="logo" src="Images/logos/React-icon-name.png" />
+                <img loading="lazy" style="transform:scale(0.8);" class="logo Lazy" alt="logo" src="Images/logos/PHP-logo.svg.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/photoshop-logo-name.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/figma-logo-name.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/python-logo-name.svg" />
-                <img loading="lazy" style="transform:scale(0.7);" class="logo Lazy" alt="logo"
-                    src="Images/logos/git-logo-name.png" />
+                <img loading="lazy" style="transform:scale(0.7);" class="logo Lazy" alt="logo" src="Images/logos/git-logo-name.png" />
             </div>
-            <div class='welcomeTitle'>
-                <span class='EN'> Skills: </span>
-                <span class='NL'> Skills: </span>
-            </div>
-            <span class='EN'>
-                Web design,
-                front-end web development,
-                programming, wireframing,
-                data analysis,
-                qualitative and quantitative research,
-                teamwork,
-                planning </span>
-            <span class='NL' style="font-size:1.2rem;padding:20px;">
-                Web design,
-                front-end web ontwikkeling,
-                programmeren,
-                wireframing (prototyping),
-                data analyse,
-                qualitatieve en quantitative onderzoeksmethoden,
-                teamwork,
-                planning
-            </span>
-            <a href="<?php echo $urlWebsite ?>/tools">
+
+
+            <a class='welcomeLink' href="<?php echo $urlWebsite ?>/tools">
 
                 <span class='EN'> And more! Click to view</span>
                 <span class='NL'> En meer! Klik om te bekijken </span>

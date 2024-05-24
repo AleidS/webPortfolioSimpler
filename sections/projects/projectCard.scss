@@ -16,6 +16,7 @@
     font-family: 'montserrat', sans-serif;
 
     background: $card-background2;
+    background: $accent-color-semilight;
     // background: $card-background;
     max-width: calc(min(90vhq, 95vw));
     // border-radius: 10px;
@@ -89,25 +90,42 @@
     .textContainer {
         color: $text-color !important;
         width: 100%;
-        max-width: 600px;
+        // max-width: 600px;
     }
 
     .textContainerInner {
         padding: 10px;
         text-align: center;
         color: $card-text;
+        color: $accent-color-dark;
+        background: $accent-color-light;
+        margin-bottom: 20px;
+        padding: 20px;
+        font-weight: 500;
+        box-shadow: $shadow;
+
+        .innerText {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        a {
+            color: $accent-color-dark;
+        }
     }
 
     .title {
         display: block;
         font-size: clamp(10pt, 1.6rem, 5vw);
-        font-weight: 400;
+        font-weight: 600;
         line-height: clamp(10pt, 1.6rem, 5vw) !important;
         text-transform: capitalize;
         padding: 0px;
         margin-bottom: 9px;
         color: $card-text;
+        color: $accent-color-dark;
     }
+
 
 
     .verticalScrollScreen {
@@ -217,6 +235,9 @@
     li {
         margin-left: 20px;
         font-size: 1rem;
+        // box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.173);
+        padding: 2px;
+        border-radius: 10px;
     }
 }
 

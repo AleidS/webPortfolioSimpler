@@ -25,11 +25,11 @@
                 $tool = json_decode(json_encode($toolsObj[$key]));
                 // echo ($slide->imgName2); 
             ?>
-            <li class='cardTool'>
-                <?php if (property_exists($tool, 'logo')) : ?>
-                <!-- <img src=<?php echo ("Images/logos/" . $tool->logo) ?> loading="lazy" class="listIcon" /> -->
-                <?php endif ?>
-                <?php echo ($tool->name) ?>
+                <li class='cardTool'>
+                    <?php if (property_exists($tool, 'logo')) : ?>
+                        <!-- <img src=<?php echo ("Images/logos/" . $tool->logo) ?> loading="lazy" class="listIcon" /> -->
+                    <?php endif ?>
+                    <?php echo ($tool->name) ?>
                 <?php
             } ?>
         </ul>
@@ -51,28 +51,24 @@
                 $slide = json_decode(json_encode($slideObj[$key]));
                 // echo ($slide->imgName2); 
             ?>
-            <div class="swiper-slide imgContainerInner">
-                <?php
+                <div class="swiper-slide imgContainerInner">
+                    <?php
                     if (property_exists($slide, 'thumbnailFrame')) {
                         $thumbnail = "#t=" . $slide->thumbnailFrame;
                     } else {
                         $thumbnail = '#t=0.1';
                     }
                     if (property_exists($slide, 'vidName')) : ?>
-                <video class="lazy cardVideo" width='100' height='100' preload="none" muted playsinline loop
-                    <?php if (property_exists($slide, 'thumbnail')) : ?>
-                    poster=<?php echo ("Images/screenshots/" . $slide->thumbnail) ?> <?php endif ?>>
-                    <source src=<?php echo ("Images/screenshots/videos/" . $slide->vidName . $thumbnail) ?>
-                        type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <i role="button" id='<?php echo ($projectID . $key) ?>' onClick='playVideo(this.id)'
-                    class='playbutton fa-solid fa-pause'>
-                </i>
-                <?php else : ?>
-                <img src=<?php echo ("Images/screenshots/" . $slide->imgName) ?> loading="lazy" class="lazy" />
-                <?php endif ?>
-            </div>
+                        <video class="lazy cardVideo" width='100' height='100' preload="none" muted playsinline loop <?php if (property_exists($slide, 'thumbnail')) : ?> poster=<?php echo ("Images/screenshots/" . $slide->thumbnail) ?> <?php endif ?>>
+                            <source src=<?php echo ("Images/screenshots/videos/" . $slide->vidName . $thumbnail) ?> type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <i role="button" id='<?php echo ($projectID . $key) ?>' onClick='playVideo(this.id)' class='playbutton fa-solid fa-pause'>
+                        </i>
+                    <?php else : ?>
+                        <img src=<?php echo ("Images/screenshots/" . $slide->imgName) ?> loading="lazy" class="lazy" />
+                    <?php endif ?>
+                </div>
             <?php
                 // echo (implode(" ", $slideObj[$key]));
             } ?>
@@ -98,24 +94,24 @@
             foreach ($slideObj as $key => $val) {
                 $slide = json_decode(json_encode($slideObj[$key]));
             ?>
-            <div class="swiper-slide textContainerInner">
-                <?php if (property_exists($slide, 'title')) : ?>
-                <span class='title'>
-                    <span class=' EN'> <?php echo ($slide->title) ?> </span>
-                </span>
-                <?php endif ?>
-                <?php if (property_exists($slide, 'titleNL')) : ?>
-                <span class='title'>
-                    <span class=' NL'> <?php echo ($slide->titleNL) ?> </span>
-                </span>
-                <?php endif ?>
-                <span>
-                    <span class='EN'> <?php echo ($slide->text) ?></span>
-                    <span class='NL'> <?php echo ($slide->textNL) ?></span>
+                <div class="swiper-slide textContainerInner">
+                    <?php if (property_exists($slide, 'title')) : ?>
+                        <span class='title'>
+                            <span class=' EN'> <?php echo ($slide->title) ?> </span>
+                        </span>
+                    <?php endif ?>
+                    <?php if (property_exists($slide, 'titleNL')) : ?>
+                        <span class='title'>
+                            <span class=' NL'> <?php echo ($slide->titleNL) ?> </span>
+                        </span>
+                    <?php endif ?>
+                    <div class='innerText'>
+                        <span class='EN'> <?php echo ($slide->text) ?></span>
+                        <span class='NL'> <?php echo ($slide->textNL) ?></span>
 
 
-                </span>
-            </div>
+                    </div>
+                </div>
             <?php
             } ?>
         </div>
@@ -124,15 +120,15 @@
 
     <div class="cardFooter">
         <?php if (isset($githubLink)) : ?>
-        <a href="<?php echo ($githubLink) ?>" target="_blank" class="sourceCode">
-            <i class="fa-brands fa-github"></i> code
-        </a>
+            <a href="<?php echo ($githubLink) ?>" target="_blank" class="sourceCode">
+                <i class="fa-brands fa-github"></i> code
+            </a>
         <?php endif ?>
 
         <?php if (isset($thesis)) : ?>
-        <a href="<?php echo ($thesis) ?>" target="_blank" class="sourceCode">
-            <i class="fa-solid fa-graduation-cap"></i> thesis
-        </a>
+            <a href="<?php echo ($thesis) ?>" target="_blank" class="sourceCode">
+                <i class="fa-solid fa-graduation-cap"></i> thesis
+            </a>
         <?php endif ?>
         <a class="sourceCode" target="_blank" href='<?php echo ($projectLink) ?>'>
             <i class="fa-solid fa-globe"></i>

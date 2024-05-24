@@ -22,6 +22,7 @@
   margin-bottom: 100px;
   font-family: "montserrat", sans-serif;
   background: #73AB79;
+  background: #accfb0;
   max-width: min(90vhq, 95vw);
   overflow: hidden;
   padding-top: 0px;
@@ -91,22 +92,36 @@
 .projectCard .textContainer {
   color: black !important;
   width: 100%;
-  max-width: 600px;
 }
 .projectCard .textContainerInner {
   padding: 10px;
   text-align: center;
   color: rgb(255, 255, 255);
+  color: #38563a;
+  background: #d5ead6;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-weight: 500;
+  -webkit-box-shadow: 0px 0px 10px 10px rgba(192, 192, 192, 0.181);
+          box-shadow: 0px 0px 10px 10px rgba(192, 192, 192, 0.181);
+}
+.projectCard .textContainerInner .innerText {
+  max-width: 500px;
+  margin: auto;
+}
+.projectCard .textContainerInner a {
+  color: #38563a;
 }
 .projectCard .title {
   display: block;
   font-size: clamp(10pt, 1.6rem, 5vw);
-  font-weight: 400;
+  font-weight: 600;
   line-height: clamp(10pt, 1.6rem, 5vw) !important;
   text-transform: capitalize;
   padding: 0px;
   margin-bottom: 9px;
   color: rgb(255, 255, 255);
+  color: #38563a;
 }
 .projectCard .verticalScrollScreen {
   background: rgba(190, 99, 99, 0.001);
@@ -223,6 +238,8 @@
 .projectTools li {
   margin-left: 20px;
   font-size: 1rem;
+  padding: 2px;
+  border-radius: 10px;
 }
 
 .swiper-interface {
