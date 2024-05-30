@@ -35,10 +35,8 @@ bottom bar to enable this extension (In VSCode)
 
 
 If you are making your own portfolio or website,
-feel free to take some inspiration from here and see how things work.
-Must note that I'm a beginner, so it would probably be better to create your own system.
-If you end up using large chuncks of code, 
-please credit.
+feel free to take some inspiration from here and see how things work to apply to your own
+code/system. Must note that I'm a beginner, so probably not everything here is 'best practice'.
 
 
 
