@@ -18,9 +18,14 @@
 
 .story {
     padding: 20px;
+    padding-top: 0px;
     max-width: 700px;
     margin: auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
+
+    a {
+        color: black;
+    }
 }
 
 .sectionTitle {
@@ -36,8 +41,8 @@
     /* max-width: 800px !important; */
     margin-bottom: 10px;
     color: $accent-color-semidark !important;
-    font-size: 50pt !important;
-    font-size: clamp(25pt, 2rem, 14vw);
+    font-size: clamp(18pt, 3rem, 12vw);
+
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -56,7 +61,7 @@
     border: 1px solid rgba(255, 255, 255, 0.216);
     border-radius: 10px;
     padding: calc(min(30px, 5vw));
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     padding-top: 0px;
     text-align: justify;
     font-size: 1.1rem;
@@ -75,7 +80,7 @@
     padding-top: 20px;
     padding-bottom: 80px;
     // background: $accent-color-light;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 
     a {
         color: black;
@@ -88,7 +93,7 @@
 #tools,
 #contact,
 .scrollMargin {
-    scroll-margin-top: 50px !important;
+    scroll-margin-top: 10px !important;
 }
 
 
@@ -97,6 +102,6 @@
 }
 
 a {
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: underline;
 }

@@ -38,7 +38,7 @@
     padding-right: 10px;
     height: 60px;
     top: 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-size: calc(min(1.1rem, 3.4vw));
     font-size: clamp(10pt, 1.1rem, 3.4vw);
     font-weight: 100;
@@ -75,7 +75,7 @@
     margin: auto;
     width: fit-content;
     margin: 0px;
-    font-size: clamp(12pt, 1.2rem, 5vw);
+    font-size: clamp(12pt, 1.1rem, 5vw);
     text-transform: capitalize;
     font-weight: 300 !important;
     text-decoration: none;
@@ -89,7 +89,7 @@
 
 .active {
     width: 100% !important;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .dropdown-menu {
@@ -141,7 +141,7 @@
     top: -80px;
 }
 
-#reduceMotion {
+.reduceMotion {
     background: rgba(255, 255, 255, 0) !important;
     backdrop-filter: blurr(10px)brightness(300%);
     height: fit-content;
@@ -150,7 +150,6 @@
     align-items: center;
     border-radius: 10px;
     padding: 2px;
-    font-size: 0.5rem;
     cursor: pointer;
 
     span,
@@ -158,8 +157,18 @@
         margin: 4px;
     }
 
+    span {
+        font-size: 0.7rem;
+    }
+
     .navbar-toggler-icon {
         color: white !important;
         background: white !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .hideSpan {
+        display: none !important;
     }
 }

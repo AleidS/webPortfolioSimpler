@@ -1,0 +1,102 @@
+.projectCard {
+  position: relative;
+}
+.projectCard .textContainer {
+  color: black !important;
+  width: 100%;
+  height: 100%;
+  z-index: 9990;
+  overflow: visible;
+  background: #f1f5f1;
+  padding-top: 5px;
+}
+@media screen and (min-aspect-ratio: 9999) {
+  .projectCard .textContainer {
+    position: absolute;
+    z-index: 1000;
+    width: 25%;
+    right: 0px;
+    top: 0px;
+    background: rgb(148, 194, 153);
+  }
+}
+.projectCard .textContainerInner {
+  padding: 10px;
+  text-align: center;
+  color: #38563a;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-weight: 400;
+  height: 100%;
+  margin: auto;
+  margin-top: 5px;
+  overflow: visible;
+}
+@media screen and (max-width: 600px) {
+  .projectCard .textContainerInner {
+    padding: 5px;
+    margin: auto;
+    text-align: left;
+  }
+}
+@media screen and (min-aspect-ratio: 9999) {
+  .projectCard .textContainerInner {
+    background: #73AB79;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 500;
+  }
+}
+.projectCard .textContainerInner .innerText {
+  height: 100%;
+  max-width: min(90%, 700px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+.projectCard .textContainerInner a {
+  color: #38563a;
+}
+.projectCard .title {
+  display: block;
+  font-size: clamp(10pt, 1rem, 5vw);
+  font-weight: 600;
+  line-height: clamp(10pt, 1rem, 5vw) !important;
+  text-transform: capitalize;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #38563a;
+  width: 90%;
+  top: 5px;
+}
+@media screen and (max-width: 600px) {
+  .projectCard .title {
+    margin-top: 5px;
+  }
+}
+@media screen and (min-aspect-ratio: 9999) {
+  .projectCard .title {
+    font-size: 1.4rem;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+}/*# sourceMappingURL=swiperText.css.map */

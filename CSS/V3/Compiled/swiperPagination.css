@@ -1,0 +1,98 @@
+.swiper-interface {
+  text-shadow: 0px 0px 10px rgb(149, 149, 149);
+}
+
+.swiperFooter {
+  height: 30px;
+  overflow: visible;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+  background: #73AB79;
+  z-index: 900 !important;
+  pointer-events: none;
+}
+.swiperFooter .swiper-pagination {
+  height: 20px;
+  z-index: 900;
+}
+.swiperFooter .swiper-pagination-bullet {
+  background-color: white;
+  opacity: 0.6;
+}
+.swiperFooter .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: white;
+}
+.swiperFooter .swiper-scroll {
+  background: white;
+}
+
+.navButtons {
+  width: 100%;
+  max-width: 800px;
+  height: 0px;
+  -webkit-transform: translateY(-40px);
+          transform: translateY(-40px);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto !important;
+}
+@media screen and (max-aspect-ratio: 1) {
+  .navButtons {
+    height: 10px;
+    z-index: 400;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  pointer-events: all !important;
+  cursor: pointer;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  color: rgba(255, 255, 255, 0) !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  bottom: 0px;
+  position: absolute;
+  content: "";
+  background-image: url("../../../Images/icons/ArrowRightGreen.png");
+  background-size: 100% 100%;
+  pointer-events: none;
+  z-index: 2;
+  opacity: 1;
+  scale: 1.2;
+  -webkit-filter: invert(0) brightness(100%) drop-shadow(1px 1px 4px rgba(158, 158, 158, 0.483));
+          filter: invert(0) brightness(100%) drop-shadow(1px 1px 4px rgba(158, 158, 158, 0.483));
+  /* filter: invert(0)brightness(890%)drop-shadow(1px 1px 10px rgb(203, 203, 203)); */
+}
+@media screen and (max-aspect-ratio: 1) {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    scale: 1;
+  }
+}
+
+.swiper-button-prev:after {
+  background-image: url("../../../Images/icons/ArrowLeftGreen.png");
+}/*# sourceMappingURL=swiperPagination.css.map */

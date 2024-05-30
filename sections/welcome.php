@@ -30,64 +30,63 @@
             </h2>
 
             <div id="welcomeText">
-                <p>
-                    <br />
-                    <br />
 
-                    <span class='EN'>
-                        I'm Aleid, a starting web developer, with an interest in design,
-                        and recent</span>
-                    <span class='NL'>
-                        Mijn naam is Aleid, een beginnend web ontwikkelaar, met interesse in design,
-                        en recent
-                    </span>
+                <span class='EN'>
+                    I'm Aleid, a starting web developer, with an interest in design,
+                    and recent msc.
+                    <a href="#edu"> graduate</a> Human Technology Interaction (TU Eindhoven).
+                    <br /><br />
+                    If you need someone (extra) for web development / web design, don't hesitate to let me know.
+                </span>
+                <span class='NL'>
+                    Mijn naam is Aleid, een beginnend web ontwikkelaar, met interesse in design,
+                    en recent
+                    <a href="#edu">afgestudeerd</a> aan de master Human Technology Interaction (TU Eindhoven).
 
-                    <span class='EN'>
-                        <a href="#edu"> graduate</a> Human Technology Interaction (TU Eindhoven)
-                    </span>
-
-                    <span class='NL'>
-                        <a href="#edu">afgestudeerd</a> aan Human Technology Interaction (TU Eindhoven).
-                    </span>
-                    </a>
-
-
-                    <br />
-                    <br />
-                    <br />
-
-                <div style="width:100%!important;text-align:center; font-size:2rem; text-decoration:none!important; font-weight:600;">
-                    <a href="#contact">contact</a>
-                </div>
-                <br /><br /><br />
-                </p>
+                    <br /><br />
+                    Als je nog versterking zoekt op het gebied van web design / web development,
+                    neem dan gerust contact op.
+                </span>
             </div>
+            <div class='welcomeLinks'>
+                <a href="<?php echo $urlWebsite ?>/aboutMe?lang=nl&reduce=false">
+                    <span class='EN'> More about me</span>
+                    <span class='NL'> Meer over mij</span>
+                </a>
+                <a href="#contact">
+                    <span class='EN'> Contact</span>
+                    <span class='NL'> Contact</span>
+                </a>
+            </div>
+
         </div>
         <div class="welcomeToolsSkills">
             <div class='welcomeTitle'>
                 <span class='EN'> Skills: </span>
-                <span class='NL'> Skills: </span>
+                <span class='NL'> Vaardigheden:</span>
             </div>
             <div class='welcomeSkills'>
                 <span class='EN'>
-                    <span class='skill'>•Web design</span>
-                    <span class='skill'>•front-end web development</span>
-                    <span class='skill'>•programming</span>
-                    <span class='skill'>•wireframing</span>
-                    <span class='skill'>•data analysis</span>
-                    <span class='skill'>•research methods</span>
-                    <span class='skill'>•teamwork</span>
-                    <span class='skill'>•planning</span>
+                    <span class='skill'>front-end web development</span>
+                    <span class='skill'>Web design</span>
+                    <span class='skill'>wireframing</span>
+                    <span class='skill'>programming</span>
+                    <span class='skill'>design</span>
+                    <span class='skill'>data analysis</span>
+                    <span class='skill'>research</span>
+                    <span class='skill'>teamwork</span>
+                    <span class='skill'>planning</span>
                 </span>
                 <span class='NL'>
-                    <span class='skill'>•Web design</span>
-                    <span class='skill'>•front-end web ontwikkeling</span>
-                    <span class='skill'>•programmeren</span>
-                    <span class='skill'>•wireframing (prototyping)</span>
-                    <span class='skill'>•data analyse</span>
-                    <span class='skill'>•onderzoeksmethoden</span>
-                    <span class='skill'>•teamwork</span>
-                    <span class='skill'>•planning </span>
+                    <span class='skill'>front-end web ontwikkeling</span>
+                    <span class='skill'>Web design</span>
+                    <span class='skill'>wireframing (prototyping)</span>
+                    <span class='skill'>programmeren</span>
+                    <span class='skill'>ontwerpen</span>
+                    <span class='skill'>data analyse</span>
+                    <span class='skill'>onderzoek</span>
+                    <span class='skill'>teamwork</span>
+                    <span class='skill'>planning </span>
 
                 </span>
             </div>
@@ -97,16 +96,16 @@
 
             </div>
             <div class='logoContainer'>
-                <img loading="lazy" class="logo" alt="logo" src="Images/logos/HTML5_logo_wikipedia.png" />
+                <img loading="lazy" class="logo lazy" alt="logo" src="Images/logos/HTML5_logo_wikipedia.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/CSS3_logo_wikipediapng.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Sass_logo.png" />
-                <img loading="lazy" style="filter:saturate(0%)brightness(70%)contrast(120%);" class="logo Lazy" alt="logo" src="Images/logos/JavaScript-logo-name.png" />
-                <img loading="lazy" style="filter:saturate(0%)brightness(50%)contrast(120%);" class="logo Lazy" alt="logo" src="Images/logos/React-icon-name.png" />
+                <img loading="lazy" style="filter:saturate(0%)brightness(70%)contrast(120%);" class="logo Lazy" alt="logo" src="Images/logos/Javascript-logo-name.png" />
+                <img loading="lazy" style="filter:saturate(0%)brightness(50%)contrast(120%);" class="logo Lazy" alt="logo" src="Images/logos/react-icon-name.png" />
                 <img loading="lazy" style="transform:scale(0.8);" class="logo Lazy" alt="logo" src="Images/logos/PHP-logo.svg.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/photoshop-logo-name.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/figma-logo-name.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/python-logo-name.svg" />
-                <img loading="lazy" style="transform:scale(0.7);" class="logo Lazy" alt="logo" src="Images/logos/git-logo-name.png" />
+                <img loading="lazy" style="transform:scale(0.7);" class="logo Lazy" alt="logo" src="Images/logos/Git-logo-name.png" />
             </div>
 
 

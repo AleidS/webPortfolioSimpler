@@ -1,4 +1,4 @@
-@use '../main/variables' as *;
+@use './main/variables' as *;
 
 #aboveFold {
     display: flex;
@@ -26,6 +26,7 @@
 }
 
 #title {
+    font-size: 2rem;
     font-size: clamp(20pt, 4rem, 6vw);
     font-family: 'montserrat', sans-serif;
     font-weight: 300;
@@ -71,8 +72,8 @@
     font-weight: 400;
     margin-top: 20px;
     font-size: 1.4rem;
-    color: black;
-    background: $accent-color-light;
+    color: white;
+    background: $accent-color-semisemilight;
     padding: 10px;
     border-radius: 4px;
     font-family: 'montserrat', sans-serif;

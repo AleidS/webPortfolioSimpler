@@ -1,0 +1,50 @@
+.education {
+  padding-top: 50px;
+}
+.education a {
+  color: #38563a;
+}
+.education .text {
+  padding-top: 50px;
+  background: none;
+  color: black;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  font-weight: 400;
+  text-align: left;
+  padding: 0px;
+}
+.education .text .whiteBG {
+  background: white;
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.education .imageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  max-height: min(180px, 30vw);
+  position: inline-block;
+  overflow: hidden;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 4px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.education img {
+  max-width: 50%;
+  min-height: 100%;
+  margin: auto;
+  margin-bottom: 0px;
+  border: 2px solid white;
+}/*# sourceMappingURL=education.css.map */

@@ -1,0 +1,281 @@
+@charset "UTF-8";
+.welcome {
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.welcomeContainer {
+  max-width: 100%;
+  margin-top: 200px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 70px;
+  overflow: hidden;
+  border: 10px solid #73AB79;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: black;
+  background: #ebf4eb;
+}
+@media screen and (max-width: 800px) {
+  .welcomeContainer {
+    border-radius: 20px;
+    border: 7px solid #73AB79;
+  }
+}
+.welcomeContainer .welcomeTitle {
+  background: #73AB79;
+  color: white;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-right: 20px;
+  margin-top: 5px;
+  font-weight: 500;
+  width: 90%;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+}
+.welcomeContainer .welcomeToolsSkills {
+  padding: 0px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  width: 500px;
+  z-index: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: black !important;
+}
+.welcomeContainer .welcomeToolsSkills .skill {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: white;
+  color: #4c6c4d;
+  font-weight: 400;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 3px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.welcomeContainer .welcomeToolsSkills a {
+  margin: auto;
+  margin-bottom: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #73AB79 !important;
+}
+.welcomeContainer .welcomeToolsSkills .logo {
+  max-height: 40px;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-filter: brightness(80%) saturate(0%) contrast(100%);
+          filter: brightness(80%) saturate(0%) contrast(100%);
+  opacity: 0.9;
+}
+.welcomeContainer .welcomeToolsSkills .logoContainer {
+  margin-top: 15px;
+  position: relative;
+  background: #ebf4eb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+  max-width: max(100%, 250px);
+  overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-filter: saturate(100%);
+          filter: saturate(100%);
+}
+.welcomeContainer .welcomeToolsSkills .logoContainer::after {
+  content: "";
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  top: 2px;
+  left: 2px;
+  background-color: #73AB79;
+  mix-blend-mode: soft-light;
+}
+.welcomeContainer .welcomeToolsSkills ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  color: black !important;
+}
+.welcomeContainer .welcomeToolsSkills li {
+  padding: 0px;
+  font-size: 1.2rem;
+  margin-left: 20px;
+  color: black !important;
+}
+.welcomeContainer .welcomeToolsSkills li::before {
+  content: "• ";
+}
+.welcomeContainer .welcomeToolsSkills a {
+  color: black !important;
+  font-size: 1.1rem;
+}
+.welcomeContainer .welcomeSkills {
+  font-size: 1.1rem;
+  padding: 20px;
+}
+.welcomeContainer .welcomeLink {
+  background: #73AB79;
+  color: white !important;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none !important;
+}
+.welcomeContainer .welcomeLink span,
+.welcomeContainer .welcomeLink a {
+  color: white !important;
+  text-decoration-color: white !important;
+  text-decoration: none !important;
+}
+.welcomeContainer .imgAndText {
+  width: min(100vw, 450px);
+  position: relative;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-radius: 50px;
+  border: 2px solid #73AB79;
+  background: #73AB79;
+  -webkit-box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
+          box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
+  z-index: 2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 800px) {
+  .welcomeContainer .imgAndText {
+    border-radius: 10px;
+    border: outset 7px solid #73AB79;
+  }
+}
+
+#hello {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  color: white !important;
+}
+@media screen and (max-width: 800px) {
+  #hello {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+#welcomeText {
+  width: 90%;
+  min-width: min(200px, 100vw);
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  color: white !important;
+  text-align: left;
+  margin: auto;
+  font-size: 1.1rem;
+  color: white;
+  font-family: "roboto";
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.welcomeLinks {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.welcomeLinks a {
+  padding: 4px;
+  border-radius: 10px;
+}/*# sourceMappingURL=welcome.css.map */

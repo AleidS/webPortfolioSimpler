@@ -1,19 +1,37 @@
-@use '../main/variables' as *;
+@use './main/variables' as *;
 
 .education {
 
     padding-top: 50px;
 
     a {
-        color: white;
+        color: $accent-color-dark;
+    }
+
+    .sectionText {
+        // border-bottom: 4px solid $accent-color;
     }
 
     .text {
         padding-top: 50px;
-        background: $accent-color;
-        color: white;
+        background: none;
+        color: black;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
+        font-weight: 400;
+        text-align: left;
+        padding: 0px;
+        // background: $accent-color-light;
+        // background: $accent-color-extra-light;
+
+        // border-left: 4px solid $accent-color-dark;
+        // border-right: 4px solid $accent-color-dark;
+        .whiteBG {
+            background: white;
+            margin-top: 0px;
+            padding: 20px;
+            // border-radius: 10px;
+        }
     }
 }
 

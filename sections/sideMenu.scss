@@ -22,14 +22,14 @@
     z-index: 99999;
     background: rgba(255, 255, 255, 0.151);
     height: 100%;
-    justify-content: flex-start;
+    justify-content: flex-end;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     top: 0px;
     backdrop-filter: blur(20px);
     transition-duration: 1s;
     transform: translateX(-50px);
-    animation: hideSideMenu;
+    // animation: hideSideMenu;
     animation-delay: 0s;
     animation-duration: 3s;
     width: 40px;
@@ -39,6 +39,7 @@
     a {
         padding: 10px;
         margin-top: 5vh;
+        margin-bottom: 5vh;
         background: $accent-color;
         border-bottom-right-radius: 50px;
         border-top-right-radius: 50px;
@@ -53,15 +54,15 @@
 
     .pullSideMenu {
         background: $accent-color;
-        width: 75px;
+        width: 100px;
         margin-left: 0px;
         height: 50px;
-        border-bottom-right-radius: 50px;
+        border-bottom-right-radius: 0px;
         border-top-right-radius: 50px;
         border: 1px solid white;
         box-shadow: 5px 0px 10px 0px rgba(255, 255, 255, 0.085);
         display: flex;
-        padding-left: 40px;
+        padding-left: 35px;
 
         i {
             float: right;

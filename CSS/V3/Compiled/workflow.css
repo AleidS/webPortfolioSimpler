@@ -1,0 +1,84 @@
+.workflowtext {
+  padding: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: white !important;
+  color: black;
+}
+
+.workflowtext div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 10px;
+  /* max-width: 400px !important; */
+  margin: auto;
+  /* background: rgba(26, 40, 48, 0.41); */
+  border-radius: 0px;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+.workflowtext img {
+  max-width: min(80vw, 280px) !important;
+  max-height: 400px;
+  width: auto;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  aspect-ratio: original;
+  border: 1px solid rgba(255, 255, 255, 0.52);
+  border-radius: 5px;
+  /* background: green; */
+}
+
+.workflowtext span {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.workflowtext div:nth-child(odd) {
+  /* flex-direction: row-reverse;
+
+  span {
+      border: none;
+      border-radius: 0;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border-right: 1px solid white;
+  } */
+}
+
+.workflowtext h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  -ms-flex-preferred-size: 1;
+      flex-basis: 1;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.407); */
+  /* border-top: 1px solid rgba(255, 255, 255, 0.531); */
+  padding: 10px;
+  border-radius: 4px;
+  background: #73AB79;
+  color: white;
+}/*# sourceMappingURL=workflow.css.map */

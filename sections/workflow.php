@@ -107,8 +107,9 @@
             styles. In React I use style modules to avoid style clashes.
         </span>
         <span class='NL'>
-            Ik ben recent ook begonnen met het CSS pre-compiler SASS (SCSS), om makkelijker dingen aan te kunnen passen
-            (bijvoorbeeld een kleurschema),
+            Recent ben ik ook begonnen met het gebruiken van CSS pre-compiler SASS (SCSS), om makkelijker dingen aan te
+            kunnen passen
+            (bijvoorbeeld een kleurschema adhv variabelen),
             en om 'nested' styles te kunnen gebruiken die het op alle platformen blijven doen. In React gebruik ik vaak
             modules om 'style clashes' te voorkomen.
         </span>
@@ -125,8 +126,8 @@
             php to separate code into smaller chunks;
         </span>
         <span class='NL'>
-            Ik heb kort met PHP/SQL gewerkt voor de master thesis,
-            om data over interacties op te kunnen slaan. Dit was
+            Voor de master thesis heb ik ook (beperkt) met PHP/SQL gewerkt, om data over interacties op te kunnen slaan.
+            Dit was
             aan de hand van verschillende tutorials.
             Voor dit portfolio gebruik ik PHP om de code op te kunnen splitsen
             in meerdere bestanden en ook code te kunnen hergebruiken, net als in React.
@@ -163,8 +164,8 @@
             e.g. with paper prototypes or mock-ups, or for my graduation project with a kind of A/B testing.
         </span>
         <span class='NL'>
-            Ik heb beperkte ervaring met user-testen (in het algemeen),
-            vanuit mijn studie, bijvoorbeeld met prototypes en mock-ups, en bij mijn afstudeerproject
+            Met user-testen (in het algemeen, ook voor andere dingen dan websites), heb ik beperkte ervaring vanuit mijn
+            studie, bijvoorbeeld met prototypes en mock-ups, en bij mijn afstudeerproject
             met een soort A/B testing.
         </span>
     </div>
@@ -180,23 +181,27 @@
         </span>
         <span class='NL'>
             Dit is wat goed werkt voor mij op dit moment,
-            maar ik hoop ook betere methodes te leren en met
-            anderen/meer ervaren web designers en ontwikkelaars te werken in een groter team:) </span>
-    </div>
+            maar ik hoop ook betere methodes te leren van
+            anderen/meer ervaren web designers en ontwikkelaars :)
+        </span>
 
-    <br /><br />
-    <span class='EN'>
-        Do you need someone on your team?
-        <br />
-        <a href=''>
-            contact me! </a>
-    </span>
-    <span class='NL'>
-        Heb jij nog versterking nodig?
-        <br />
-        <a href=''>
-            Neem contact op!
-        </a>
-    </span>
+        <br /><br />
+        <div>
+            <span class='EN'>
+                Do you need someone on your team?
+                <br /><br />
+                <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#contact">
+                    contact me!
+                </a>
+            </span>
+            <span class='NL'>
+                Ben je nog op zoek naar een webdesigner/web developer?
+                <br /><br />
+                <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#contact">
+                    Neem contact op!
+                </a>
+            </span>
+        </div>
+    </div>
 </div>
 </div>

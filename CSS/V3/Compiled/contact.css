@@ -1,0 +1,81 @@
+#contactText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #73AB79;
+  color: white;
+  font-weight: 400;
+  margin-top: 50px;
+  padding: 40px;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  border-top: 4px solid #73AB79;
+  border-bottom: 4px solid #73AB79;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: min(400px, 80vw) !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.socials a {
+  font-size: 3rem;
+  color: #ebf4eb;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+.socials a:hover {
+  scale: 1.5;
+  color: white;
+}
+
+#sayHello {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.276);
+  background-color: #ebf4eb;
+  color: #4c6c4d !important;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.34);
+          box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.34);
+  text-decoration: none;
+}
+
+#sayHello:hover {
+  -webkit-backdrop-filter: brightness(120%);
+          backdrop-filter: brightness(120%);
+  scale: 1.1;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(197, 251, 255, 0.54);
+          box-shadow: 0px 0px 20px 5px rgba(197, 251, 255, 0.54);
+}/*# sourceMappingURL=contact.css.map */

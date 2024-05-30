@@ -1,6 +1,5 @@
 <!-- INFO -->
 
-
 <div id="info" style="height:2px"></div>
 <div class="section">
     <h2 class="sectionTitle animated ml10">
@@ -9,15 +8,27 @@
         </span>
     </h2>
     <div id="infoLinks" class="sectionText" style="font-size:1rem; text-align:left;">
-        This website was made with <strong>HTML, CSS/SCSS and JS, Bootstrap</strong> for the navigation menu,
-        and <strong>PHP</strong> for separating and re-using code snippets. Galleries were made with <a
-            href="https://swiperjs.com/demos">Swiper.js</a>.
+        <span class='EN'>
+            This website was made with <strong>HTML, CSS/SCSS and JS, Bootstrap</strong> for the navigation menu,
+            and <strong>PHP</strong> for separating and re-using code snippets. Galleries were made with <a href="https://swiperjs.com/demos">Swiper.js</a>.
 
-        <br /><br />
-        You can view the source code
-        <a href=" https://github.com/AleidS/webPortfolio" target="_blank">here</a>.
+            <br /><br />
+            You can view the source code
+            <a href=" https://github.com/AleidS/webPortfoliosimple" target="_blank">here</a>.
 
+        </span>
 
+        <span>
+
+            Deze website is gemaakt met <strong>HTML, CSS/SCSS, Javascript, Bootstrap (menu), en PHP </strong> (voor
+            hergebruiken code,
+            bijv. gallerijen en menu).
+            Gallerijen zijn gemaakt met <a href="https://swiperjs.com/demos">Swiper.js</a>.
+            <br /><br />
+            De source code staat op
+            <a href=" https://github.com/AleidS/webPortfoliosimple" target="_blank">github</a>.
+
+        </span>
         <!-- <h3>
             show all tools
             <i id='showtools' style="cursor:pointer" onClick="showElement('allTools',this.id)"
@@ -83,7 +94,7 @@
             <br /><br /><br /> -->
         <!-- </div> -->
 
-        <a href="<?php echo $urlWebsite ?>"> Back to main page </a>
-        <br />
+        <!-- <a href="<?php echo $urlWebsite ?>"> Back to main page </a>
+        <br /> -->
     </div>
 </div>

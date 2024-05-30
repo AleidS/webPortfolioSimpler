@@ -5,7 +5,8 @@
 <div class="section">
     <h2 class="sectionTitle">
 
-        Courses taken
+        <span class='EN'> Courses taken </span>
+        <span class='NL'> Gevolgde vakken </span>
     </h2>
     <div class="sectionText courses">
         <h3> ICT </h3>
@@ -63,7 +64,9 @@
 
 
 
-        <h3> Psychology and Ethics
+        <h3>
+            <span class='EN'>Psychology and Ethics </span>
+            <span class='NL'>Psychologie en ethiek </span>
             <i class="fa-solid fa-plus-circle" id="pButton" onClick="showElement('psychology', this.id)">
             </i>
         </h3>
@@ -94,7 +97,9 @@
             <span class="small">(Msc.)</span> <br />
         </div>
 
-        <h3> Marketing / consumer behavior
+        <h3>
+            <span class='EN'>Marketing / consumer behavior</span>
+            <span class='NL'>Marketing en consument gedrag </span>
             <i class="fa-solid fa-plus-circle" id=mButton onClick="showElement('marketing', this.id)"></i>
         </h3>
         <div class="hidden" id="marketing">
@@ -108,7 +113,9 @@
             <span class="small">(Msc.)</span> <br />
         </div>
 
-        <h3> Research and Data Analytics
+        <h3>
+            <span class='EN'>Research and Data Analytics </span>
+            <span class='NL'>Onderzoek en data analyse </span>
             <i class="fa-solid fa-plus-circle" id=rButton onClick="showElement('research', this.id)">
             </i>
         </h3>
@@ -134,7 +141,9 @@
             <span class="small">(Msc.)</span> <br />
         </div>
 
-        <h3> Lighting
+        <h3>
+            <span class='EN'>Lighting & Lighting technology</span>
+            <span class='NL'>Licht & Lichttechniek</span>
             <i class="fa-solid fa-plus-circle" id="lButton" onClick="showElement('lighting',this.id)">
             </i>
         </h3>
@@ -156,7 +165,9 @@
             </div>
         </div>
 
-        <h3>Built environment
+        <h3>
+            <span class='EN'>Built environment</span>
+            <span class='NL'>Bouwkunde</span>
             <i class="fa-solid fa-plus-circle" id="beButton" onClick="showElement('builtEnvironment',this.id)">
             </i>
         </h3>
@@ -175,12 +186,5 @@
             <strong>• Built Environment Project for PT and SI</strong>
             <span class="small">(Bsc.)</span> <br />
         </div>
-        <br />
-        <br />
-        <br /><br />
-        <a href="<?php echo $urlWebsite ?>#edu"> Back to education</a>
-        <!-- <a href="<?php echo $urlWebsite ?>/tools"> View Tools</a> &emsp;
-        <a href="<?php echo $urlWebsite ?>#contact"> Back to contact</a> -->
-        <br />
     </div>
 </div>
