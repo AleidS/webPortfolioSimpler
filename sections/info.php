@@ -10,7 +10,8 @@
     <div id="infoLinks" class="sectionText" style="font-size:1rem; text-align:left;">
         <span class='EN'>
             This website was made with <strong>HTML, CSS/SCSS and JS, Bootstrap</strong> for the navigation menu,
-            and <strong>PHP</strong> for separating and re-using code snippets. Galleries were made with <a href="https://swiperjs.com/demos">Swiper.js</a>.
+            and <strong>PHP</strong> for separating and re-using code snippets. Galleries were made with <a
+                href="https://swiperjs.com/demos">Swiper.js</a>.
 
             <br /><br />
             You can view the source code
@@ -26,7 +27,7 @@
             Gallerijen zijn gemaakt met <a href="https://swiperjs.com/demos">Swiper.js</a>.
             <br /><br />
             De source code staat op
-            <a href=" https://github.com/AleidS/webPortfoliosimple" target="_blank">github</a>.
+            <a href=" https://github.com/AleidS/WebPortfolioSimpler" target="_blank">github</a>.
 
         </span>
         <!-- <h3>
