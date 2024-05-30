@@ -74,7 +74,9 @@
                             <i role="button" id='<?php echo ($projectID . $key) ?>' onClick='playVideo(this.id)' class='playbutton fa-solid fa-play'>
                             </i>
                         <?php else : ?>
-                            <img src=<?php echo ("Images/screenshots/" . $slide->imgName) ?> loading="lazy" class="lazy" height="400px" width="400px" />
+                            <!-- Lazy loading doesnt work correctly here -->
+                            <img width='700' height='500' src=<?php echo ("Images/screenshots/" . $slide->imgName) ?> alt='Project Image' />
+
                         <?php endif ?>
                     </div>
                 <?php

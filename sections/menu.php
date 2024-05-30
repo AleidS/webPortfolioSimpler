@@ -24,7 +24,8 @@
             NL
             <i class="fa-solid fa-flag"></i>
         </div>
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             <span class='EN'> Projects</span>
             <span class='NL'> Projecten </span>
 
@@ -45,16 +46,16 @@
                 <span class='NL'> Teken app</span>
 
             </a>
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#artPortfolio-scroll">
+            <!-- <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#artPortfolio-scroll">
                 <span class='EN'> Art Portfolio</span>
                 <span class='NL'> Kunstgallerij </span>
 
-            </a>
-            <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#portfolioOld-scroll">
+            </a> -->
+            <!-- <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#portfolioOld-scroll">
                 <span class='EN'>3D Portfolio </span>
                 <span class='NL'> 3D Portfolio</span>
 
-            </a>
+            </a> -->
             <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#figmaDesigns-scroll">
                 <span class='EN'> Figma Designs </span>
                 <span class='NL'> Figma Designs</span>
@@ -110,7 +111,8 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?php echo $urlWebsite ?>info?lang=nl&reduce=false" class="nav-link active" target="_blank">
+                    <a href="<?php echo $urlWebsite ?>info?lang=nl&reduce=false" class="nav-link active"
+                        target="_blank">
                         <i class="fa-solid fa-info-circle"></i>
                     </a>
                 </li>

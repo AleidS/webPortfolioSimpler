@@ -4,6 +4,7 @@ function playVideo(id) {
     const video = playButton.parentElement.getElementsByTagName('video')[0]
     if (video.paused == false) {
         video.pause()
+        video.style.filter = 'brightness(80%)';
         playButton.classList.remove('fa-pause')
         playButton.classList.add('fa-play')
         // if (!reduced) {
@@ -20,6 +21,7 @@ function playVideo(id) {
     }
     else {
         video.play()
+        video.style.filter = 'brightness(100%)';
         manuallyPaused = false
         // $('.cardVideo').each(function () {
         //     var playbtn = this.parentElement.getElementsByClassName('playbutton')[0]

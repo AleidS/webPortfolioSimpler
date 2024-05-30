@@ -99,6 +99,10 @@ window.addEventListener('load', function () {
         });
 
         const swiper = new Swiper(img, {
+
+            preloadImages: false,
+            // Enable lazy loading
+            lazy: true,
             // Optional parameters
             direction: 'horizontal',
             // loop: true,
@@ -149,10 +153,13 @@ window.addEventListener('load', function () {
                     var videos = img.querySelectorAll('video');
 
                     Array.prototype.forEach.call(videos, function (video) {
-                        if (video.paused == false) {
-                            video.pause();
-                            video.parentElement.getElementsByClassName('playbutton')[0].classList.remove('fa-pause')
-                            video.parentElement.getElementsByClassName('playbutton')[0].classList.add('fa-play')
+                        if (video != null) {
+                            if (video.paused == false) {
+                                video.pause();
+                                video.style.filter = 'brightness(80%)';
+                                video.parentElement.getElementsByClassName('playbutton')[0].classList.remove('fa-pause')
+                                video.parentElement.getElementsByClassName('playbutton')[0].classList.add('fa-play')
+                            }
                         }
                     });
                     this.effect = reduced ? 'fade' : 'coverflow'
