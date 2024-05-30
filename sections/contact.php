@@ -38,8 +38,7 @@
 </div>
 
 <div style="width:100%; display:flex; justify-content:center; padding-bottom:100px;">
-    <a style="color:black; text-align:center;left:0px; right:0px; width:fit-content; margin-left:auto; margin-right:auto;"
-        href=" https://github.com/AleidS/webPortfoliosimple" target="_blank">
+    <a style="color:black; text-align:center;left:0px; right:0px; width:fit-content; margin-left:auto; margin-right:auto;" href=" https://github.com/AleidS/webPortfolioSimpler" target="_blank">
         <span class="EN">View source code</span>
         <span class="NL">Bekijk source code</span>
     </a>

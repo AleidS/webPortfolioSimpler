@@ -6,3 +6,6 @@ Old/.blend
 ./*.webm
 ./*.mp4
 Images/own/
+.gitignore
+fiveserver.config.js
+videos/
