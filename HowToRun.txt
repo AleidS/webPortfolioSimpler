@@ -1,8 +1,60 @@
-start xampp
-open localhost/3dportfolio - basic 
-WITHOUT index.php!
+(mostly note to self, perhaps someone else;)
 
-Use clear cache extension chrome
-Add isset for not-working php commands
 
-Make sure you've clicked watch scss in the bottom bar
+## How to run
+
+
+Because this website uses PHP, fiveServer and such don't work correctly.
+You can run it with a local server like Xampp 
+
+1. Place folder in xampp/htdocs
+2. start xampp, activate Apache
+3. open localhost/foldername
+ (WITHOUT the index.php extension, then you just see the file contents without styling).
+
+
+## Chrome/edge clear cache extension
+
+
+Because of not using five server, changes don't immediately show.
+To easily clear cache, the 'clear cache' extension in chrome/edge was a lifesaver
+
+
+
+# SASS/SCSS
+
+
+I used scss for styling, which compiles into CSS. It allows you to use nesting, variables, 
+and adds styles for Mozilla/IOS automatically.To use this, install the live SASS compiler,
+and indicate where the CSS should be saved. Make sure you've clicked 'watch scss' in the 
+bottom bar to enable this extension (In VSCode)
+
+
+
+## Making your own portfolio
+
+
+If you are making your own portfolio or website,
+feel free to take some inspiration from here and see how things work.
+Must note that I'm a beginner, so it would probably be better to create your own system.
+If you end up using large chuncks of code, 
+please credit.
+
+
+
+## Explanation for the PHP structure instead of using React;
+
+
+I read somewhere it's important to show you can make websites with plain HTML/CSS/JS, without frameworks,
+(which sounded logical to me), so that's what I started with. 
+
+However, I soon realized I missed React components and I didn't want to 
+copy/paste for example the menu code everywhere only to have to do that again for every change.
+Rather than start over, I opted to use PHP to import code snippets into multiple pages, 
+and mimicked React props with PHP variables, to re-use these snippets in multiple ways (e.g. the projects).
+
+Therefore, running this code is a bit more complicated than with React, but I did learn a lot from making it this way.
+
+
+*Add isset for not-working php commands, some dont work well in a local server for example, 
+and then they will be ignored rather than crashing your system.
