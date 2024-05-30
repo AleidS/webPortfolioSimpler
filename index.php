@@ -45,6 +45,8 @@ $version = 'V3'
         <link type="text/css" href="CSS/<?php echo ($version) ?>/Compiled/welcome.css" rel="stylesheet">
         <link type="text/css" href="CSS/<?php echo ($version) ?>/Compiled/workflow.css" rel="stylesheet">
 
+
+        <link type="text/css" href="CSS/<?php echo ($version) ?>/Compiled/aboutMe.css" rel="stylesheet">
         <link type="text/css" href="CSS/<?php echo ($version) ?>/Compiled/contact.css" rel="stylesheet">
         <link type="text/css" href="CSS/<?php echo ($version) ?>/Compiled/education.css" rel="stylesheet">
         <link type="text/css" href="CSS/<?php echo ($version) ?>/Compiled/projectCard.css" rel="stylesheet">

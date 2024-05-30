@@ -188,14 +188,14 @@
         <br /><br />
         <div>
             <span class='EN'>
-                Do you need someone on your team?
+                Looking for a motivated and ambitious web developer / web designer?
                 <br /><br />
                 <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#contact">
-                    contact me!
+                    Contact Me!
                 </a>
             </span>
             <span class='NL'>
-                Ben je nog op zoek naar een webdesigner/web developer?
+                Ben je nog op zoek naar een gemotiveerde en ambitieuze web designer / web developer?
                 <br /><br />
                 <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#contact">
                     Neem contact op!
