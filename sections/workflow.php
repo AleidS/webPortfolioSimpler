@@ -109,7 +109,7 @@
         <span class='NL'>
             Recent ben ik ook begonnen met het gebruiken van CSS pre-compiler SASS (SCSS), om makkelijker dingen aan te
             kunnen passen
-            (bijvoorbeeld een kleurschema adhv variabelen),
+            (bijvoorbeeld een kleurschema a.d.h.v. variabelen),
             en om 'nested' styles te kunnen gebruiken die het op alle platformen blijven doen. In React gebruik ik vaak
             modules om 'style clashes' te voorkomen.
         </span>
@@ -182,7 +182,7 @@
         <span class='NL'>
             Dit is wat goed werkt voor mij op dit moment,
             maar ik hoop ook betere methodes te leren van
-            anderen/meer ervaren web designers en ontwikkelaars :)
+            anderen/meer ervaren webdesigners en ontwikkelaars :)
         </span>
 
         <br /><br />
@@ -201,6 +201,13 @@
                     Neem contact op!
                 </a>
             </span>
+
+            <br /><br />
+            <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#welcome" class="navbar-brand">
+                <!-- <i class="fa-solid fa-home"></i> -->
+                <span class="EN">back to Homepage</span>
+                <span class="NL">Terug naar Home</span>
+            </a>
         </div>
     </div>
 </div>

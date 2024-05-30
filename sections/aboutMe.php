@@ -76,8 +76,8 @@
                     breeds is, dat je met een team meer kan bereiken dan alleen,
                     en je zo ook weer van elkaar kunt leren.
                     <br /><br />
-                    Op dit portfolio vind je een paar projecten waar ik aan heb gewerkt. Mocht je hierover vragen,
-                    opmerkingen of feedback hebben, dan hoor ik dat graag! Contact informatie vind je in de sidebar of
+                    In dit portfolio vind je een paar projecten waar ik aan heb gewerkt. Mocht je hierover vragen,
+                    opmerkingen of feedback hebben, dan hoor ik dat graag! Contactinformatie vind je in de sidebar of
                     onderaan de
                     homepage
 
@@ -88,9 +88,6 @@
                     <!-- <i class="fa-solid fa-home"></i> -->
                     <span class="EN">back to Homepage</span>
                     <span class="NL">Terug naar Home</span>
-
-                    <img src="Images/AO.png" id="ao"></img>
-
                 </a>
             </div>
         </div>

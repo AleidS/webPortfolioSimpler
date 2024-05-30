@@ -187,4 +187,13 @@
             <span class="small">(Bsc.)</span> <br />
         </div>
     </div>
+
+    <br /><br />
+    <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#welcome" class="navbar-brand">
+        <!-- <i class="fa-solid fa-home"></i> -->
+        <span class="EN">back to Homepage</span>
+        <span class="NL">Terug naar Home</span>
+    </a>
+
+
 </div>

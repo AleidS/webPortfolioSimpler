@@ -11,7 +11,12 @@
 
     <div class="sectionText">
 
-        The tools/technologies I have worked with in the past are:
+        <span class="EN">
+            The tools/technologies that I have worked with in the past are:
+        </span>
+        <span class="NL">
+            De programma's/tools waar ik in het verleden mee heb gewerkt zijn:
+        </span>
         <br />
         <div class="toolSections">
 
@@ -414,6 +419,12 @@
                 </div>
             </div> -->
         </div>
+        <br /><br />
+        <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#welcome" class="navbar-brand">
+            <!-- <i class="fa-solid fa-home"></i> -->
+            <span class="EN">back to Homepage</span>
+            <span class="NL">Terug naar Home</span>
+        </a>
         <!-- <br /> <br /> <br />
           <a href="#aboutMe">More about workflow</a>
           <br /><br /><br /> -->

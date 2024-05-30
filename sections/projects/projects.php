@@ -87,7 +87,7 @@ $slideObj = array(
         I had not previously worked with back-end,
          so used various tutorials to make it work.',
         'textNL' =>
-        'Voor de back-end heb ik PHP gebruikt (grotendeels mbv tutorials),
+        'Voor de back-end heb ik PHP gebruikt (grotendeels m.bv. tutorials),
          en hadden we een (bestaande) SQL database met meer dan 130 bespaarmaatregelen, 
          waarvan participanten 20 aanbevelingen te zien kregen.'
     ),
@@ -112,7 +112,7 @@ $slideObj = array(
         'vidName' => "saving_aid_goalSetting.mp4",
         'text' =>
         'Half of the participants in my thesis research chose a saving goal. 
-        We wanted to know if this would lead to higher savings (was not te case).
+        We wanted to know if this would lead to higher savings (was not the case).
         You can read the full results in my thesis (below), 
         and hopefully also in a publication along the line',
         'textNL' =>
@@ -139,7 +139,7 @@ $slideObj = array(
         'text' => 'During the experiment, users got various questions about their personal values and user experiences. 
             Most users indicated they were satisfied with the system and would recommend it to friends.',
         'textNL' => 'Tijdens het experiment kregen gebruikers ook verschillende vragen over hun persoonlijke waardes en gebruikservaringen.
-        De meeste van hen onden het een fijn systeem om te gebruiken en zouden het aan vrienden aanbevelen.'
+        De meeste van hen vonden het een fijn systeem om te gebruiken en zouden het aan vrienden aanbevelen.'
     )
 );
 
@@ -220,7 +220,7 @@ $slideObj = array(
         'textNL' => 'Receptenwebsite, gemaakt om React beter te leren',
     ),
     array(
-        'title' => 'Ingrediënts and instructions',
+        'title' => 'Ingredients and instructions',
         'titleNL' => 'Ingrediënten en instructies',
         'imgName' => "recipes_2.png",
         'vidName' => "recipes_ingredients_2.mp4",
@@ -244,7 +244,7 @@ $slideObj = array(
         'vidName' => "recipes_menu_2.mp4",
         'thumbnailFrame' => 1,
         'text' => 'Menu automatically generated based on recipe categories in the database',
-        'textNL' => 'Menu was automatisch gegenereerd op basis van de recept categoriën in de database',
+        'textNL' => 'Menu was automatisch gegenereerd op basis van de recept categorieën in de database',
     ),
     array(
         'title' => 'Quantities',
@@ -336,14 +336,14 @@ $slideObj = array(
 <div class=" story">
 
     <span class='EN'>
-        In 2021, I made a drawing app to learn the basics of Javascript.
+        In 2021, I made a drawing app to learn the basics of JavaScript.
         I tried to follow best coding practices, following a software development course.
         Code can be found on Github.
     </span>
     <span class='NL'>
-        In 2021 heb ik een teken-app gemaakt om de basis van Javascript te leren.
+        In 2021 heb ik een teken-app gemaakt om de basis van JavaScript te leren.
         Daarin heb ik geprobeerd om 'best code practices' te volgen (bv. functies gebruiken ipv code herhalen, logische
-        namen gebruiken), aan de hand van een vak over software-ontwikkeling.
+        namen gebruiken), aan de hand van een vak over softwareontwikkeling.
         De code staat op Github.
         <br /> <br />
         Ik probeer er altijd voor te zorgen dat de code duidelijk is, met comments en documentatie waar nodig,
@@ -380,8 +380,8 @@ $toolsObj = array(
 $slideObj = array(
     array(
         'imgName' => "canvas.png",
-        'text' => 'Line drawing app made to learn Javascript',
-        'textNL' => 'Lijn-teken app om Javascript te leren',
+        'text' => 'Line drawing app made to learn JavaScript',
+        'textNL' => 'Lijn-teken app om JavaScript te beter te leren begrijpen',
     ),
     array(
         'imgName' => "canvas_3.png",
@@ -417,7 +417,7 @@ include("projectCardTemplate.php");
         De eerste versie van dit portfolio had bijvoorbeeld 3D animaties van de projecten, gemaakt met Blender
         (<a href="http://www.aleidsuzan.com/portfolioOld" target="_blank">Bekijk hier</a>)
         <br /></br>
-        Als je ideën hebt voor een uniek element op de website, denk ik graag mee over hoe dat te bereiken.
+        Als je ideeën hebt voor een uniek element op de website, denk ik graag mee over hoe dat te bereiken.
     </span>
 
 
@@ -605,7 +605,7 @@ $slideObj = array(
         'titleNL' => '\'low fidelity\' design',
         'imgName' => 'FigmaCakeMakerWireframe.png',
         'text' => 'Low-fi design for Cake Maker app <a href="https://www.behance.net/gallery/194620483/Cake-Maker-App"> View project and process </a>',
-        'textNL' => 'Low-fi design voor Cake Maker app. <a href="https://www.behance.net/gallery/194620483/Cake-Maker-App"> Bekijk project en proces  </a>',
+        'textNL' => 'Low-fi design voor de Cake Maker app. <a href="https://www.behance.net/gallery/194620483/Cake-Maker-App"> Bekijk project en proces  </a>',
 
     ),
     array(
@@ -618,8 +618,8 @@ $slideObj = array(
 
     ),
     array(
-        'title' => 'Percpective (concept)',
-        'titleNL' => 'Percpective (concept)',
+        'title' => 'Perspective (concept)',
+        'titleNL' => 'Perspective (concept)',
 
         'imgName' => 'FigmaPerspective.png',
         'text' => 'App to see how the same news is reported in different locations. <a href="https://www.behance.net/gallery/195067043/Perspective-app-design-for-international-news"> View project and process </a>',
