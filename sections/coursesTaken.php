@@ -99,7 +99,7 @@
 
         <h3>
             <span class='EN'>Marketing / consumer behavior</span>
-            <span class='NL'>Marketing en consument gedrag </span>
+            <span class='NL'>Marketing en consument gedrag</span>
             <i class="fa-solid fa-plus-circle" id=mButton onClick="showElement('marketing', this.id)"></i>
         </h3>
         <div class="hidden" id="marketing">

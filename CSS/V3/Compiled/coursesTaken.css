@@ -13,6 +13,7 @@
   background-color: rgba(0, 0, 0, 0.32);
   /* background-image: none; */
   text-align: left !important;
+  width: min(95vw, 900px) !important;
 }
 
 .courses strong {
@@ -23,6 +24,7 @@
   font-weight: 400 !important;
   font-family: roboto;
   color: black;
+  max-width: 100%;
 }
 
 .courses i {

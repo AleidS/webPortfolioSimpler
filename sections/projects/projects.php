@@ -78,7 +78,7 @@ $slideObj = array(
         'title' => 'SQL database',
         'titleNL' => 'SQL database',
         'imgName' => "savingAid2.png",
-        'thumbnailFrame' => 20,
+        'thumbnailFrame' => 10,
         'vidName' => "saving_aid_scroll.mp4",
         'text' =>
         'For the back-end, I used PHP (mostly based on tutorials),
@@ -161,7 +161,7 @@ include("projectCardTemplate.php");
         <a href="https://v2.scrimba.com/learn-react-c0e">Scrimba</a> and made a
 
         <a href="https://www.aleidsuzan.com/recipes" target="_blank"> recipe website </a> and
-        <a href="https://www.aleidsuzan.com/artGallery" target="_blank"> art portfolio </a> to
+        <a href="https://www.aleidsuzan.com/artportfolio" target="_blank"> art portfolio </a> to
         practice this
         framework:</span>
     <span class='NL'>
@@ -178,7 +178,7 @@ include("projectCardTemplate.php");
         Ik heb React in 2022 geleerd via
         <a href="https://v2.scrimba.com/learn-react-c0e">Scrimba</a>, en heb daarna een
         <a href="https://www.aleidsuzan.com/recipes" target="_blank">receptenwebsite</a> en
-        <a href="https://www.aleidsuzan.com/artGallery" target="_blank">kunst portfolio</a>
+        <a href="https://www.aleidsuzan.com/artportfolio" target="_blank">kunst portfolio</a>
         gemaakt om dit framework goed onder de knie te krijgen.
 
     </span>
@@ -217,7 +217,7 @@ $slideObj = array(
         'vidName' => "recipes_home_3.mp4",
         'thumbnailFrame' => 1,
         'text' => 'Recipe website, made to learn React',
-        'textNL' => 'Receptenwebsite, gemaakt om React beter te leren',
+        'textNL' => 'Receptenwebsite, gemaakt om React beter te leren begrijpen',
     ),
     array(
         'title' => 'Ingredients and instructions',
