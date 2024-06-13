@@ -36,7 +36,12 @@
                     and recent msc.
                     <a href="#edu"> graduate</a> Human Technology Interaction (TU Eindhoven).
                     <br /><br />
-                    If you need someone (extra) for web development / web design, don't hesitate to let me know.
+                    I am no longer looking for a job or projects,
+                    but if you have any specific questions related to web design/web development,
+                    or problems you've run into, don't hesitate to reach out!
+                    <br /><br />
+                    Would like to connect to fellow designers/developers as well! you can find me on Behance/X or drop a
+                    mail:)
                 </span>
                 <span class='NL'>
                     Mijn naam is Aleid, een beginnend web ontwikkelaar, met interesse in design,
@@ -44,8 +49,13 @@
                     <a href="#edu">afgestudeerd</a> aan de master Human Technology Interaction (TU Eindhoven).
 
                     <br /><br />
-                    Als je nog versterking zoekt op het gebied van web design / web development,
-                    neem dan gerust contact op.
+                    Op dit moment ben ik niet meer op zoek naar werk of projecten,
+                    maar als je tegen dingen aanloopt bij web design / web development,
+                    help ik je graag even.
+                    <br /><br />
+                    Je vind me ook op X en Behance! Altijd leuk om andere ontwikkelaars te leren kennen en te zien wat
+                    ze maken:)
+
                 </span>
             </div>
             <div class='welcomeLinks'>
@@ -68,7 +78,7 @@
             <div class='welcomeSkills'>
                 <span class='EN'>
                     <span class='skill'>front-end web development</span>
-                    <span class='skill'>Web design</span>
+                    <span class='skill'>(responsive) Web design</span>
                     <span class='skill'>wireframing</span>
                     <span class='skill'>programming</span>
                     <span class='skill'>design</span>
@@ -78,8 +88,8 @@
                     <span class='skill'>planning</span>
                 </span>
                 <span class='NL'>
-                    <span class='skill'>front-end web ontwikkeling</span>
-                    <span class='skill'>Web design</span>
+                    <span class='skill'>Front-end web ontwikkeling</span>
+                    <span class='skill'>(responsive) Web design</span>
                     <span class='skill'>wireframing (prototyping)</span>
                     <span class='skill'>programmeren</span>
                     <span class='skill'>ontwerpen</span>
@@ -99,13 +109,17 @@
                 <img loading="lazy" class="logo lazy" alt="logo" src="Images/logos/HTML5_logo_wikipedia.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/CSS3_logo_wikipediapng.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Sass_logo.png" />
-                <img loading="lazy" style="filter:saturate(0%)brightness(70%)contrast(120%);" class="logo Lazy" alt="logo" src="Images/logos/Javascript-logo-name.png" />
-                <img loading="lazy" style="filter:saturate(0%)brightness(50%)contrast(120%);" class="logo Lazy" alt="logo" src="Images/logos/react-icon-name.png" />
-                <img loading="lazy" style="transform:scale(0.8);" class="logo Lazy" alt="logo" src="Images/logos/PHP-logo.svg.png" />
+                <img loading="lazy" style="filter:saturate(0%)brightness(70%)contrast(120%);" class="logo Lazy"
+                    alt="logo" src="Images/logos/Javascript-logo-name.png" />
+                <img loading="lazy" style="filter:saturate(0%)brightness(50%)contrast(120%);" class="logo Lazy"
+                    alt="logo" src="Images/logos/react-icon-name.png" />
+                <img loading="lazy" style="transform:scale(0.8);" class="logo Lazy" alt="logo"
+                    src="Images/logos/PHP-logo.svg.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/photoshop-logo-name.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/figma-logo-name.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/python-logo-name.svg" />
-                <img loading="lazy" style="transform:scale(0.7);" class="logo Lazy" alt="logo" src="Images/logos/Git-logo-name.png" />
+                <img loading="lazy" style="transform:scale(0.7);" class="logo Lazy" alt="logo"
+                    src="Images/logos/Git-logo-name.png" />
             </div>
 
 

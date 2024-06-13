@@ -39,8 +39,7 @@
                             <source src="Images/firstWebsite2.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <i role="button" id='<?php echo ($projectID . $key) ?>' onClick='playVideo(this.id)'
-                            class='playbutton fa-solid fa-play'>
+                        <i role="button" id='<?php echo ($projectID . $key) ?>' onClick='playVideo(this.id)' class='playbutton fa-solid fa-play'>
                         </i>
                     </div>
 
@@ -104,8 +103,7 @@
                             <source src="Images/firstWebsite2.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <i role="button" id='<?php echo ($projectID . $key) ?>' onClick='playVideo(this.id)'
-                            class='playbutton fa-solid fa-play'>
+                        <i role="button" id='<?php echo ($projectID . $key) ?>' onClick='playVideo(this.id)' class='playbutton fa-solid fa-play'>
                         </i>
                     </div>
                     <small>Eerste website uit 2019 (niet mijn illustraties)</small>

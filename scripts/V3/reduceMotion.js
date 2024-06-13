@@ -106,10 +106,10 @@ function removeAnimations(id) {
             this.style.opacity = 1;
             this.style.animation = 'blink 1s infinite steps(2, start)';
         })
-        $(' .playbutton').each(function () {
-            this.classList.add('fa-pause')
-            this.classList.remove('fa-play')
-        })
+        // $(' .playbutton').each(function () {
+        //     this.classList.add('fa-pause')
+        //     this.classList.remove('fa-play')
+        // })
     }
 }
 window.addEventListener('load', () => {

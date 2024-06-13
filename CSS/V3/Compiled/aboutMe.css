@@ -19,6 +19,7 @@
 }
 .aboutMe .headerPhotos {
   max-width: 100%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,12 +31,15 @@
           justify-content: center;
   width: 100%;
   overflow: hidden;
-  aspect-ratio: 2.5;
+  aspect-ratio: 2.1;
   border-radius: 0px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 .aboutMe .headerPhotos img {
   display: block;
   height: 100%;
   width: auto;
   border-radius: 0px;
+  max-width: 250px;
 }/*# sourceMappingURL=aboutMe.css.map */

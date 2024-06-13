@@ -12,13 +12,12 @@
         <span class='EN'>
             Here's some more information on how I
             currently work when designing/developing websites.
-            It's not set in stone, and I'm eager to learn better methods as well:)
+            It's not set in stone, and I'm continuously learning new/better methods as well.
         </span>
         <span class='NL'>
             Hier is wat meer informatie over hoe ik
             momenteel werk als ik websites ontwerp of
-            programmeer. Dit is wel een 'momentopname', en ik leer graag betere manieren om websites te
-            maken/ontwerpen:)!
+            programmeer. Dit is wel een 'momentopname', en ik ben altijd bezig om weer nieuwe dingen te leren.
         </span>
     </div>
     <div>
@@ -175,19 +174,16 @@
 
         <span class='EN'>
             This is what works well for me at the
-            moment, but I'm hoping to learn better methods
-            and work with and learn from others in the future,
-            and be part of a larger team!
+            moment, but I'm hoping to learn better methods as I go.
         </span>
         <span class='NL'>
             Dit is wat goed werkt voor mij op dit moment,
-            maar ik hoop ook betere methodes te leren van
-            anderen/meer ervaren webdesigners en ontwikkelaars :)
+            maar ik hoop gaandeweg nog weer betere technieken te leren om websites te maken.
         </span>
 
         <br /><br />
         <div>
-            <span class='EN'>
+            <!-- <span class='EN'>
                 Looking for a motivated and ambitious web developer / web designer?
                 <br /><br />
                 <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#contact">
@@ -200,7 +196,7 @@
                 <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#contact">
                     Neem contact op!
                 </a>
-            </span>
+            </span> -->
 
             <br /><br />
             <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#welcome" class="navbar-brand">

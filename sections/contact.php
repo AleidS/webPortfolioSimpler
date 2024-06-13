@@ -9,11 +9,12 @@
     </h2>
     <div class="sectionText" id="contactText">
         <span class='EN'>
-            I'm curious to learn what brought you here and what we can do for eachother. Let's have a chat!
+            I'm curious to know who you are and what brought you here:) Let's have a chat!
+            (Always enjoy looking at other's portfolios as well, if you have one^^)
         </span>
         <span class='NL'>
-            Ik ben benieuwd waar je naar op zoek bent en wat we voor elkaar kunnen betekenen.
-            Laat iets van je horen!
+            Ik ben benieuwd wie je bent en hoe je op dit portfolio terecht bent gekomen:)
+            Laat iets van je horen! (Vind het ook altijd leuk om portfolio's van anderen te zien, als je die hebt^^)
         </span>
 
         <a href="mailto:aleid_oonk@hotmail.com?subject=Web portfolio" id="sayHello" style="color:white">
