@@ -12,20 +12,18 @@
 .section {
     word-wrap: break-word;
     padding-top: 50px;
-    background: white;
 }
 
 
 .story {
-    padding: 20px;
-    padding-top: 0px;
+    padding-top:50px; 
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
     max-width: 700px;
     margin: auto;
     font-size: 1rem;
 
-    a {
-        color: black;
-    }
 }
 
 .sectionTitle {
@@ -39,7 +37,7 @@
     margin: auto;
     opacity: 1;
     /* max-width: 800px !important; */
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: $accent-color-semidark !important;
     font-size: clamp(18pt, 3rem, 12vw);
 
@@ -56,7 +54,7 @@
     background-position: auto;
     background-attachment: fixed;
     background-size: cover;
-    width: calc(min(100%, 600px));
+    width: calc(min(100%, 1000px));
     margin: auto;
     border: 1px solid rgba(255, 255, 255, 0.216);
     border-radius: 10px;
@@ -65,8 +63,6 @@
     padding-top: 0px;
     text-align: justify;
     font-size: 1.1rem;
-    background: none;
-    color: black;
     font-family: 'roboto';
     font-weight: 300;
     padding-left: 10px;
@@ -74,17 +70,12 @@
     padding-left: 10px;
     border-radius: 20px;
     padding: 30px;
-    -webkit-backdrop-filter: blur(40px)brightness(190%);
-    backdrop-filter: blur(100px)brightness(160%)hue-rotate(0deg)contrast(100%);
 
     padding-top: 20px;
     padding-bottom: 80px;
     // background: $accent-color-light;
     margin-bottom: 20px;
 
-    a {
-        color: black;
-    }
 
 }
 
@@ -99,9 +90,4 @@
 
 .section:last-child {
     margin-bottom: 200px !important;
-}
-
-a {
-    color: white;
-    text-decoration: underline;
 }

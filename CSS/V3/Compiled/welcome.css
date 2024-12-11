@@ -1,9 +1,45 @@
-@charset "UTF-8";
 .welcome {
   width: 1000px;
   max-width: 100%;
   margin: auto;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
+}
+
+#titles {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 60%;
+  min-width: min(400px, 80vw);
+  max-width: min(50%, 60vw) !important;
+}
+
+#title {
+  font-size: 2rem;
+  font-size: clamp(20pt, 2rem, 6vw);
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+#subtitle {
+  letter-spacing: 1pt;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: white;
+  background: rgb(148, 194, 153);
+  padding: 10px;
+  border-radius: 4px;
+  font-family: "montserrat", sans-serif;
+  text-align: center;
+}
+
+#portrait {
+  -webkit-clip-path: circle(43% at 49% 50%);
+          clip-path: circle(43% at 49% 50%);
+  border: 2px solid white;
 }
 
 .welcomeContainer {
@@ -23,9 +59,8 @@
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border-radius: 70px;
+  border-radius: 75px;
   overflow: hidden;
-  border: 10px solid #73AB79;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -55,7 +90,7 @@
 }
 .welcomeContainer .welcomeToolsSkills {
   padding: 0px;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 20px;
   font-size: 1.5rem;
   width: 500px;
@@ -79,8 +114,8 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background: white;
-  color: #4c6c4d;
+  background: #d5ead6;
+  color: #38563a;
   font-weight: 400;
   padding: 4px;
   padding-left: 10px;
@@ -138,29 +173,6 @@
   background-color: #73AB79;
   mix-blend-mode: soft-light;
 }
-.welcomeContainer .welcomeToolsSkills ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 0px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  list-style: none;
-  color: black !important;
-}
-.welcomeContainer .welcomeToolsSkills li {
-  padding: 0px;
-  font-size: 1.2rem;
-  margin-left: 20px;
-  color: black !important;
-}
-.welcomeContainer .welcomeToolsSkills li::before {
-  content: "• ";
-}
 .welcomeContainer .welcomeToolsSkills a {
   color: black !important;
   font-size: 1.1rem;
@@ -170,18 +182,6 @@
   padding: 20px;
 }
 .welcomeContainer .welcomeLink {
-  background: #73AB79;
-  color: white !important;
-  border-radius: 10px;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-decoration: none !important;
-}
-.welcomeContainer .welcomeLink span,
-.welcomeContainer .welcomeLink a {
-  color: white !important;
-  text-decoration-color: white !important;
   text-decoration: none !important;
 }
 .welcomeContainer .imgAndText {
@@ -198,24 +198,18 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 0px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: none;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  border-radius: 50px;
-  border: 2px solid #73AB79;
+  border-radius: 60px;
   background: #73AB79;
   -webkit-box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
           box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
   z-index: 2;
+  padding: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -229,7 +223,7 @@
 #hello {
   width: 100%;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   margin-top: 50px;
   font-family: "montserrat", sans-serif;
   font-weight: 500;
@@ -255,7 +249,7 @@
   color: white;
   font-family: "roboto";
   font-weight: 400;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 .welcomeLinks {
@@ -277,5 +271,6 @@
 }
 .welcomeLinks a {
   padding: 4px;
+  color: white;
   border-radius: 10px;
 }/*# sourceMappingURL=welcome.css.map */

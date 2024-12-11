@@ -3,47 +3,12 @@
 }
 
 .projectCard {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 0px;
-  margin: auto;
-  margin-top: 40px;
-  margin-bottom: 100px;
-  font-family: "montserrat", sans-serif;
-  background: #f1f5f1;
-  max-width: min(1000px, 95vw);
-  border-radius: 10px;
-  overflow: hidden;
-  padding-top: 0px;
   color: rgb(255, 255, 255) !important;
-}
-@media screen and (max-width: 600px) {
-  .projectCard {
-    border-radius: 0px;
-  }
 }
 @media screen and (min-aspect-ratio: 9999) {
   .projectCard {
     max-width: min(1500px, 80vw);
   }
-}
-.projectCard .cardContents {
-  position: relative;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: 100%;
 }
 @media screen and (max-width: 600px) {
   .projectCard {
@@ -54,56 +19,12 @@
   text-decoration: none;
 }
 .projectCard h2 {
-  width: 100%;
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  padding: 0;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-top: 10px;
-  border-top-left-radius: 2vw;
-  border-top-right-radius: 2vw;
-  margin: 0px;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: auto;
-  bottom: 100px;
   font-size: clamp(12pt, 1.8rem, 7vw);
-  font-weight: 400;
 }
 .projectCard h2 .name {
-  margin: 0px;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   color: white;
 }
 .projectCard h2 .year {
-  /* background: rgba(144, 144, 150, 0.175); */
-  padding: 10px;
-  border-left: 0px solid rgba(255, 255, 255, 0.375);
-  margin: 0px;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   color: white;
 }
 .projectCard .cardHeader {
@@ -111,27 +32,6 @@
   width: 100%;
 }
 .projectCard .projectTools {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 0px;
-  width: 100%;
-  margin: auto;
-  list-style: none;
-  margin-bottom: 0px;
-  padding: 5px;
   color: white;
   background: #73AB79;
 }
@@ -147,33 +47,107 @@
   border-radius: 10px;
 }
 .projectCard .cardFooter {
-  width: 100% !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   color: white !important;
-  padding: 10px;
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-  position: -webkit-sticky;
-  z-index: 20;
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
   background-position: auto;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  padding: 1vw;
   background: rgb(96, 144, 101);
 }
 .projectCard .cardFooter a {
   color: white !important;
   text-decoration: none;
+}
+.projectCard .textContainer {
+  color: black !important;
+  width: 100%;
+  height: 100%;
+  z-index: 9990;
+  overflow: visible;
+  padding-top: 5px;
+}
+@media screen and (min-aspect-ratio: 9999) {
+  .projectCard .textContainer {
+    position: absolute;
+    z-index: 1000;
+    width: 25%;
+    right: 0px;
+    top: 0px;
+    background: rgb(148, 194, 153);
+  }
+}
+.projectCard .textContainerInner {
+  padding: 10px;
+  text-align: center;
+  color: #38563a;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-weight: 400;
+  height: 100%;
+  margin: auto;
+  margin-top: 5px;
+  overflow: visible;
+}
+@media screen and (max-width: 600px) {
+  .projectCard .textContainerInner {
+    padding: 5px;
+    margin: auto;
+    text-align: left;
+  }
+}
+@media screen and (min-aspect-ratio: 9999) {
+  .projectCard .textContainerInner {
+    background: #73AB79;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 500;
+  }
+}
+.projectCard .textContainerInner .innerText {
+  height: 100%;
+  max-width: min(90%, 700px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+.projectCard .textContainerInner a {
+  color: #38563a;
+}
+.projectCard .title {
+  display: block;
+  font-size: clamp(10pt, 1rem, 5vw);
+  font-weight: 600;
+  line-height: clamp(10pt, 1rem, 5vw) !important;
+  text-transform: capitalize;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #38563a;
+  width: 90%;
+  top: 5px;
+}
+@media screen and (max-width: 600px) {
+  .projectCard .title {
+    margin-top: 5px;
+  }
+}
+@media screen and (min-aspect-ratio: 9999) {
+  .projectCard .title {
+    font-size: 1.4rem;
+    text-align: left;
+    margin-bottom: 15px;
+  }
 }/*# sourceMappingURL=projectCard.css.map */

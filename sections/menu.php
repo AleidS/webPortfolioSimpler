@@ -9,11 +9,11 @@
 
         </a>
 
-        <div class="reduceMotion" id='reduceMotion' onClick="reduceMotion(this.id)">
+        <!-- <div class="reduceMotion" id='reduceMotion' onClick="reduceMotion(this.id)">
             <span class='EN hideSpan'> Reduce <br /> motion </span>
             <span class='NL hideSpan'> Minder <br /> animaties </span>
             <i class="fa-solid fa-video"></i>
-        </div>
+        </div> -->
         <div></div>
 
         <div class="NL reduceMotion" onClick="changeLanguage('English')">
@@ -68,32 +68,32 @@
         </button>
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="<?php echo $urlWebsite ?>/aboutMe?lang=nl&reduce=false" class="nav-link active">
 
                         <span class='EN'> About me</span>
                         <span class='NL'> Over Mij </span>
                     </a>
-                </li>
-                <li class="nav-item">
+                </li> -->
+                <!-- <li class="nav-item">
                     <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#edu" class="nav-link active">
 
                         <span class='EN'> Education</span>
                         <span class='NL'> Opleiding </span>
                     </a>
-                </li>
-                <li class="nav-item">
+                </li> -->
+                <!-- <li class="nav-item">
                     <a href="<?php echo $urlWebsite ?>/coursesTaken?lang=nl&reduce=false" class="nav-link active">
 
                         <span class='EN'> Courses </span>
                         <span class='NL'> Vakken</span>
                     </a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link active" href="<?php echo $urlWebsite ?>tools?lang=nl&reduce=false">
 
-                        <span class='EN'> Tools & Skills </span>
-                        <span class='NL'> Tools & Skills </span>
+                        <span class='EN'> Tools</span>
+                        <span class='NL'> Tools </span>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -103,13 +103,13 @@
                         <span class='NL'> Contact</span>
                     </a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="<?php echo $urlWebsite ?>workflow?lang=nl&reduce=false" class="nav-link active">
                         <span class='EN'> Workflow</span>
                         <span class='NL'> Werkwijze</span>
 
                     </a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a href="<?php echo $urlWebsite ?>info?lang=nl&reduce=false" class="nav-link active"
                         target="_blank">

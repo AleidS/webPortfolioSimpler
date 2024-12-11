@@ -74,6 +74,9 @@
   font-weight: 300 !important;
   color: white !important;
 }
+#menu a {
+  color: white !important;
+}
 
 #ao {
   max-height: 30px;

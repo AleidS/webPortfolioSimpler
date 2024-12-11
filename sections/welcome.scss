@@ -1,12 +1,51 @@
 @use './main/variables' as *;
 
+
 .welcome {
     width: 1000px;
     max-width: 100%;
     margin: auto;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
+}
+
+
+#titles {
+    width: fit-content;
+    width: 60%;
+    min-width: calc(min(400px, 80vw));
+    max-width: calc(min(50%, 60vw)) !important;
+}
+
+#title {
+    font-size: 2rem;
+    font-size: clamp(20pt, 2rem, 6vw);
+    font-family: 'montserrat', sans-serif;
+    font-weight: 300;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+
+#subtitle {
+    letter-spacing: 1pt;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: white;
+    background: $accent-color-semisemilight;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'montserrat', sans-serif;
+    text-align: center;
 
 }
+
+
+#portrait {
+    clip-path: circle(43% at 49% 50%);
+    border: 2px solid white;
+}
+
 
 .welcomeContainer {
     max-width: 100%;
@@ -16,9 +55,8 @@
     align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
-    border-radius: 70px;
+    border-radius: 75px;
     overflow: hidden;
-    border: 10px solid $accent-color;
     height: fit-content;
     color: black;
     background: $accent-color-extra-light;
@@ -49,7 +87,7 @@
 
     .welcomeToolsSkills {
         padding: 0px;
-        padding-top: 40px;
+        padding-top: 50px;
         padding-bottom: 20px;
         font-size: 1.5rem;
         width: 500px;
@@ -62,8 +100,8 @@
 
         .skill {
             display: inline-flex;
-            background: white;
-            color: $accent-color-darker;
+            background: $accent-color-light;
+            color: $accent-color-dark;
             // border: 1px solid $accent-color;
             font-weight: 400;
             padding: 4px;
@@ -119,27 +157,6 @@
         }
 
 
-        ul {
-            display: flex;
-            flex-direction: column;
-            padding: 0px;
-            flex-wrap: wrap;
-            list-style: none;
-            color: black !important;
-        }
-
-        li {
-            padding: 0px;
-            font-size: 1.2rem;
-            margin-left: 20px;
-            color: black !important;
-            // list-style: none;
-        }
-
-        li::before {
-            content: '• ';
-        }
-
         a {
             color: black !important;
             font-size: 1.1rem;
@@ -152,20 +169,10 @@
     }
 
     .welcomeLink {
-        background: $accent-color;
-        color: white !important;
-        border-radius: 10px;
-        padding: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
+        
         text-decoration: none !important;
 
-        span,
-        a {
-            color: white !important;
-            text-decoration-color: white !important;
-            text-decoration: none !important;
-        }
+       
     }
 
     .imgAndText {
@@ -175,19 +182,16 @@
         display: flex;
         flex-grow: 1;
         flex-direction: column;
-        justify-content: space-evenly;
-        padding: 0px;
-        flex-wrap: wrap;
+        justify-content: center;
+       
         align-items: center;
-        border: none;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
-        // box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.094);
-        border-radius: 50px;
-        border: 2px solid $accent-color;
+      
+        border-radius: 60px;
+       
         background: $accent-color;
         box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
         z-index: 2;
+        padding:10px;
         padding-top: 20px;
         padding-bottom: 20px;
         // margin: auto;
@@ -205,12 +209,11 @@
     width: 100%;
     // background: blue;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-top: 50px;
     font-family: 'montserrat', sans-serif;
     font-weight: 500;
     color: white !important;
-
     @media screen and (max-width:800px) {
         margin-top: 30px;
         margin-bottom: 30px;
@@ -228,7 +231,7 @@
     color: white;
     font-family: 'roboto';
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 .welcomeLinks {
@@ -244,6 +247,7 @@
 
     a {
         padding: 4px;
+        color:white;
         // background: $accent-color-semisemilight;
         // text-decoration: none;
         border-radius: 10px;

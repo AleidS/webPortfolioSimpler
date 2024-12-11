@@ -7,12 +7,17 @@
 }
 
 h3 {
-  margin-bottom: 20px !important;
+  margin-bottom: 10px !important;
   color: white;
   font-size: 1.8rem !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
   word-break: break;
+  font-weight: 500;
+}
+
+h5 {
+  margin-bottom: 10px;
 }
 
 #allTools {
@@ -95,9 +100,14 @@ h3 {
   margin-bottom: 10px;
   margin-top: 30px;
   background: #73AB79;
-  padding: 10px;
   border-radius: 20px;
   overflow: hidden;
+}
+
+h5 {
+  color: white !important;
+  font-size: 1rem !important;
+  font-weight: 300;
 }
 
 .toolSection {
@@ -125,7 +135,27 @@ h3 {
   color: #38563a;
   padding: 10px;
   background: white;
-  border-radius: 10px;
+}
+
+.dots {
+  opacity: 0.9;
+  color: rgb(218, 218, 218);
+  -webkit-text-stroke: 0.5px rgba(94, 94, 94, 0.613);
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  gap: 2px;
+}
+.dots span {
+  -webkit-text-stroke: 0px white;
 }
 
 .otherSkills {
@@ -167,18 +197,10 @@ h3 {
   font-size: 0.7rem;
 }
 
-.dots {
-  opacity: 0.9;
-  color: rgb(218, 218, 218);
-  -webkit-text-stroke: 0.5px rgba(94, 94, 94, 0.613);
-}
-.dots span {
-  -webkit-text-stroke: 0px white;
-}
-
 .tool .logo {
-  max-height: 1.2rem;
+  max-height: 2rem !important;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .hidden {

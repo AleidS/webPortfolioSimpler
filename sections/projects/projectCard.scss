@@ -5,37 +5,12 @@
 }
 
 .projectCard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    font-family: 'montserrat', sans-serif;
-
-    background: $accent-color-extra-extra-light;
-    // background: $card-background;
-    max-width: calc(min(1000px, 95vw));
-    border-radius: 10px;
-    overflow: hidden;
-    padding-top: 0px;
+    
     color: $card-text !important;
     // border: 2px solid $accent-color;
 
-    @media screen and (max-width:$mobileBreakpoint1) {
-        border-radius: 0px;
-    }
-
     @media screen and (min-aspect-ratio:$desktopMinAspect) {
         max-width: calc(min(1500px, 80vw));
-    }
-
-    .cardContents {
-        position: relative;
-        height: fit-content;
-        width: 100%;
     }
 
     @media screen and (max-width:$mobileBreakpoint1) {
@@ -48,52 +23,13 @@
 
 
     h2 {
-        width: 100%;
-        display: flex !important;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 0;
-        padding-left: 5vw;
-        padding-right: 5vw;
-        padding-top: 10px;
-        border-top-left-radius: 2vw;
-        border-top-right-radius: 2vw;
-        margin: 0px;
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: auto;
-        bottom: 100px;
         font-size: clamp(12pt, 1.8rem, 7vw);
-        font-weight: 400;
-
         .name {
-
-            margin: 0px;
-            height: 100%;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            text-align: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
             color: $text-color2;
         }
 
         .year {
-            /* background: rgba(144, 144, 150, 0.175); */
-            padding: 10px;
-            border-left: 0px solid rgba(255, 255, 255, 0.375);
-            margin: 0px;
-            height: 100%;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            text-align: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
+            
             color: $text-color2;
         }
     }
@@ -105,17 +41,7 @@
     }
 
     .projectTools {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        padding: 0px;
-        width: 100%;
-        margin: auto;
-        list-style: none;
-        margin-bottom: 0px;
-        padding: 5px;
+
         color: $text-color2;
         background: $accent-color;
 
@@ -133,21 +59,11 @@
     }
 
     .cardFooter {
-        width: 100% !important;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+  
         color: $text-color2 !important;
-        padding: 10px;
-        min-height: fit-content;
-        position: -webkit-sticky;
-        z-index: 20;
-        transition-duration: 2s;
+       
         background-position: auto;
-        height: fit-content;
-        padding: 1vw;
-        // border-bottom-left-radius: 1vw;
-        // border-bottom-right-radius: 1vw;
+      
         background: $accent-color-semidark;
 
         a {
@@ -155,4 +71,97 @@
             text-decoration: none;
         }
     }
+   
+     .textContainer {
+         color: $text-color !important;
+         width: 100%;
+         height: 100%;
+         // max-width: 600px;
+         z-index: 9990;
+         overflow: visible;
+         padding-top: 5px;
+
+
+         @media screen and (min-aspect-ratio:$desktopMinAspect) {
+             position: absolute;
+             z-index: 1000;
+             width: 25%;
+             right: 0px;
+             top: 0px;
+             background: $accent-color-semisemilight;
+         }
+     }
+
+     .textContainerInner {
+         padding: 10px;
+         text-align: center;
+         color: $accent-color-dark;
+         margin-bottom: 0px;
+         padding: 10px;
+         font-weight: 400;
+         height: 100%;
+         margin: auto;
+         margin-top: 5px;
+         overflow: visible;
+
+         @media screen and (max-width:$mobileBreakpoint1) {
+             padding: 5px;
+             margin: auto;
+             text-align: left;
+
+         }
+
+         @media screen and (min-aspect-ratio:$desktopMinAspect) {
+             background: $accent-color;
+            //  backdrop-filter: blur(5px);
+             color: white;
+             display: flex;
+             flex-direction: column;
+             align-items: flex-start;
+             justify-content: flex-start;
+             font-size: 1rem;
+             text-align: left;
+             font-weight: 500;
+         }
+
+
+         .innerText {
+             height: 100%;
+             max-width: calc(min(90%, 700px));
+             margin-left: auto;
+             margin-right: auto;
+             margin-top: 5px;
+         }
+
+         a {
+             color: $accent-color-dark;
+         }
+     }
+
+     .title {
+         display: block;
+         font-size: clamp(10pt, 1.0rem, 5vw);
+         font-weight: 600;
+         line-height: clamp(10pt, 1.0rem, 5vw) !important;
+         text-transform: capitalize;
+         padding: 0px;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 5px;
+         margin-bottom: 5px;
+         color: $accent-color-dark;
+         width: 90%;
+         top: 5px;
+
+         @media screen and (max-width:$mobileBreakpoint1) {
+             margin-top: 5px;
+         }
+
+         @media screen and (min-aspect-ratio:$desktopMinAspect) {
+             font-size: 1.4rem;
+             text-align: left;
+             margin-bottom: 15px;
+         }
+
+     }
 }

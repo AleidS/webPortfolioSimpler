@@ -28,7 +28,7 @@ body {
   max-width: 100vw !important;
   /* position:absolute; */
   overflow-x: hidden;
-  background-color: #eff5ef;
+  background-color: #ebf4eb;
 }
 
 /* Fixed bg doesn't work on IOS */
@@ -99,7 +99,7 @@ p {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffecec;
+  background: rgb(96, 144, 101);
 }
 
 #drawingApp {
@@ -114,7 +114,7 @@ p {
   top: 0px;
   max-width: 100vw !important;
   padding-top: 100px;
-  background: white;
+  background: #ebf4eb;
 }
 
 .menuOverlay {

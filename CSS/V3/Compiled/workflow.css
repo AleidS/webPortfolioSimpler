@@ -2,8 +2,12 @@
   padding: 0px;
   padding-top: 40px;
   padding-bottom: 40px;
-  background: white !important;
   color: black;
+  visibility: none;
+}
+
+.workflowtext {
+  border: 1px solid #73AB79;
 }
 
 .workflowtext div {

@@ -1,23 +1,27 @@
 <div class="welcome" id="welcome">
-    <div id="aboveFold">
-        <div data-aos="zoom-out" id="portraitHolder">
-            <img loading="lazy" class="lazy" id='portrait' alt="portrait" src="Images/welcome/portrait.jpg" />
-        </div>
-        <div id="titles">
-            <div id="title">
-                <div id="title1"></div>
-                <!-- Web development portfolio -->
+    <div class="rounded-[1rem] overflow-hidden w-full h-fit mt-40 !mb-96">
+        <div
+            class="bg-white !h-fit flex flex-row-reverse items-center justify-center lg:justify-between flex-wrap rounded-[3rem] lg:rounded-[4rem] p-4 min-h-80 w-full ">
+            <div data-aos="fade-right" id="" class="m-0 bg-none">
+                <img loading="lazy" class="lazy !m-0 !p-0 max-w-[300px] bg-none" id='portrait' alt=" portrait"
+                    src="Images/welcome/portrait.jpg" />
             </div>
-            <div id="subtitle">
-                <!-- Aleid Oonk -->
+            <div id="titles" class=" rounded-lg p-4 m-0 flex flex-col justify-center align-center w-zie-scss">
+                <div id="title">
+                    <div id="title1"></div>
+                    <!-- Web development portfolio -->
+                </div>
+                <div id="subtitle">
+                    <!-- Aleid Oonk -->
+                </div>
             </div>
-        </div>
 
 
+        </div>
     </div>
-    <div class="welcomeContainer">
-        <div class="imgAndText">
-            <h2 id="hello" data-aos="fade-down">
+    <div class="welcomeContainer bg-white">
+        <div class="imgAndText zieScss">
+            <h2 id="hello" data-aos="fade-down" class="!text-3xl">
                 <span class='EN'>
                     Hello!
                     <i data-aos="rotate" class="fa-solid fa-hand" style="transform:rotateZ(20deg)"></i>
@@ -32,45 +36,36 @@
             <div id="welcomeText">
 
                 <span class='EN'>
-                    I'm Aleid, a starting web developer, with an interest in design,
-                    and recent msc.
+                    I'm Aleid, a junior front-end web developer, with an interest in UX research and design.
+                    <!-- and recent msc.
                     <a href="#edu"> graduate</a> Human Technology Interaction (TU Eindhoven).
+                    -->
                     <br /><br />
-                    I am no longer looking for a job or projects,
-                    but if you have any specific questions related to web design/web development,
-                    or problems you've run into, don't hesitate to reach out!
+                    For the past 6 months, I've worked as a front-end developer, with Vue.js,
+                    Tailwind CSS, Javascript and more.
+                    From February onwards, I'm available for new projects.
                     <br /><br />
-                    Would like to connect to fellow designers/developers as well! you can find me on Behance/X or drop a
-                    mail:)
+                    Below you find the websites and designs I made before this.
+
                 </span>
                 <span class='NL'>
-                    Mijn naam is Aleid, een beginnend web ontwikkelaar, met interesse in design,
-                    en recent
-                    <a href="#edu">afgestudeerd</a> aan de master Human Technology Interaction (TU Eindhoven).
-
+                    Mijn naam is Aleid, een junior front-end web ontwikkelaar, met interesse in UX research en design.
+                    <!-- In 2023 ben ik
+                    <a href="#edu">afgestudeerd</a> aan de TU Eindhoven (Human Technology Interaction).
+                        -->
                     <br /><br />
-                    Op dit moment ben ik niet meer op zoek naar werk of projecten,
-                    maar als je tegen dingen aanloopt bij web design / web development,
-                    help ik je graag even.
+                    De afgelopen 6 maanden heb ik met veel plezier gewerkt als front-end developer, met onder andere
+                    Vue.js,
+                    Tailwind CSS en Javascript. Vanaf Februari ben ik beschikbaar voor nieuwe projecten.
                     <br /><br />
-                    Je vind me ook op X en Behance! Altijd leuk om andere ontwikkelaars te leren kennen en te zien wat
-                    ze maken:)
+                    Hieronder vind je de websites die ik voor die tijd heb gemaakt.
 
                 </span>
             </div>
-            <div class='welcomeLinks'>
-                <a href="<?php echo $urlWebsite ?>/aboutMe?lang=nl&reduce=false">
-                    <span class='EN'> More about me</span>
-                    <span class='NL'> Meer over mij</span>
-                </a>
-                <a href="#contact">
-                    <span class='EN'> Contact</span>
-                    <span class='NL'> Contact</span>
-                </a>
-            </div>
+
 
         </div>
-        <div class="welcomeToolsSkills">
+        <div class="welcomeToolsSkills bg-white" data-aos="fade-right">
             <div class='welcomeTitle'>
                 <span class='EN'> Skills: </span>
                 <span class='NL'> Vaardigheden:</span>
@@ -105,28 +100,29 @@
                 <span class='NL'> Tools waar ik mee kan werken:</span>
 
             </div>
-            <div class='logoContainer'>
+            <div class='logoContainer bg-white'>
                 <img loading="lazy" class="logo lazy" alt="logo" src="Images/logos/HTML5_logo_wikipedia.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/CSS3_logo_wikipediapng.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Sass_logo.png" />
-                <img loading="lazy" style="filter:saturate(0%)brightness(70%)contrast(120%);" class="logo Lazy"
-                    alt="logo" src="Images/logos/Javascript-logo-name.png" />
+                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Javascript-logo-name.png" />
+                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/vuejs.png" />
                 <img loading="lazy" style="filter:saturate(0%)brightness(50%)contrast(120%);" class="logo Lazy"
                     alt="logo" src="Images/logos/react-icon-name.png" />
-                <img loading="lazy" style="transform:scale(0.8);" class="logo Lazy" alt="logo"
-                    src="Images/logos/PHP-logo.svg.png" />
+                <img loading=" lazy" style="transform:scale(0.8);" class="logo Lazy" alt="logo"
+                    src="Images/logos/tailwind.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/photoshop-logo-name.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/figma-logo-name.png" />
-                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/python-logo-name.svg" />
+                <!-- <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/python-logo-name.svg" /> -->
                 <img loading="lazy" style="transform:scale(0.7);" class="logo Lazy" alt="logo"
                     src="Images/logos/Git-logo-name.png" />
             </div>
 
 
-            <a class='welcomeLink' href="<?php echo $urlWebsite ?>/tools">
+            <a class='welcomeLink bg-primary-400 !text-white rounded-md p-2 px-4 '
+                href="<?php echo $urlWebsite ?>/tools">
 
-                <span class='EN'> And more! Click to view</span>
-                <span class='NL'> En meer! Klik om te bekijken </span>
+                <span class='EN text-white'> And more! Click to view</span>
+                <span class='NL text-white'> En meer! Klik om te bekijken </span>
             </a>
 
 

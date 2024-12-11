@@ -106,7 +106,7 @@ p {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #ffecec;
+    background: $accent-color-semidark;
 }
 
 #drawingApp {
@@ -121,7 +121,7 @@ p {
     top: 0px;
     max-width: 100vw !important;
     padding-top: 100px;
-    background: white;
+    background: $body;
 }
 
 .menuOverlay {

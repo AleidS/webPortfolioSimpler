@@ -1,26 +1,29 @@
 <div id="projects">
 </div>
-<div class="sectionTitle">
-    <span class='EN'> Projects</span>
-    <span class='NL'> Projecten</span>
+<div style=" width:fit-content; margin:auto; border-radius:1rem;">
+    <div class="sectionTitle" data-aos="flip-up">
+        <span class='EN'> Projects</span>
+        <span class='NL'> Projecten</span>
 
-</div>
+    </div>
 
-<div class="story">
+    <div class="bg-white rounded-[1rem]">
+        <div class="story">
 
-    <span class='EN'>
-        My most elaborate project so far has been an energy saving recommender
-        system (Master thesis project), in which users could obtain personalized saving
-        advice:
-    </span>
-    <span class='NL'>
-        Het meest uitgebreide project waar ik tot nu toe aan gewerkt heb,
-        was een energiebesparingshulp (Afstudeerproject master),
-        waar gebruikers gepersonalizeerde bespaaradviezen konden krijgen; </span>
+            <span class='EN'>
+                The most elaborate project I worked on untill 2023 was an energy saving recommender
+                system (Master thesis project), in which users could obtain personalized saving
+                advice:
+            </span>
+            <span class='NL'>
+                Het meest uitgebreide project waar ik tot 2023 aan gewerkt heb,
+                was een energiebesparingshulp (Afstudeerproject master),
+                waar gebruikers gepersonalizeerde bespaaradviezen konden krijgen; </span>
 
-</div>
+        </div>
 
-<?php
+
+        <?php
 $projectName = "Saving Aid";
 $projectNameNL = "Besparingshulp";
 $year = '2023';
@@ -146,45 +149,50 @@ $slideObj = array(
 include("projectCardTemplate.php");
 
 ?>
-<div class="story">
+        <div class="story">
 
-    <span class='EN'>
-        <strong>
-            <a href="https://react.dev/" target="_blank">React</a>
-        </strong> allows for easily re-using code, which is useful when you have repeating layouts like energy saving
-        measures
-        or lots of pages (a news website for example). It also allows you to quickly change things when necessary.
-        <br />
-        <br />
-        I learnt React in 2022 via
+            <span class='EN'>
+                <strong>
+                    <a href="https://react.dev/" target="_blank">React</a>
+                </strong> allows for easily re-using code, which is useful when you have repeating layouts like energy
+                saving
+                measures
+                or lots of pages (a news website for example). It also allows you to quickly change things when
+                necessary.
+                <br />
+                <br />
+                I learnt React in 2022 via
 
-        <a href="https://v2.scrimba.com/learn-react-c0e">Scrimba</a> and made a
+                <a href="https://v2.scrimba.com/learn-react-c0e">Scrimba</a> and made a
 
-        <a href="https://www.aleidsuzan.com/recipes" target="_blank"> recipe website </a> and
-        <a href="https://www.aleidsuzan.com/artportfolio" target="_blank"> art portfolio </a> to
-        practice this
-        framework:</span>
-    <span class='NL'>
-        <!-- <i class='fa-solid fa-info-circle'></i> -->
-        <strong>
-            <a href="https://react.dev/" target="_blank">React</a>
-        </strong> maakt het makkelijk om code op meerdere plekken te gebruiken, doormiddel van components.
-        Dit is handig als
-        je layouts hebt die zich vaak herhalen,
-        bijvoorbeeld op een nieuwswebsite, of bij recepten. Het maakt het ook makkelijk om dingen later weer aan te
-        passen.
-        <br />
-        <br />
-        Ik heb React in 2022 geleerd via
-        <a href="https://v2.scrimba.com/learn-react-c0e">Scrimba</a>, en heb daarna een
-        <a href="https://www.aleidsuzan.com/recipes" target="_blank">receptenwebsite</a> en
-        <a href="https://www.aleidsuzan.com/artportfolio" target="_blank">kunst portfolio</a>
-        gemaakt om dit framework goed onder de knie te krijgen.
+                <a href="https://www.aleidsuzan.com/recipes" target="_blank"> recipe website </a> and
+                <a href="https://www.aleidsuzan.com/artportfolio" target="_blank"> art portfolio </a> to
+                practice this
+                framework. During my first job I worked with Vue.js, a comparable framework.</span>
+            <span class='NL'>
+                <!-- <i class='fa-solid fa-info-circle'></i> -->
+                <strong>
 
-    </span>
+                    <a href="https://react.dev/" target="_blank">React</a>
+                </strong> maakt het makkelijk om code op meerdere plekken te gebruiken, doormiddel van components.
+                Dit is handig als
+                je layouts hebt die zich vaak herhalen, en het maakt het makkelijker om dingen later weer aan
+                te
+                passen.
+                <br />
+                <br />
+                Ik heb React in 2022 geleerd via
+                <a href="https://v2.scrimba.com/learn-react-c0e">Scrimba</a>, en heb daarna een
+                <a href="https://www.aleidsuzan.com/recipes" target="_blank">receptenwebsite</a> en
+                <a href="https://www.aleidsuzan.com/artportfolio" target="_blank">kunst portfolio</a>
+                gemaakt om dit framework goed onder de knie te krijgen. Tijdens mijn eerste baan heb ik gewerkt met
+                Vue.js,
+                een
+                vergelijkbaar framework.
+            </span>
 
-</div>
-<?php
+        </div>
+        <?php
 $projectName = "Recipes";
 $projectNameNL = "Recepten";
 $projectID = "recipeApp";
@@ -333,25 +341,23 @@ $slideObj = array(
 
 ?>
 
-<div class=" story">
+        <div class=" story">
 
-    <span class='EN'>
-        In 2021, I made a drawing app to learn the basics of JavaScript.
-        I tried to follow best coding practices, following a software development course.
-        Code can be found on Github.
-    </span>
-    <span class='NL'>
-        In 2021 heb ik een teken-app gemaakt om de basis van JavaScript te leren.
-        Daarin heb ik geprobeerd om 'best code practices' te volgen (bv. functies gebruiken ipv code herhalen, logische
-        namen gebruiken), aan de hand van een vak over softwareontwikkeling.
-        De code staat op Github.
-        <br /> <br />
-        Ik probeer er altijd voor te zorgen dat de code duidelijk is, met comments en documentatie waar nodig,
-        zodat iemand anders (of ikzelf) er in de toekomst ook nog wat aan heeft.
-    </span>
+            <span class='EN'>
+                In 2021, I made a drawing app to learn the basics of JavaScript.
+                I tried to follow best coding practices, following a software development course.
+            </span>
+            <span class='NL'>
+                In 2021 heb ik een teken-app gemaakt om de basis van JavaScript te leren.
+                Daarin heb ik geprobeerd om 'best code practices' te volgen, aan de hand van een vak over
+                softwareontwikkeling.
+                <br /> <br />
+                Ik probeer er altijd voor te zorgen dat de code duidelijk is, met comments en documentatie waar nodig,
+                zodat iemand anders (of ikzelf) er in de toekomst ook nog wat aan heeft.
+            </span>
 
-</div>
-<?php
+        </div>
+        <?php
 
 $projectName = "Drawing App";
 $projectNameNL = 'Teken-app';
@@ -402,27 +408,30 @@ include("projectCardTemplate.php");
 
 ?>
 
-<div class="story">
+        <div class="story">
 
-    <span class='EN'>
-        I also enjoy creating out-of-the-box designs and experimenting with different techniques.
-        The first version of this portfolio was 3D animated with blender animations:
-        (<a href="http://www.aleidsuzan.com/portfolioOld" target="_blank">View here</a>)
-        <br /><br />
-        When you have ideas about a unique design or element on a website, I gladly will explore if and how this would
-        be possible!
-    </span>
-    <span class='NL'>
-        Ook vind ik het leuk om out-of-the-box ontwerpen te maken en nieuwe tools te leren.
-        De eerste versie van dit portfolio had bijvoorbeeld 3D animaties van de projecten, gemaakt met Blender
-        (<a href="http://www.aleidsuzan.com/portfolioOld" target="_blank">Bekijk hier</a>)
-        <br /></br>
-        Als je ideeën hebt voor een uniek element op de website, denk ik graag mee over hoe dat te bereiken.
-    </span>
+            <span class='EN'>
+                I also enjoy creating out-of-the-box designs and experimenting with different techniques.
+                The first version of this portfolio was 3D animated with blender animations:
+                <!-- (<a href="http://www.aleidsuzan.com/portfolioOld" target="_blank">View here</a>) -->
+                <br /><br />
+                When you have ideas about a unique design or element on a website, I gladly will explore if and how this
+                would
+                be possible!
+            </span>
+            <span class='NL'>
+                Ook vind ik het leuk om out-of-the-box ontwerpen te maken en nieuwe tools te leren.
+                De eerste versie van dit portfolio had bijvoorbeeld 3D animaties van de projecten, gemaakt met Blender
+                (Zie
+                hieronder)
+                <!-- (<a href="http://www.aleidsuzan.com/portfolioOld" target="_blank">Bekijk hier</a>) -->
+                <br /></br>
+                Als je ideeën hebt voor een uniek element op de website, denk ik graag mee over hoe dat te bereiken.
+            </span>
 
 
-</div>
-<?php
+        </div>
+        <?php
 $projectName = "3D Portfolio";
 $projectNameNL = "3D Portfolio";
 $year = '2023';
@@ -467,10 +476,8 @@ $slideObj = array(
         'imgName' => 'webPortfolio.png',
         'vidName' => "3dPortfolio1.mp4",
         'thumbnailFrame' => 3,
-        'text' => 'First version of this portfolio with 3D animations. 
-            Animations were made with Blender 3D software. Use the link below to visit.',
-        'textNL' => 'Eerste versie van dit portfolio met 3D animaties. 
-        Gebruik de link hieronder om te bezoeken',
+        'text' => '',
+        'textNL' => '',
     ),
     // array(
     //     'title' => 'Saving aid',
@@ -487,76 +494,79 @@ $slideObj = array(
         'imgName' => 'webPortfolio.png',
         'vidName' => "3dPortfolio2.mp4",
         'thumbnailFrame' => 3,
-        'text' => 'Book was made with a tutorial',
-        'textNL' => 'Boek/tijdschrift was gemaakt met een tutorial, rest wederom in Blender',
+         'text' => '',
+        'textNL' => '',
     ),
     array(
-        'title' => 'Art gallery',
-        'titleNL' => 'KunstGallerij',
+        'title' => 'Drawing app',
+        'titleNL' => 'Teken-app',
         'imgName' => 'webPortfolio.png',
-        'vidName' => "3dPortfolio2.mp4",
+        'vidName' => "3dPortfolio3.mp4",
         'thumbnailFrame' => 3,
-        'text' => 'Easle from a library, canvas just a simple square with video fill',
-        'textNL' => 'Schildersezel ergens gedownload, canvas was een simpele rechthoek met video-fill',
+         'text' => '',
+        'textNL' => '',
     ),
 
 );
 // Removed due to too many projects, and it's more fun to view this yourself.
-// include("projectCardTemplate.php");
+ include("projectCardTemplate.php");
 ?>
 
-<div class="story">
-
-    <br /><br /><br />
-    <h3 class='sectionTitle'>
-        Figma & Design
-    </h3>
-    <span class='EN'>
-        Lately, I've been reading up on UI design and Figma.
-        <br />
-        <br />
-
-        <!-- <i class='fa-solid fa-info-circle'></i> -->
-
-        <strong>
-            <a href="https://www.figma.com/" target="_blank">Figma</a>
-        </strong>
-        is a useful tool to design (different)
-        interface options.
-        This can be the whole design, but also a
-        wireframe that just
-        depicts positions and sizes of elements.
-        <br /><br />
-        This allows you to discuss and alter various design options before they are implemented.
-        <br /><br />
-        These files can also be used to later test new designs!
-    </span>
-    <span class='NL'>
-        De laatste tijd heb ik me meer verdiept in UI design en Figma.
-        <br /><br />
-        <!-- <i class='fa-solid fa-info-circle'></i> -->
-        <strong>
-            <a href="https://www.figma.com/" target="_blank">Figma</a>
-        </strong> is een handige tool voor het ontwerpen
-        van
-        (verschillende)
-        interfaces.
-        Dit kan het volledige ontwerp zijn, maar ook bijvoorbeeld een 'wireframe' waarin je alleen de positie en grootte
-        aangeeft van verschillende elementen.
-
-        <br /><br />
-
-        Zo kun je makkelijker overleggen over een design en dingen aanpassen, voor je deze gaat uitwerken met code.
-
-        <br /><br />
+        <div class="story">
 
 
-    </span>
+            <h3 class='sectionTitle'>
+                Figma & Design
+            </h3>
+            <span class='EN'>
+                Lately, I've been reading up on UI design and Figma.
+                <br />
+                <br />
+
+                <!-- <i class='fa-solid fa-info-circle'></i> -->
+
+                <strong>
+                    <a href="https://www.figma.com/" target="_blank">Figma</a>
+                </strong>
+                is a useful tool to design (different)
+                interface options.
+                This can be the whole design, but also a
+                wireframe that just
+                depicts positions and sizes of elements.
+                <br /><br />
+                This allows you to discuss and alter various design options before they are implemented.
+                <br /><br />
+                These files can also be used to later test new designs!
+            </span>
+            <span class='NL'>
+                De laatste tijd heb ik me meer verdiept in UI design en Figma.
+                <br /><br />
+                <!-- <i class='fa-solid fa-info-circle'></i> -->
+                <strong>
+                    <a href="https://www.figma.com/" target="_blank">Figma</a>
+                </strong> is een handige tool voor het ontwerpen
+                van
+                (verschillende)
+                interfaces.
+                Dit kan het volledige ontwerp zijn, maar ook bijvoorbeeld een 'wireframe' waarin je alleen de positie en
+                grootte
+                aangeeft van verschillende elementen.
+
+                <br /><br />
+
+                Zo kun je makkelijker overleggen over een design en dingen aanpassen, voor je deze gaat uitwerken met
+                code.
+
+                <br /><br />
 
 
-</div>
+            </span>
 
-<?php
+
+        </div>
+
+
+        <?php
 $projectName = "Figma Designs";
 $projectNameNL = "Figma Designs";
 $projectID = "figmaDesigns";
@@ -593,14 +603,6 @@ $slideObj = array(
 
     ),
     array(
-        'title' => 'Cake recipe generator (concept)',
-        'titleNL' => 'Cakerecepten generator (concept)',
-        'imgName' => 'FigmaCakeMaker.png',
-        'text' => 'Website to build a cake and then get the recipe. <a href="https://www.behance.net/gallery/194620483/Cake-Maker-App"> View project and process </a>',
-        'textNL' => 'Website waar je een cake kan samenstellen en dan het recept krijgt. <a href="https://www.behance.net/gallery/194620483/Cake-Maker-App"> Bekijk project en proces  </a>',
-
-    ),
-    array(
         'title' => 'low fidelity design',
         'titleNL' => '\'low fidelity\' design',
         'imgName' => 'FigmaCakeMakerWireframe.png',
@@ -608,6 +610,15 @@ $slideObj = array(
         'textNL' => 'Low-fi design voor de Cake Maker app. <a href="https://www.behance.net/gallery/194620483/Cake-Maker-App"> Bekijk project en proces  </a>',
 
     ),
+    array(
+        'title' => 'Cake recipe generator (concept)',
+        'titleNL' => 'Cakerecepten generator (concept)',
+        'imgName' => 'FigmaCakeMaker.png',
+        'text' => 'Website to build a cake and then get the recipe. <a href="https://www.behance.net/gallery/194620483/Cake-Maker-App"> View project and process </a>',
+        'textNL' => 'Website waar je een cake kan samenstellen en dan het recept krijgt. <a href="https://www.behance.net/gallery/194620483/Cake-Maker-App"> Bekijk project en proces  </a>',
+
+    ),
+    
     array(
         'title' => 'Green product search (concept)',
         'titleNL' => 'Duurzame producten zoektool (concept)',
@@ -628,5 +639,37 @@ $slideObj = array(
     ),
 );
 
+
 include("projectCardTemplate.php");
 ?>
+
+        <div class="story">
+
+            <h3 class='sectionTitle'>
+                2024
+            </h3>
+            <span class='EN'>
+                During my work, I've learned many new things! Amongst others, a whole new framework (Vue), how to
+                collaborate
+                with back-end developers,
+                how to structure code more logically (e.g. separate complex logic from the components, so you can also
+                re-use
+                this). I even learned
+                to appreciate Tailwind, to an extent:)
+
+            </span>
+            <span class='NL'>
+                Het afgelopen jaar heb ik veel bijgeleerd, onder andere een nieuw framework (Vue.js), hoe effectief
+                samen te
+                werken
+                met back-end developers,
+                hoe je code logischer kan structureren (bijv. door complexe logica apart houden van de components).
+                Zelfs
+                Tailwind ben ik enigsinds gaan waarderen:).
+                <br /> <br />
+            </span>
+
+
+        </div>
+    </div>
+</div>

@@ -1,5 +1,6 @@
 @use './main/variables' as *;
 
+
 #menuContainer {
     height: fit-content;
     width: fit-content;
@@ -57,6 +58,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 300 !important;
     color: $text-color2 !important;
+    a{
+        color:white!important;
+    }
 }
 
 #ao {

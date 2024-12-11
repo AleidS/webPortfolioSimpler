@@ -8,7 +8,7 @@
         <span class='EN'> Courses taken </span>
         <span class='NL'> Gevolgde vakken </span>
     </h2>
-    <div class="sectionText courses">
+    <div class="sectionText courses bg-white">
         <h3> ICT </h3>
         <strong>• Creative programming</strong> (Bsc.)
         <small>
@@ -189,8 +189,9 @@
     </div>
 
     <br /><br />
-    <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#welcome" class="navbar-brand">
+    <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#welcome" class="m-auto">
         <!-- <i class="fa-solid fa-home"></i> -->
+        test
         <span class="EN">back to Homepage</span>
         <span class="NL">Terug naar Home</span>
     </a>

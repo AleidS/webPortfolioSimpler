@@ -11,14 +11,22 @@ $version = 'V3'
 ?>
 
     <head>
+
         <!-- Auto refresh -->
         <!-- <script type="text/javascript" src="https://livejs.com/live.js"></script> -->
         <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!-- Bootstrap -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="CSS/V3/output.css" type="text/css">
+
+        <!-- Bootstrap -->
+
+
+
+
         <!-- Fonts -->
         <link
             href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Itim&family=Julius+Sans+One&family=Karla:wght@100;300;400&family=Nothing+You+Could+Do&family=Overlock:ital@0;1&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
@@ -82,6 +90,7 @@ $version = 'V3'
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
     </head>
 
@@ -132,9 +141,9 @@ $version = 'V3'
                 $lang = 'nl';
 
             // For online
-            $urlWebsite = "https://www.aleidsuzan.com/portfolio/";
+            // $urlWebsite = "https://www.aleidsuzan.com/portfolio/";
             // For local: (uncomment)
-            // $urlWebsite = "http://localhost/3d_portfolio%20-%20simple/";
+            $urlWebsite = "http://localhost/3d_portfolio%20-%20simple/";
 
 
             include "sections/menu.php";
@@ -149,18 +158,18 @@ $version = 'V3'
             <?php
             if ($base == 'tools')
                 include "sections/tools.php";
-            elseif ($base == 'workflow')
-                include "sections/workflow.php";
+            // elseif ($base == 'workflow')
+            //     include "sections/workflow.php";
             elseif ($base ==  'info')
                 include "sections/info.php";
-            elseif ($base == 'coursesTaken')
-                include "sections/coursesTaken.php";
-            elseif ($base == 'aboutMe')
-                include "sections/aboutMe.php";
+            // elseif ($base == 'coursesTaken')
+            //     include "sections/coursesTaken.php";
+            // elseif ($base == 'aboutMe')
+            //     include "sections/aboutMe.php";
             else {
                 include "sections/welcome.php";
                 include "sections/projects/projects.php";
-                include "sections/education.php";
+                // include "sections/education.php";
                 include "sections/contact.php";
             }
         } else {
@@ -177,15 +186,15 @@ $version = 'V3'
 
             include "sections/welcome.php";
             include "sections/projects/projects.php";
-            include "sections/education.php";
+            // include "sections/education.php";
             include "sections/contact.php";
-            include "sections/tools.php";
+            // include "sections/tools.php";
 
-            include "sections/workflow.php";
+            // include "sections/workflow.php";
 
             include "sections/info.php";
 
-            include "sections/coursesTaken.php";
+            // include "sections/coursesTaken.php";
         }
 
         ?>

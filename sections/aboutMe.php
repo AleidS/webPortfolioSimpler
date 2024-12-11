@@ -22,16 +22,17 @@
 
                     <p>
                         A little bit more about me.
-                        I'm Aleid, grew up in the beautiful city of Deventer, and moved to Eindhoven for my studies.
+                        I'm Aleid, grew up in Deventer, and moved to Eindhoven for my studies.
                         I
-                        graduated past summer, and have since worked on a conference paper, journal paper,
-                        and I've been working on this portfolio and expanding on it.
+                        graduated in 2023 and have since worked on a conference paper, a journal paper,
+                        this portfolio and expanding on it, and since July 2024 I've been working
+                        as a front-end developer.
                     </p>
                     <p>
-                        Web development is something that has interested me for a long time,
-                        and in 2019 I started to study it more seriously (HTML, CSS, JavaScript),
-                        next to my studies at TU/e.
-                        I found that I could apply a lot of things we learned at TU/e, directly to web
+                        Web development is something that has interested me for quite a while,
+                        and in 2019 I started with learning some HTML, CSS, and Javascript. Later I learned React and
+                        some Figma basics.
+                        A lot of things we learned at TU/e, I found were also directly applicable to web
                         design (coding, software development, version control, user research, a bit of design).
                     </p>
                     <div class='videoContainer'>
@@ -39,44 +40,39 @@
                             <source src="Images/firstWebsite2.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <i role="button" id='<?php echo ($projectID . $key) ?>' onClick='playVideo(this.id)' class='playbutton fa-solid fa-play'>
+                        <i role="button" id='<?php echo ($projectID . $key) ?>' onClick='playVideo(this.id)'
+                            class='playbutton fa-solid fa-play'>
                         </i>
                     </div>
 
 
                     <p>
                         I'd say I'm creative and hard-working, and I enjoy solving complex tasks and figuring out
-                        how something can be made. I am good at planning, and a decent communicator.
+                        how something can be made. Next to that, I enjoy learning new things,
+                        wether that be webdesign, drawing, photography, or
+                        learning new recipes. I care about good planning and good communication as well. <br />
                         <br />
                         <img src="Images/pics5.png" alt="SEO" loading="lazy" class="lazy" />
                         Pictures or it didn't happen :)
-                        <br /><br />
-                        Next to that, I enjoy learning new things,
-                        wether that be webdesign, drawing, new recipes, or
-                        learning new recipes.
+                        <br />
                     </p>
                     <p>
-                        In terms of webdesign, I like to create aesthetically pleasing interfaces, but most of all
+                        In terms of webdesign, I like to create interfaces that look good, but most of all
                         ones
                         that help people achieve their goals within a website. They should be clear and accessible.
-                    </p>
-                    <p>
-                        I'm looking to join an existing team, and hopefully learn from more experienced
-                        developers/designers/content creators.
-                        Because web-development is such a broad topic, I think when collaborating you can make
-                        better
-                        products, and learn from eachother as well.
+                        As web-development is such a broad field, I think when
+                        collaborating you can make better products, and learn from eachother as well.
                     </p>
                     <p>
                         In this portfolio you find some projects I've worked on. If you have any questions,
                         suggestions,
                         or
                         other remarks,
-                        don't hesitate to reach out! Feedback on this portfolio is also appreciated. Contact info
-                        can be
-                        found at the
-                        bottom of the homepage,
-                        or in the sidebar.
+
+                        don't hesitate to <a href="<?php echo $urlWebsite ?>?lang=en&reduce=false#contact">
+                            <!-- <i class="fa-solid fa-home"></i> -->
+                            reach out!
+                        </a> Feedback on this portfolio is also appreciated.
                     </p>
                 </span>
                 <span class='NL'>
@@ -84,9 +80,10 @@
                         Eerst even voorstellen. Mijn naam is Aleid, ik kom oorspronkelijk uit Deventer, en ben voor
                         mijn
                         studie naar Eindhoven gegaan.
-                        Afgelopen zomer ben ik afgestudeerd, en sindsdien ben ik bezig geweest met het meeschrijven aan
+                        In 2023 ben ik afgestudeerd, en sindsdien ben ik bezig geweest met het meeschrijven aan
                         een
-                        conference paper, een journal paper, en met het maken (+ vullen) van dit portfolio.
+                        conference paper, een journal paper, en met het maken (+ vullen) van dit portfolio. Sinds
+                        Juli 2024 ben ik aan het werk als front-end developer.
                     </p>
                     <p>
                         Web development is iets wat me altijd al aangesproken heeft, en in 2019 ben ik echt begonnen
@@ -103,19 +100,16 @@
                             <source src="Images/firstWebsite2.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <i role="button" id='<?php echo ($projectID . $key) ?>' onClick='playVideo(this.id)' class='playbutton fa-solid fa-play'>
+                        <i role="button" id='<?php echo ($projectID . $key) ?>' onClick='playVideo(this.id)'
+                            class='playbutton fa-solid fa-play'>
                         </i>
                     </div>
                     <small>Eerste website uit 2019 (niet mijn illustraties)</small>
                     <p>
                         Ik zou mezelf omschrijven als creatief en een harde werker, en vind het leuk om puzzels op
-                        te
-                        lossen
-                        en te kijken hoe iets bereikt kan worden. Nieuwe dingen leren vind ik ook leuk,
-
+                        te lossen en te kijken hoe iets bereikt kan worden. Nieuwe dingen leren vind ik ook leuk,
                         of dat nu webdesign, fotografie, tekenen, of een leuk nieuw recept is. Verder let ik goed op
-                        de
-                        planning, en vind ik goede communicatie belangrijk.
+                        de planning, en vind ik goede communicatie belangrijk.
                         <br />
                         <img src="Images/pics5.png" alt="SEO" loading="lazy" class="lazy" />
                         Pictures or it didn't happen :)
@@ -127,21 +121,20 @@
 
                     </p>
                     <p>
-                        Het lijkt me leuk om me bij een bestaand team aan te sluiten en ook te leren van meer
-                        ervaren
-                        ontwikkelaars en designers.
-                        Ik denk ook dat web-development zoiets
-                        breeds is, dat je met een team meer kan bereiken dan alleen,
+                        Het liefst werk ik in een team, omdat web-development zoiets
+                        breeds is, dat je met samen veel meer kan bereiken dan alleen,
                         en je zo ook weer van elkaar kunt leren.
                     </p>
                     <p>
                         In dit portfolio vind je een paar projecten waar ik aan heb gewerkt. Mocht je hierover
                         vragen,
-                        opmerkingen of feedback hebben, dan hoor ik dat graag! Contactinformatie vind je in de
-                        sidebar
-                        of
-                        onderaan de
-                        homepage
+                        opmerkingen of feedback hebben,
+                        <a href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#contact">
+                            <!-- <i class="fa-solid fa-home"></i> -->
+                            dan hoor ik dat graag!
+                        </a>
+
+
                     </p>
 
                 </span>

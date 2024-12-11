@@ -1,4 +1,4 @@
- <div class="socialsSide">
+ <div class="socialsSide !text-white">
      <!-- <a href="https://twitter.com/aleidsuzan" target="_blank"><i class="fa-brands fa-x-twitter"></i></a> -->
      <a href="https://www.linkedin.com/in/aleido" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
      <a href="https://www.behance.net/aleidsuzan" target="_blank"><i class="fa-brands fa-behance"></i></a>
