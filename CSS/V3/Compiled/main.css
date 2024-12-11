@@ -6,6 +6,10 @@
   font-family: "montserrat", sans-serif;
 }
 
+a {
+  text-decoration: underline;
+}
+
 html {
   font-size: 2;
   /* overflow-x: hidden; */

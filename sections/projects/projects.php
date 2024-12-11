@@ -168,7 +168,7 @@ include("projectCardTemplate.php");
                 <a href="https://www.aleidsuzan.com/recipes" target="_blank"> recipe website </a> and
                 <a href="https://www.aleidsuzan.com/artportfolio" target="_blank"> art portfolio </a> to
                 practice this
-                framework. During my first job I worked with Vue.js, a comparable framework.</span>
+                framework. During the past half year, I've worked with Vue.js, a comparable framework.</span>
             <span class='NL'>
                 <!-- <i class='fa-solid fa-info-circle'></i> -->
                 <strong>
@@ -185,7 +185,7 @@ include("projectCardTemplate.php");
                 <a href="https://v2.scrimba.com/learn-react-c0e">Scrimba</a>, en heb daarna een
                 <a href="https://www.aleidsuzan.com/recipes" target="_blank">receptenwebsite</a> en
                 <a href="https://www.aleidsuzan.com/artportfolio" target="_blank">kunst portfolio</a>
-                gemaakt om dit framework goed onder de knie te krijgen. Tijdens mijn eerste baan heb ik gewerkt met
+                gemaakt om dit framework goed onder de knie te krijgen. Het afgelopen jaar heb ik gewerkt met
                 Vue.js,
                 een
                 vergelijkbaar framework.
