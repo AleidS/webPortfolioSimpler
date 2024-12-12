@@ -9,3 +9,4 @@ Images/own/
 /fiveserver.config.js
 /videos/
 /.gitignore
+node_modules
