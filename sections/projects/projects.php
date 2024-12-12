@@ -7,7 +7,7 @@
 
     </div>
 
-    <div class="!bg-none relative rounded-[1rem] shadow-md max-w-[99vw] w-[1000px]">
+    <div class="!bg-none relative rounded-[1rem] max-w-[99vw] w-[1000px]">
         <div class="absolute top-0 left-0 sm:left-[2.5%] h-full w-full sm:w-[95%] m-auto bg-white rounded-3xl"></div>
 
         <div class="story">

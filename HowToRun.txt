@@ -24,7 +24,8 @@ open browser at localhost/foldername
 Because of not using five server, changes don't immediately show.
 To easily clear cache, the 'clear cache' extension in chrome/edge was a lifesaver
 
-
+#deploying:
+With cpanel git version control -> use .cpanel.yml and acceptance branch
 
 # SASS/SCSS
 
