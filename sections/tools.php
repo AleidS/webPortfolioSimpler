@@ -120,7 +120,7 @@
                             Vue.js (3) <br />
                             <small>(Composition API + <br /> Vue Router)</small>
                             <span class="dots">
-                                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/vue.png" />
+                                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Vue.png" />
                                 <span class="dot" style="color:#52C090">●●●</span>●●<br />
                             </span>
                         </div>
@@ -428,7 +428,7 @@
                     <div class="tool">
                         Laravel
                         <span class="dots">
-                            <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/laravel.png" />
+                            <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Laravel.png" />
                             <span class="dot" style="color:#FF3E30">●</span>●●●●<br />
                         </span>
                     </div>
