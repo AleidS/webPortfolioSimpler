@@ -184,7 +184,7 @@
                         <h5>
                             <span class='EN'> Making posters (study committee), editing photos, hobby Figma-projects
                             </span>
-                            <span class='NL'> Posters maken (studie commissie), fotos bewerken, hobby Figma-projecten
+                            <span class='NL'> Posters maken (studie commissie), foto's bewerken, hobby Figma-projecten
                             </span>
 
 

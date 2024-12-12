@@ -25,8 +25,8 @@
             Deze website is gemaakt met <strong>HTML, CSS/SCSS, Javascript, Tailwind, Bootstrap (menu), en PHP </strong>
             (voor
             hergebruiken code,
-            bijv. gallerijen en menu).
-            Gallerijen zijn gemaakt met <a href="https://swiperjs.com/demos">Swiper.js</a>.
+            bijv. galerijen en menu).
+            Galerijen zijn gemaakt met <a href="https://swiperjs.com/demos">Swiper.js</a>.
             <br /><br />
             De source code staat op
             <a href=" https://github.com/AleidS/webPortfolioSimpler/tree/V3" target="_blank">github</a>.

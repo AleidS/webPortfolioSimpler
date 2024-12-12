@@ -14,16 +14,16 @@
             <span class='NL hideSpan'> Minder <br /> animaties </span>
             <i class="fa-solid fa-video"></i>
         </div> -->
-        <div></div>
 
-        <div class="NL reduceMotion" onClick="changeLanguage('English')">
+
+        <!-- <div class="NL reduceMotion" onClick="changeLanguage('English')">
             EN
             <i class="fa-solid fa-flag"></i>
         </div>
         <div class="EN reduceMotion" onClick="changeLanguage('Dutch')">
             NL
             <i class="fa-solid fa-flag"></i>
-        </div>
+        </div> -->
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <span class='EN'> Projects</span>
@@ -33,7 +33,7 @@
         <div id="expandMenu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#savingAid-scroll">
                 <span class='EN'> Saving Aid</span>
-                <span class='NL'> Bespaarhulp </span>
+                <span class='NL'> Besparingshulp </span>
 
             </a>
             <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#recipeApp-scroll">

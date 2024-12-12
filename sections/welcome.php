@@ -25,6 +25,10 @@
                 <span class='EN'>
                     Hello!
                     <i data-aos="rotate" class="fa-solid fa-hand" style="transform:rotateZ(20deg)"></i>
+
+                    <br />
+                    <br />
+                    <small>(English version update coming soon:)) )</small>
                 </span>
                 <span class='NL'>
                     Hallo!
@@ -58,7 +62,8 @@
                     Vue.js,
                     Tailwind CSS en Javascript. Vanaf Februari ben ik beschikbaar voor nieuwe projecten.
                     <br /><br />
-                    Hieronder vind je de websites die ik voor die tijd heb gemaakt.
+                    In dit portfolio vind je de websites die ik voor die tijd heb gemaakt,
+                    samen met de tools die daarvoor gebruikt zijn.
 
                 </span>
             </div>

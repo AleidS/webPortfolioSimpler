@@ -7,7 +7,9 @@
 
     </div>
 
-    <div class="bg-white rounded-[1rem]">
+    <div class="!bg-none relative rounded-[1rem] shadow-md max-w-[99vw] w-[1000px]">
+        <div class="absolute top-0 left-0 sm:left-[2.5%] h-full w-full sm:w-[95%] m-auto bg-white rounded-3xl"></div>
+
         <div class="story">
 
             <span class='EN'>
@@ -18,7 +20,7 @@
             <span class='NL'>
                 Het meest uitgebreide project waar ik tot 2023 aan gewerkt heb,
                 was een energiebesparingshulp (Afstudeerproject master),
-                waar gebruikers gepersonalizeerde bespaaradviezen konden krijgen; </span>
+                waar gebruikers gepersonaliseerde bespaaradviezen konden krijgen; </span>
 
         </div>
 
@@ -151,6 +153,9 @@ include("projectCardTemplate.php");
 ?>
         <div class="story">
 
+            <h3 class='sectionTitle'>
+                React
+            </h3>
             <span class='EN'>
                 <strong>
                     <a href="https://react.dev/" target="_blank">React</a>
@@ -171,24 +176,14 @@ include("projectCardTemplate.php");
                 framework. During the past half year, I've worked with Vue.js, a comparable framework.</span>
             <span class='NL'>
                 <!-- <i class='fa-solid fa-info-circle'></i> -->
-                <strong>
 
-                    <a href="https://react.dev/" target="_blank">React</a>
-                </strong> maakt het makkelijk om code op meerdere plekken te gebruiken, doormiddel van components.
-                Dit is handig als
-                je layouts hebt die zich vaak herhalen, en het maakt het makkelijker om dingen later weer aan
-                te
-                passen.
-                <br />
-                <br />
-                Ik heb React in 2022 geleerd via
-                <a href="https://v2.scrimba.com/learn-react-c0e">Scrimba</a>, en heb daarna een
-                <a href="https://www.aleidsuzan.com/recipes" target="_blank">receptenwebsite</a> en
-                <a href="https://www.aleidsuzan.com/artportfolio" target="_blank">kunst portfolio</a>
-                gemaakt om dit framework goed onder de knie te krijgen. Het afgelopen jaar heb ik gewerkt met
-                Vue.js,
-                een
-                vergelijkbaar framework.
+
+                In 2022 heb ik <strong> <a href="https://react.dev/" target="_blank">React</a> </strong> geleerd om
+                makkelijker
+                code te kunnen hergebruiken (met components).
+                De receptenwebsite hieronder is hier ook mee gemaakt;
+
+
             </span>
 
         </div>
@@ -342,18 +337,18 @@ $slideObj = array(
 ?>
 
         <div class=" story">
-
+            <h3 class='sectionTitle'>
+                Javascript
+            </h3>
             <span class='EN'>
                 In 2021, I made a drawing app to learn the basics of JavaScript.
                 I tried to follow best coding practices, following a software development course.
             </span>
             <span class='NL'>
-                In 2021 heb ik een teken-app gemaakt om de basis van JavaScript te leren.
-                Daarin heb ik geprobeerd om 'best code practices' te volgen, aan de hand van een vak over
-                softwareontwikkeling.
-                <br /> <br />
-                Ik probeer er altijd voor te zorgen dat de code duidelijk is, met comments en documentatie waar nodig,
-                zodat iemand anders (of ikzelf) er in de toekomst ook nog wat aan heeft.
+                Hieronder zie je een teken-app gemaakt in Javascript, gemaakt in ~2019/2020 en later gerefactord. Om te
+                zorgen dat de code bruikbaar blijft,
+                ook voor anderen, probeer ik zoveel mogelijk best code practices te volgen en goed te documenteren.
+
             </span>
 
         </div>
@@ -408,8 +403,12 @@ include("projectCardTemplate.php");
 
 ?>
 
+
         <div class="story">
 
+            <h3 class='sectionTitle'>
+                Out-of-the-box?
+            </h3>
             <span class='EN'>
                 I also enjoy creating out-of-the-box designs and experimenting with different techniques.
                 The first version of this portfolio was 3D animated with blender animations:
@@ -420,13 +419,10 @@ include("projectCardTemplate.php");
                 be possible!
             </span>
             <span class='NL'>
-                Ook vind ik het leuk om out-of-the-box ontwerpen te maken en nieuwe tools te leren.
-                De eerste versie van dit portfolio had bijvoorbeeld 3D animaties van de projecten, gemaakt met Blender
-                (Zie
-                hieronder)
-                <!-- (<a href="http://www.aleidsuzan.com/portfolioOld" target="_blank">Bekijk hier</a>) -->
-                <br /></br>
-                Als je ideeën hebt voor een uniek element op de website, denk ik graag mee over hoe dat te bereiken.
+                Heb je een idee voor een out-of-the-box ontwerp, dan denk ik daar graag over mee.
+
+                De eerste versie van dit portfolio had bijvoorbeeld 3D animaties van de projecten, gemaakt met Blender:
+
             </span>
 
 
@@ -539,25 +535,13 @@ $slideObj = array(
                 These files can also be used to later test new designs!
             </span>
             <span class='NL'>
-                De laatste tijd heb ik me meer verdiept in UI design en Figma.
-                <br /><br />
-                <!-- <i class='fa-solid fa-info-circle'></i> -->
-                <strong>
-                    <a href="https://www.figma.com/" target="_blank">Figma</a>
-                </strong> is een handige tool voor het ontwerpen
-                van
-                (verschillende)
-                interfaces.
-                Dit kan het volledige ontwerp zijn, maar ook bijvoorbeeld een 'wireframe' waarin je alleen de positie en
-                grootte
-                aangeeft van verschillende elementen.
 
-                <br /><br />
-
-                Zo kun je makkelijker overleggen over een design en dingen aanpassen, voor je deze gaat uitwerken met
-                code.
-
-                <br /><br />
+                Een goede website begint natuurlijk bij een goed design. Hoewel ik geen
+                designer ben, heb ik me daar wel wat in verdiept, door hier een aantal boeken over te
+                lezen en te experimenteren met <strong>
+                    <a href="https://www.figma.com/" target="_blank">Figma</a></strong>. Figma maakt het wat makkelijker
+                om verschillende designs te testen of te overleggen,
+                voor je deze gaat implementeren.
 
 
             </span>
@@ -643,33 +627,8 @@ $slideObj = array(
 include("projectCardTemplate.php");
 ?>
 
-        <div class="story">
+        <br /><br /><br />
 
-            <h3 class='sectionTitle'>
-                2024
-            </h3>
-            <span class='EN'>
-                During my work, I've learned many new things! Amongst others, a whole new framework (Vue), how to
-                collaborate
-                with back-end developers,
-                how to structure code more logically (e.g. separate complex logic from the components, so you can also
-                re-use
-                this). I even learned
-                to appreciate Tailwind, to an extent:)
-
-            </span>
-            <span class='NL'>
-                Het afgelopen jaar heb ik veel bijgeleerd, onder andere een nieuw framework (Vue.js), hoe effectief
-                samen te
-                werken
-                met back-end developers,
-                hoe je code logischer kan structureren (bijv. door complexe logica apart houden van de components).
-                Zelfs
-                Tailwind ben ik enigsinds gaan waarderen:).
-                <br /> <br />
-            </span>
-
-
-        </div>
     </div>
+
 </div>

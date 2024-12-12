@@ -61,11 +61,6 @@
     color: black;
     background: $accent-color-extra-light;
 
-    @media screen and (max-width:800px) {
-        border-radius: 20px;
-        border: 7px solid $accent-color;
-    }
-
 
     .welcomeTitle {
         background: $accent-color;
@@ -90,7 +85,7 @@
         padding-top: 50px;
         padding-bottom: 20px;
         font-size: 1.5rem;
-        width: 500px;
+        width: 550px;
         z-index: 1;
         flex-grow: 1;
         display: flex;
@@ -185,9 +180,8 @@
         justify-content: center;
        
         align-items: center;
-      
+
         border-radius: 60px;
-       
         background: $accent-color;
         box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
         z-index: 2;
@@ -199,7 +193,7 @@
 
         @media screen and (max-width:800px) {
             border-radius: 10px;
-            border: outset 7px solid $accent-color;
+           
         }
     }
 

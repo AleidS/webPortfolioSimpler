@@ -21,7 +21,7 @@
 
         </div>
         <a href="mailto:aleid_oonk@hotmail.com?subject=Web portfolio" id="sayHello" data-aos="zoom-in"
-            class="bg-white shadow-white hover:shadow-md flex justify-center text-center hover:scale-105 mt-16 mb-16 duration-100 transition-trasform hover:text-primary-600 !text-[2rem] text-primary-500 font-semibold p-3 rounded-[1rem] hover:no-underline">
+            class="bg-white shadow-white hover:shadow-md flex justify-center text-center hover:scale-105 mt-16 mb-16 duration-100 transition-trasform hover:text-primary-600 !text-[2rem] text-primary-500 font-semibold p-3 rounded-[1rem] no-underline">
             <span class='EN'> Say Hello!
             </span>
             <span class='NL'> Zeg hallo!</span>

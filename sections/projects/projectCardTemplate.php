@@ -3,7 +3,7 @@
 <div class='scrollAnchor'></div>
 <div class='scrollMargin' id='<?php echo ($projectID) ?>-scroll'></div>
 <div id=<?php echo ($projectID) ?>
-    class="projectCard shadow-sm flex flex-col items-center justify-center p-0  m-auto relative bg-white max-w-[95vw] w-[1000px] md:rounded-2xl rounded-none overflow-hidden">
+    class="projectCard shadow-sm -ml-4  flex flex-col items-center justify-center p-0  m-auto relative bg-primary-50  md:rounded-2xl rounded-none overflow-hidden">
 
     <div class='cardHeader'>
         <h2 class="w-full flex items-center justify-center text-center pl-2 pr-2 pt-3 rouned-t-[2vw] m-0 font-medium">

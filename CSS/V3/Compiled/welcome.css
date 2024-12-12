@@ -67,12 +67,6 @@
   color: black;
   background: #ebf4eb;
 }
-@media screen and (max-width: 800px) {
-  .welcomeContainer {
-    border-radius: 20px;
-    border: 7px solid #73AB79;
-  }
-}
 .welcomeContainer .welcomeTitle {
   background: #73AB79;
   color: white;
@@ -93,7 +87,7 @@
   padding-top: 50px;
   padding-bottom: 20px;
   font-size: 1.5rem;
-  width: 500px;
+  width: 550px;
   z-index: 1;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -216,7 +210,6 @@
 @media screen and (max-width: 800px) {
   .welcomeContainer .imgAndText {
     border-radius: 10px;
-    border: outset 7px solid #73AB79;
   }
 }
 
