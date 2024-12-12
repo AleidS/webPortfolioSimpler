@@ -4,3 +4,11 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?path=$1 [NC,L,QSA]
 FallbackResource /3d_portfolio%20-%20simple/index.php
+
+#AuthType Basic
+
+#AuthName "Please enter the password"
+
+#AuthUserFile /home/alei5901/public_html/portfolioSimple/.htpasswd
+
+#Require valid-user
