@@ -59,7 +59,7 @@
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border-radius: 75px;
+  border-radius: 15px;
   overflow: hidden;
   height: -webkit-fit-content;
   height: -moz-fit-content;
