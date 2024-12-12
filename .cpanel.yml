@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/alei5901/public_html/portfolio_acceptance
+    - export DEPLOYPATH=/home/alei5901/public_html/portfolio
     - /bin/cp -a * $DEPLOYPATH
   
