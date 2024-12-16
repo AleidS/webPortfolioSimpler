@@ -3,7 +3,8 @@
 <div class='scrollAnchor'></div>
 <div class='scrollMargin' id='<?php echo ($projectID) ?>-scroll'></div>
 <div id=<?php echo ($projectID) ?>
-    class="projectCard shadow-sm -ml-4  flex flex-col items-center justify-center p-0  m-auto relative bg-primary-50  md:rounded-2xl rounded-none overflow-hidden">
+    class="projectCard shadow-sm -ml-4  flex flex-col items-center justify-center p-0  m-auto relative bg-primary-50  md:rounded-2xl rounded-none overflow-hidden"
+    data-aos="fade-<?php echo ($fadeDirection) ?>">
 
     <div class='cardHeader'>
         <h2 class="w-full flex items-center justify-center text-center pl-2 pr-2 pt-3 rouned-t-[2vw] m-0 font-medium">
@@ -37,7 +38,7 @@
     <div class='cardContents relative h-fit w-[100%]'>
         <div class="verticalScrollScreen"></div>
 
-        <div class="swiperImg swiper imgContainer " data-aos="flip-up">
+        <div class="swiperImg swiper imgContainer ">
 
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">

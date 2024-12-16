@@ -3,10 +3,7 @@ module.exports = {
   content: ["./sections/**/*.{html,js,php}",
       '!./sections/**/menu.php',
   ],
-  // prefix: 'tw-',
-  corePlugins: {
-    // preflight: false,
-  },
+  
   
   plugins: [     require("tailwindcss"),  require("autoprefixer") ],
    theme: {

@@ -20,23 +20,25 @@
             </span>
 
         </div>
-        <a href="mailto:aleid_oonk@hotmail.com?subject=Web portfolio" id="sayHello" data-aos="zoom-in"
-            class="bg-white shadow-white hover:shadow-md flex justify-center text-center hover:scale-105 mt-16 mb-16 duration-100 transition-trasform hover:text-primary-600 !text-[2rem] text-primary-500 font-semibold p-3 rounded-[1rem] no-underline">
-            <span class='EN'> Say Hello!
-            </span>
-            <span class='NL'> Zeg hallo!</span>
+        <div data-aos='zoom-in'>
+            <a href="mailto:aleid_oonk@hotmail.com?subject=Web portfolio" id="sayHello"
+                class="bg-white shadow-white  hover:shadow-md hover:scale-110 duration:200 transition-all flex justify-center text-center mt-16 mb-16  hover:text-primary-600 !text-[2rem] text-primary-500 font-semibold p-3 rounded-[1rem] !no-underline">
+                <span class='EN'> Say Hello!
+                </span>
+                <span class='NL'> Zeg hallo!</span>
 
-        </a>
+            </a>
+        </div>
 
         <div class="mb-2 font-medium">
             <span class='EN'> or connect via</span>
             <span class='NL'> of vind me op;</span>
         </div>
 
-        <div class="socials flex flex-row gap-x-10 flex-wrap text-white justify-center">
+        <div class="socials flex flex-row gap-x-10 flex-wrap text-white !hover:text-white justify-center">
 
-            <a href="https://www.linkedin.com/in/aleido" target="_blank"><i class="fa-brands fa-linkedin-in"
-                    data-aos="fade-right"></i></a>
+            <a href="https://www.linkedin.com/in/aleido" target="_blank" class="!hover:text-white"><i
+                    class="fa-brands fa-linkedin-in" data-aos="fade-right"></i></a>
             <a href="https://www.behance.net/aleidsuzan" target="_blank"><i class="fa-brands fa-behance"
                     data-aos="fade-down"></i></a>
             <a href="https://www.github.com/aleids" target="_blank"><i class="fa-brands fa-github"

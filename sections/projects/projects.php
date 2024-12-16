@@ -1,7 +1,7 @@
 <div id="projects">
 </div>
 <div style=" width:fit-content; margin:auto; border-radius:1rem;">
-    <div class="sectionTitle" data-aos="flip-up">
+    <div class="sectionTitle" data-aos="fade-down">
         <span class='EN'> Projects</span>
         <span class='NL'> Projecten</span>
 
@@ -37,6 +37,7 @@ $next = "#recipeApp-scroll";
 $projectLink = "https://www.besparingshulp.nl/";
 $thesis = "https://research.tue.nl/nl/studentTheses/sustainable-goals";
 $githubLink = null;
+$fadeDirection = 'right';
 $toolsObj = array(
     array(
         'name' => 'HTML/CSS',
@@ -198,6 +199,7 @@ $icon = 'utensils';
 $projectLink = "https://www.aleidsuzan.com/recipes/";
 $githubLink = 'https://github.com/AleidS/recipes_react_public';
 $thesis = null;
+$fadeDirection = 'left';
 $toolsObj = array(
     array(
         'name' => 'HTML/CSS',
@@ -272,6 +274,7 @@ $next = "#portfolioOld-scroll";
 $icon = 'pencil';
 $projectLink = "https://www.aleidsuzan.com/artportfolio/";
 $githubLink = 'https://github.com/AleidS/artPortfolio';
+$fadeDirection = 'right';
 $toolsObj = array(
     array(
         'name' => 'HTML/CSS',
@@ -363,6 +366,7 @@ $next = "#artPortfolio-scroll";
 $icon = 'pencil';
 $projectLink = "https://www.aleidsuzan.com/canvas/";
 $githubLink = 'https://github.com/AleidS/drawingApp';
+$fadeDirection = 'right';
 $toolsObj = array(
     array(
         'name' => 'HTML/CSS',
@@ -437,6 +441,7 @@ $prev = '#artPortfolio-scroll';
 $next = "#edu";
 $projectLink = "https://www.aleidsuzan.com/portfolioOld/";
 $githubLink = 'https://www.github.com/AleidS/webPortfolio';
+$fadeDirection = 'left';
 $toolsObj = array(
     array(
         'name' => 'CSS+SCSS',
@@ -557,6 +562,7 @@ $projectID = "figmaDesigns";
 $year = '2024';
 $projectLink = "https://www.behance.net/aleidsuzan/";
 $githubLink = null;
+$fadeDirection = 'right';
 $toolsObj = array(
     array(
         'name' => 'Figma',

@@ -1,12 +1,19 @@
 <div class="welcome" id="welcome">
     <div class="rounded-[1rem] overflow-hidden w-full h-fit mt-40 !mb-96">
         <div
-            class="bg-white !h-fit flex flex-row-reverse items-center justify-center lg:justify-between flex-wrap rounded-[3rem] lg:rounded-[4rem] p-4 min-h-80 w-full ">
-            <div data-aos="fade-right" id="" class="m-0 bg-none">
-                <img loading="lazy" class="lazy !m-0 !p-0 max-w-[300px] bg-none" id='portrait' alt=" portrait"
-                    src="Images/welcome/portrait.jpg" />
+            class="!h-fit flex flex-row-reverse items-center justify-center lg:justify-between relative flex-wrap rounded-[3rem] lg:rounded-[4rem] p-4 min-h-40 w-full">
+            <div class="absolute left-0 h-full w-full lg:p-10 lg:pl-0 lg:pr-32">
+                <div class="bg-white w-full h-full rounded-3xl" data-aos="fade-right"> </div>
             </div>
-            <div id="titles" class=" rounded-lg p-4 m-0 flex flex-col justify-center align-center w-zie-scss">
+
+            <div data-aos="fade-right" id="" class="m-0 drop-shadow-lg ">
+                <img loading="lazy"
+                    class="lazy !m-0 !p-0 max-w-[400px] w-[350px] h-full bg-none drop-shadow-md rounded-3xl"
+                    id='portrait' alt=" portrait" src="Images/welcome/portraitReduced.jpg" />
+            </div>
+
+            <div id="titles"
+                class="rounded-lg p-10 m-0 flex flex-col !flex-1 justify-center align-center w-zie-scss relative">
                 <div id="title">
                     <div id="title1"></div>
                     <!-- Web development portfolio -->
@@ -19,7 +26,12 @@
 
         </div>
     </div>
-    <div class="welcomeContainer bg-white">
+
+
+    <div class="welcomeContainer relative">
+        <div class="absolute left-0 h-full w-full lg:p-4">
+            <div class="bg-white w-full h-full rounded-3xl" data-aos="fade-right"> </div>
+        </div>
         <div class="imgAndText zieScss">
             <h2 id="hello" data-aos="fade-down" class="!text-3xl">
                 <span class='EN'>
@@ -70,7 +82,7 @@
 
 
         </div>
-        <div class="welcomeToolsSkills bg-white" data-aos="fade-right">
+        <div class="welcomeToolsSkills py-16 pl-0 pr-8 lg:pl-0" data-aos="fade-right">
             <div class='welcomeTitle'>
                 <span class='EN'> Skills: </span>
                 <span class='NL'> Vaardigheden:</span>
@@ -105,7 +117,7 @@
                 <span class='NL'> Tools waar ik mee kan werken:</span>
 
             </div>
-            <div class='logoContainer bg-white'>
+            <div class='logoContainer  bg-white'>
                 <img loading="lazy" class="logo lazy" alt="logo" src="Images/logos/HTML5_logo_wikipedia.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/CSS3_logo_wikipediapng.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Sass_logo.png" />

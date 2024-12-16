@@ -26,6 +26,7 @@ To easily clear cache, the 'clear cache' extension in chrome/edge was a lifesave
 
 #deploying:
 With cpanel git version control -> use .cpanel.yml and acceptance branch
+make sure htaccess is set correctly for url redirecting
 
 # SASS/SCSS
 
