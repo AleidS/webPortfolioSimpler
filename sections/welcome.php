@@ -59,7 +59,6 @@
                     <br /><br />
                     For the past 6 months, I've worked as a front-end developer, with Vue.js,
                     Tailwind CSS, Javascript and more.
-                    From February onwards, I'm available for new projects.
                     <br /><br />
                     Below you find the websites and designs I made before this.
 
@@ -72,7 +71,7 @@
                     <br /><br />
                     De afgelopen 6 maanden heb ik met veel plezier gewerkt als front-end developer, met onder andere
                     Vue.js,
-                    Tailwind CSS en Javascript. Vanaf Februari ben ik beschikbaar voor nieuwe projecten.
+                    Tailwind CSS en Javascript.
                     <br /><br />
                     In dit portfolio vind je de websites die ik voor die tijd heb gemaakt,
                     samen met de tools die daarvoor gebruikt zijn.
