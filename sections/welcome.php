@@ -69,13 +69,12 @@
                     <a href="#edu">afgestudeerd</a> aan de TU Eindhoven (Human Technology Interaction).
                         -->
                     <br /><br />
-                    De afgelopen 6 maanden heb ik met veel plezier gewerkt als front-end developer, met onder andere
+                    De afgelopen 7 maanden heb ik met veel plezier gewerkt als front-end developer, met onder andere
                     Vue.js,
                     Tailwind CSS en Javascript.
                     <br /><br />
                     In dit portfolio vind je de websites die ik voor die tijd heb gemaakt,
                     samen met de tools die daarvoor gebruikt zijn.
-
                 </span>
             </div>
 
