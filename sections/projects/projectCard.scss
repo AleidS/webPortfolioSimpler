@@ -1,166 +1,157 @@
-@use '../main/variables' as *;
+@use "../main/variables" as *;
 
 .scrollAnchor {
-    scroll-margin-top: 120px;
+  scroll-margin-top: 120px;
 }
 
 .projectCard {
-    
-    color: $card-text !important;
-    // border: 2px solid $accent-color;
+  color: $card-text !important;
+  // border: 2px solid $accent-color;
 
-    @media screen and (min-aspect-ratio:$desktopMinAspect) {
-        max-width: calc(min(1500px, 80vw));
+  @media screen and (min-aspect-ratio: $desktopMinAspect) {
+    max-width: calc(min(1500px, 80vw));
+  }
+
+  @media screen and (max-width: $mobileBreakpoint1) {
+    max-width: 100vw;
+  }
+
+  h2 a {
+    text-decoration: none;
+  }
+
+  h2 {
+    font-size: clamp(12pt, 1.8rem, 7vw);
+    .name {
+      color: $text-color2;
     }
 
-    @media screen and (max-width:$mobileBreakpoint1) {
-        max-width: 100vw;
+    .year {
+      color: $text-color2;
+    }
+  }
+
+  .cardHeader {
+    background: $accent-color-semidark;
+
+    width: 100%;
+  }
+
+  .projectTools {
+    color: $text-color2;
+    background: $accent-color;
+
+    @media screen and (max-width: $mobileBreakpoint1) {
+      padding: 5px;
     }
 
-    h2 a {
-        text-decoration: none;
+    li {
+      margin-left: 20px;
+      font-size: 1rem;
+      // box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.173);
+      padding: 2px;
+      border-radius: 10px;
+    }
+  }
+
+  .cardFooter {
+    color: $text-color2 !important;
+
+    background-position: auto;
+
+    background: $accent-color-semidark;
+
+    a {
+      color: $text-color2 !important;
+      text-decoration: none;
+    }
+  }
+
+  .textContainer {
+    color: $text-color !important;
+    width: 100%;
+    height: 100%;
+    // max-width: 600px;
+    z-index: 9990;
+    overflow: visible;
+    padding-top: 5px;
+
+    @media screen and (min-aspect-ratio: $desktopMinAspect) {
+      position: absolute;
+      z-index: 1000;
+      width: 25%;
+      right: 0px;
+      top: 0px;
+    }
+  }
+
+  .textContainerInner {
+    padding: 10px;
+    text-align: center;
+    color: $accent-color-dark;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-weight: 400;
+    height: 100%;
+    margin: auto;
+    margin-top: 5px;
+    overflow: visible;
+
+    @media screen and (max-width: $mobileBreakpoint1) {
+      padding: 5px;
+      margin: auto;
+      text-align: left;
     }
 
-
-    h2 {
-        font-size: clamp(12pt, 1.8rem, 7vw);
-        .name {
-            color: $text-color2;
-        }
-
-        .year {
-            
-            color: $text-color2;
-        }
+    @media screen and (min-aspect-ratio: $desktopMinAspect) {
+      background: $accent-color;
+      //  backdrop-filter: blur(5px);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-size: 1rem;
+      text-align: left;
+      font-weight: 500;
     }
 
-    .cardHeader {
-        background: $accent-color-semidark;
-
-        width: 100%;
+    .innerText {
+      height: 100%;
+      max-width: calc(min(90%, 700px));
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5px;
     }
 
-    .projectTools {
+    a {
+      color: $accent-color-dark;
+    }
+  }
 
-        color: $text-color2;
-        background: $accent-color;
+  .title {
+    display: block;
+    font-size: clamp(10pt, 1rem, 5vw);
+    font-weight: 600;
+    line-height: clamp(10pt, 1rem, 5vw) !important;
+    text-transform: capitalize;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: $accent-color-dark;
+    width: 90%;
+    top: 5px;
 
-        @media screen and (max-width:$mobileBreakpoint1) {
-            padding: 5px;
-        }
-
-        li {
-            margin-left: 20px;
-            font-size: 1rem;
-            // box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.173);
-            padding: 2px;
-            border-radius: 10px;
-        }
+    @media screen and (max-width: $mobileBreakpoint1) {
+      margin-top: 5px;
     }
 
-    .cardFooter {
-  
-        color: $text-color2 !important;
-       
-        background-position: auto;
-      
-        background: $accent-color-semidark;
-
-        a {
-            color: $text-color2 !important;
-            text-decoration: none;
-        }
+    @media screen and (min-aspect-ratio: $desktopMinAspect) {
+      font-size: 1.4rem;
+      text-align: left;
+      margin-bottom: 15px;
     }
-   
-     .textContainer {
-         color: $text-color !important;
-         width: 100%;
-         height: 100%;
-         // max-width: 600px;
-         z-index: 9990;
-         overflow: visible;
-         padding-top: 5px;
-
-
-         @media screen and (min-aspect-ratio:$desktopMinAspect) {
-             position: absolute;
-             z-index: 1000;
-             width: 25%;
-             right: 0px;
-             top: 0px;
-         }
-     }
-
-     .textContainerInner {
-         padding: 10px;
-         text-align: center;
-         color: $accent-color-dark;
-         margin-bottom: 0px;
-         padding: 10px;
-         font-weight: 400;
-         height: 100%;
-         margin: auto;
-         margin-top: 5px;
-         overflow: visible;
-
-         @media screen and (max-width:$mobileBreakpoint1) {
-             padding: 5px;
-             margin: auto;
-             text-align: left;
-
-         }
-
-         @media screen and (min-aspect-ratio:$desktopMinAspect) {
-             background: $accent-color;
-            //  backdrop-filter: blur(5px);
-             color: white;
-             display: flex;
-             flex-direction: column;
-             align-items: flex-start;
-             justify-content: flex-start;
-             font-size: 1rem;
-             text-align: left;
-             font-weight: 500;
-         }
-
-
-         .innerText {
-             height: 100%;
-             max-width: calc(min(90%, 700px));
-             margin-left: auto;
-             margin-right: auto;
-             margin-top: 5px;
-         }
-
-         a {
-             color: $accent-color-dark;
-         }
-     }
-
-     .title {
-         display: block;
-         font-size: clamp(10pt, 1.0rem, 5vw);
-         font-weight: 600;
-         line-height: clamp(10pt, 1.0rem, 5vw) !important;
-         text-transform: capitalize;
-         padding: 0px;
-         margin-left: auto;
-         margin-right: auto;
-         margin-top: 5px;
-         margin-bottom: 5px;
-         color: $accent-color-dark;
-         width: 90%;
-         top: 5px;
-
-         @media screen and (max-width:$mobileBreakpoint1) {
-             margin-top: 5px;
-         }
-
-         @media screen and (min-aspect-ratio:$desktopMinAspect) {
-             font-size: 1.4rem;
-             text-align: left;
-             margin-bottom: 15px;
-         }
-
-     }
+  }
 }

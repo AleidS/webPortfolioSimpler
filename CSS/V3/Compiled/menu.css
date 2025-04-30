@@ -13,7 +13,7 @@
   width: 100% !important;
   padding: 0px !important;
   -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   border: none !important;
   background: none !important;
 }
@@ -30,15 +30,15 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   list-style: none;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
@@ -58,18 +58,18 @@
   text-transform: uppercase;
   white-space: nowrap;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: none;
   height: 100%;
   min-height: max(55px, -webkit-fit-content);
   min-height: max(55px, -moz-fit-content);
   min-height: max(55px, fit-content);
   -webkit-box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.361);
-          box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.361);
+  box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.361);
   -webkit-backdrop-filter: blur(5px) brightness(100%) !important;
-          backdrop-filter: blur(5px) brightness(100%) !important;
-  background: #ECFAE2;
-  background: #73AB79;
+  backdrop-filter: blur(5px) brightness(100%) !important;
+  background: #ecfae2;
+  background: #73ab79;
   font-family: "Montserrat", sans-serif;
   font-weight: 300 !important;
   color: white !important;
@@ -100,7 +100,7 @@
   text-transform: capitalize;
   font-weight: 300 !important;
   text-decoration: none;
-  background: #73AB79;
+  background: #73ab79;
 }
 
 .nav-item {
@@ -114,7 +114,7 @@
 }
 
 .dropdown-menu {
-  background: #73AB79 !important;
+  background: #73ab79 !important;
   border: none;
 }
 
@@ -122,11 +122,11 @@
 #expandMenu {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding: 10px;
   -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  transition-duration: 1s;
   margin-top: -1px;
   position: absolute;
   width: 100%;
@@ -164,7 +164,7 @@
 .reduceMotion {
   background: rgba(255, 255, 255, 0) !important;
   -webkit-backdrop-filter: blurr(10px) brightness(300%);
-          backdrop-filter: blurr(10px) brightness(300%);
+  backdrop-filter: blurr(10px) brightness(300%);
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -173,8 +173,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-radius: 10px;
   padding: 2px;
   cursor: pointer;
@@ -195,4 +195,4 @@
   .hideSpan {
     display: none !important;
   }
-}/*# sourceMappingURL=menu.css.map */
+} /*# sourceMappingURL=menu.css.map */

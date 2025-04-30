@@ -1,14 +1,14 @@
 {
-    "name": "Portfolio",
-    "start_url": "/",
-    "short_name": "Portfolio",
-    "icons": [
-        {
-            "src": "./Images/favicons/AOfavicon.ico",
-            "type": "image/x-icon"
-        }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+  "name": "Portfolio",
+  "start_url": "/",
+  "short_name": "Portfolio",
+  "icons": [
+    {
+      "src": "./Images/favicons/AOfavicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
 }

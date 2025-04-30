@@ -1,164 +1,154 @@
-@use '../main/variables' as *;
+@use "../main/variables" as *;
 
 .projectCard {
+  // Prevents galleries from moving when user scrolls up and down (refer to js)
+  .verticalScrollScreen {
+    background: rgba(190, 99, 99, 0.001);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 9999;
+    opacity: 1;
+    display: block;
+    will-change: opacity;
+    pointer-events: none;
+  }
 
-    // Prevents galleries from moving when user scrolls up and down (refer to js)
-    .verticalScrollScreen {
-        background: rgba(190, 99, 99, 0.001);
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        position: absolute;
-        z-index: 9999;
-        opacity: 1;
-        display: block;
-        will-change: opacity;
-        pointer-events: none;
+  .imgContainer {
+    // max-width: calc(min(100%, 1000px)) !important;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    z-index: 900 !important;
+
+    @media screen and (max-width: $mobileBreakpoint1) {
+      padding: 0px;
+      padding-top: 0px;
     }
 
+    @media screen and (min-aspect-ratio: $desktopMinAspect) {
+      max-width: 80%;
+      left: 0px;
+      float: left;
+      transform: translateX(1px);
+    }
 
-    .imgContainer {
-        // max-width: calc(min(100%, 1000px)) !important;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        overflow: hidden;
-        margin: auto;
-        padding-top: 0px;
+    .swiper-wrapper {
+      max-width: 100%;
+      padding-bottom: 0px;
+
+      @media screen and (max-width: $mobileBreakpoint1) {
         padding-bottom: 0px;
-        width: 100%;
-        z-index: 900 !important;
-
-        @media screen and (max-width:$mobileBreakpoint1) {
-            padding: 0px;
-            padding-top: 0px;
-        }
-
-        @media screen and (min-aspect-ratio:$desktopMinAspect) {
-            max-width: 80%;
-            left: 0px;
-            float: left;
-            transform: translateX(1px);
-        }
-
-
-        .swiper-wrapper {
-            max-width: 100%;
-            padding-bottom: 0px;
-
-            @media screen and (max-width:$mobileBreakpoint1) {
-                padding-bottom: 0px;
-            }
-        }
-
-        .swiper-slide {
-            width: calc(min(95vw, 675px));
-            // min-width: 50vw;
-            max-width: calc(min(100vh, 800px));
-            // min-width: clamp(300px, 90vw, 85vh);
-            // min-width: fit-content;
-            height: fit-content;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            box-shadow: 0px 0px 10px 10px rgba(212, 212, 212, 0.11);
-            border: 1px solid white;
-            border-radius: 10px;
-            color: $card-text;
-            // margin: auto;
-            margin-bottom: 5px;
-            margin-top: 5px;
-            display: flex;
-            align-items: center;
-            filter: blur(5px)brightness(90%);
-            overflow: display;
-            justify-content: center;
-
-
-
-            @media screen and (max-width:$mobileBreakpoint1) {
-                max-width: 90vw;
-                box-shadow: none;
-                // border: none;
-            }
-        }
-
-        .swiper-slide-active {
-            filter: blur(0px)brightness(100%)
-        }
-
+      }
     }
 
-    img,
-    video {
-        width: 100%;
-        height: auto;
-        max-height: calc(min(60vh, 400px));
-        width: auto;
-        max-width: 95vw;
-        margin: auto;
-        // clip-path: polygon(1% 1%, 99% 1%, 99% 99%, 0% 99%);
-        border-radius: 5px;
-        clip-path: inset(1% 1% 1% 1% round 5px);
+    .swiper-slide {
+      width: calc(min(95vw, 675px));
+      // min-width: 50vw;
+      max-width: calc(min(100vh, 800px));
+      // min-width: clamp(300px, 90vw, 85vh);
+      // min-width: fit-content;
+      height: fit-content;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      box-shadow: 0px 0px 10px 10px rgba(212, 212, 212, 0.11);
+      border: 1px solid white;
+      border-radius: 10px;
+      color: $card-text;
+      // margin: auto;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      display: flex;
+      align-items: center;
+      filter: blur(5px) brightness(90%);
+      overflow: display;
+      justify-content: center;
 
-        @media screen and (min-aspect-ratio:$desktopMinAspect) {
-            max-height: calc(min(60vh, 600px));
-        }
+      @media screen and (max-width: $mobileBreakpoint1) {
+        max-width: 90vw;
+        box-shadow: none;
+        // border: none;
+      }
     }
 
-    video {
-        filter: brightness(80%);
-        transition-duration: 1s;
-        will-change: filter;
+    .swiper-slide-active {
+      filter: blur(0px) brightness(100%);
     }
+  }
+
+  img,
+  video {
+    width: 100%;
+    height: auto;
+    max-height: calc(min(60vh, 400px));
+    width: auto;
+    max-width: 95vw;
+    margin: auto;
+    // clip-path: polygon(1% 1%, 99% 1%, 99% 99%, 0% 99%);
+    border-radius: 5px;
+    clip-path: inset(1% 1% 1% 1% round 5px);
+
+    @media screen and (min-aspect-ratio: $desktopMinAspect) {
+      max-height: calc(min(60vh, 600px));
+    }
+  }
+
+  video {
+    filter: brightness(80%);
+    transition-duration: 1s;
+    will-change: filter;
+  }
 }
 
 // Only one of these classes is active
 .playbutton {
-    position: absolute;
-    bottom: calc(50% - 0.5em);
-    left: calc(50% - 0.4em);
-    font-size: 5rem;
-    opacity: 1;
-    cursor: pointer;
-    z-index: 2;
-    filter: drop-shadow(0px 0px 10px rgba(133, 133, 133, 0.322));
-    transition-duration: 0.2s;
-    will-change: opacity;
-    // color: white !important;
-    color: white !important;
-    // -webkit-text-stroke: 3px $accent-color;
+  position: absolute;
+  bottom: calc(50% - 0.5em);
+  left: calc(50% - 0.4em);
+  font-size: 5rem;
+  opacity: 1;
+  cursor: pointer;
+  z-index: 2;
+  filter: drop-shadow(0px 0px 10px rgba(133, 133, 133, 0.322));
+  transition-duration: 0.2s;
+  will-change: opacity;
+  // color: white !important;
+  color: white !important;
+  // -webkit-text-stroke: 3px $accent-color;
 }
 
 .fa-play {
-    opacity: 1;
+  opacity: 1;
 }
 
 .fa-pause {
-    opacity: 0;
-    will-change: opacity;
+  opacity: 0;
+  will-change: opacity;
 }
 
-
-
 .playbutton:hover {
-    opacity: 1;
-
+  opacity: 1;
 }
 
 @keyframes fade {
-    0% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 1;
+  }
 
-
-    100% {
-        opacity: 0;
-    }
+  100% {
+    opacity: 0;
+  }
 }
 
 .fa-pause:hover {
-    opacity: 1;
-    animation: fade 1.5s forwards;
-    animation-delay: 1s;
+  opacity: 1;
+  animation: fade 1.5s forwards;
+  animation-delay: 1s;
 }

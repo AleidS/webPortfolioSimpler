@@ -1,25 +1,23 @@
-@use './main/variables' as *;
+@use "./main/variables" as *;
 
 #contactText {
-   
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background: $accent-color;
-    font-weight: 400;
-    padding: 40px;
-    padding-top: 70px;
-    padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: $accent-color;
+  font-weight: 400;
+  padding: 40px;
+  padding-top: 70px;
+  padding-bottom: 80px;
 }
 
-
 .socials a {
-    font-size: 3rem;
-    transition-duration: 1s;
+  font-size: 3rem;
+  transition-duration: 1s;
 }
 
 .socials a:hover {
-    scale: 1.5;
-    color:white
+  scale: 1.5;
+  color: white;
 }

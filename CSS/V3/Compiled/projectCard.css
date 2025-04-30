@@ -33,7 +33,7 @@
 }
 .projectCard .projectTools {
   color: white;
-  background: #73AB79;
+  background: #73ab79;
 }
 @media screen and (max-width: 600px) {
   .projectCard .projectTools {
@@ -93,21 +93,21 @@
 }
 @media screen and (min-aspect-ratio: 9999) {
   .projectCard .textContainerInner {
-    background: #73AB79;
+    background: #73ab79;
     color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     font-size: 1rem;
     text-align: left;
     font-weight: 500;
@@ -149,4 +149,4 @@
     text-align: left;
     margin-bottom: 15px;
   }
-}/*# sourceMappingURL=projectCard.css.map */
+} /*# sourceMappingURL=projectCard.css.map */

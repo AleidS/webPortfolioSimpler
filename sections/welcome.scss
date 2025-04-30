@@ -1,249 +1,231 @@
-@use './main/variables' as *;
-
+@use "./main/variables" as *;
 
 .welcome {
-    width: 1000px;
-    max-width: 100%;
-    margin: auto;
-    margin-bottom: 200px;
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 200px;
 }
 
-
 #titles {
-    width: fit-content;
-    width: 60%;
-    min-width: calc(min(400px, 80vw));
-    max-width: calc(min(50%, 60vw)) !important;
+  width: fit-content;
+  width: 60%;
+  min-width: calc(min(400px, 80vw));
+  max-width: calc(min(50%, 60vw)) !important;
 }
 
 #title {
-    font-size: 2rem;
-    font-size: clamp(20pt, 2rem, 6vw);
-    font-family: 'montserrat', sans-serif;
-    font-weight: 300;
-    text-wrap: wrap;
-    text-align: center;
+  font-size: 2rem;
+  font-size: clamp(20pt, 2rem, 6vw);
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+  text-wrap: wrap;
+  text-align: center;
 }
-
 
 #subtitle {
-    letter-spacing: 1pt;
-    font-weight: 400;
-    margin-top: 20px;
-    font-size: 1.4rem;
-    color: white;
-    background: $accent-color-semisemilight;
-    padding: 10px;
-    border-radius: 4px;
-    font-family: 'montserrat', sans-serif;
-    text-align: center;
-
+  letter-spacing: 1pt;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: white;
+  background: $accent-color-semisemilight;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: "montserrat", sans-serif;
+  text-align: center;
 }
-
 
 #portrait {
-    clip-path: circle(43% at 49% 50%);
-    // border: 2px solid white;
+  clip-path: circle(43% at 49% 50%);
+  // border: 2px solid white;
 }
 
-
 .welcomeContainer {
-    max-width: 100%;
-    margin-top: 200px;
-    width: fit-content;
+  max-width: 100%;
+  margin-top: 200px;
+  width: fit-content;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  overflow: hidden;
+  height: fit-content;
+  color: black;
+  background: $accent-color-extra-light;
+
+  .welcomeTitle {
+    background: $accent-color;
+    color: white;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-weight: 500;
+    width: 90%;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    // font-size: 1.4rem;
+  }
+
+  .welcomeToolsSkills {
+    font-size: 1.5rem;
+    width: 550px;
+    z-index: 1;
+    flex-grow: 1;
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    color: black !important;
+
+    .skill {
+      display: inline-flex;
+      background: $accent-color-light;
+      color: $accent-color-dark;
+      // border: 1px solid $accent-color;
+      font-weight: 400;
+      padding: 4px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin: 3px;
+      border-radius: 10px;
+      text-transform: capitalize;
+    }
+
+    a {
+      margin: auto;
+      margin-bottom: 20px;
+      width: fit-content;
+      color: $accent-color !important;
+    }
+
+    .logo {
+      max-height: 40px;
+      width: auto;
+      height: auto;
+      margin: 10px;
+      display: inline-flex;
+      filter: brightness(80%) saturate(00%) contrast(100%);
+      opacity: 0.9;
+    }
+
+    .logoContainer {
+      margin-top: 15px;
+      position: relative;
+      background: $accent-color-extra-light;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 10px;
+      max-width: calc(max(100%, 250px));
+      overflow: hidden;
+      justify-content: center;
+      filter: saturate(100%);
+    }
+
+    .logoContainer::after {
+      content: "";
+      position: absolute;
+      width: 95%;
+      height: 95%;
+      top: 2px;
+      left: 2px;
+      background-color: $accent-color;
+      mix-blend-mode: soft-light;
+    }
+
+    a {
+      color: black !important;
+      font-size: 1.1rem;
+    }
+  }
+
+  .welcomeSkills {
+    font-size: 1.1rem;
+    padding: 20px;
+  }
+
+  .welcomeLink {
+    text-decoration: none !important;
+  }
+
+  .imgAndText {
+    width: calc(min(100vw, 450px));
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-    border-radius: 15px;
-    overflow: hidden;
-    height: fit-content;
-    color: black;
-    background: $accent-color-extra-light;
 
+    align-items: center;
 
-    .welcomeTitle {
-        background: $accent-color;
-        color: white;
-        border-radius: 10px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-        margin-right: 20px;
-        margin-top: 5px;
-        font-weight: 500;
-        width: 90%;
-        padding: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 1.2rem;
-        // font-size: 1.4rem;
+    border-radius: 60px;
+    background: $accent-color;
+    box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
+    z-index: 2;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    // margin: auto;
+    // background: yellow;
+
+    @media screen and (max-width: 1100px) {
+      border-radius: 10px;
     }
-
-
-    .welcomeToolsSkills {
-       
-        font-size: 1.5rem;
-        width: 550px;
-        z-index: 1;
-        flex-grow: 1;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        color: black !important;
-
-        .skill {
-            display: inline-flex;
-            background: $accent-color-light;
-            color: $accent-color-dark;
-            // border: 1px solid $accent-color;
-            font-weight: 400;
-            padding: 4px;
-            padding-left: 10px;
-            padding-right: 10px;
-            margin: 3px;
-            border-radius: 10px;
-            text-transform: capitalize;
-        }
-
-        a {
-            margin: auto;
-            margin-bottom: 20px;
-            width: fit-content;
-            color: $accent-color !important;
-
-        }
-
-        .logo {
-
-            max-height: 40px;
-            width: auto;
-            height: auto;
-            margin: 10px;
-            display: inline-flex;
-            filter: brightness(80%)saturate(00%)contrast(100%);
-            opacity: 0.9;
-        }
-
-        .logoContainer {
-            margin-top: 15px;
-            position: relative;
-            background: $accent-color-extra-light;
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            padding: 10px;
-            max-width: calc(max(100%, 250px));
-            overflow: hidden;
-            justify-content: center;
-            filter: saturate(100%);
-        }
-
-        .logoContainer::after {
-            content: "";
-            position: absolute;
-            width: 95%;
-            height: 95%;
-            top: 2px;
-            left: 2px;
-            background-color: $accent-color;
-            mix-blend-mode: soft-light;
-        }
-
-
-        a {
-            color: black !important;
-            font-size: 1.1rem;
-        }
-    }
-
-    .welcomeSkills {
-        font-size: 1.1rem;
-        padding: 20px;
-    }
-
-    .welcomeLink {
-        
-        text-decoration: none !important;
-
-       
-    }
-
-    .imgAndText {
-        width: calc(min(100vw, 450px));
-        position: relative;
-        height: auto;
-        display: flex;
-        flex-grow: 1;
-        flex-direction: column;
-        justify-content: center;
-       
-       
-        align-items: center;
-
-        border-radius: 60px;
-        background: $accent-color;
-        box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
-        z-index: 2;
-        padding:10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        // margin: auto;
-        // background: yellow;
-
-        @media screen and (max-width:1100px) {
-            border-radius: 10px;
-           
-        }
-    }
-
+  }
 }
 
 #hello {
-    width: 100%;
-    // background: blue;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 50px;
-    font-family: 'montserrat', sans-serif;
-    font-weight: 500;
-    color: white !important;
-    @media screen and (max-width:800px) {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+  width: 100%;
+  // background: blue;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  color: white !important;
+  @media screen and (max-width: 800px) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 #welcomeText {
-    width: 90%;
-    min-width: calc(min(200px, 100vw));
-    flex-grow: 0;
-    color: white !important;
-    text-align: left;
-    margin: auto;
-    font-size: 1.1rem;
-    color: white;
-    font-family: 'roboto';
-    font-weight: 400;
-    padding-top: 0px;
-    padding-bottom:40px;
+  width: 90%;
+  min-width: calc(min(200px, 100vw));
+  flex-grow: 0;
+  color: white !important;
+  text-align: left;
+  margin: auto;
+  font-size: 1.1rem;
+  color: white;
+  font-family: "roboto";
+  font-weight: 400;
+  padding-top: 0px;
+  padding-bottom: 40px;
 }
 
 .welcomeLinks {
-    width: 90%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 600;
-    font-size: 1.2rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.2rem;
 
-    a {
-        padding: 4px;
-        color:white;
-        // background: $accent-color-semisemilight;
-        // text-decoration: none;
-        border-radius: 10px;
-    }
+  a {
+    padding: 4px;
+    color: white;
+    // background: $accent-color-semisemilight;
+    // text-decoration: none;
+    border-radius: 10px;
+  }
 }

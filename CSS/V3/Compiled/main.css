@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   word-wrap: wrap !important;
   text-wrap: wrap !important;
   font-family: "montserrat", sans-serif;
@@ -15,7 +15,7 @@ html {
   /* overflow-x: hidden; */
   scroll-behavior: smooth;
   -webkit-transition-duration: 4s;
-          transition-duration: 4s;
+  transition-duration: 4s;
   word-wrap: break-word;
 }
 
@@ -145,4 +145,4 @@ p {
 .overlay {
   display: none;
   background: rgba(17, 17, 17, 0.158);
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */

@@ -9,7 +9,7 @@
   position: relative;
   bottom: 0px;
   right: 0px;
-  background: #73AB79;
+  background: #73ab79;
   z-index: 900 !important;
   pointer-events: none;
 }
@@ -34,7 +34,7 @@
   max-width: 800px;
   height: 0px;
   -webkit-transform: translateY(-40px);
-          transform: translateY(-40px);
+  transform: translateY(-40px);
   position: absolute;
   left: 0;
   right: 0;
@@ -47,11 +47,11 @@
   padding-left: 10px;
   padding-right: 10px;
   -webkit-box-align: space-between;
-      -ms-flex-align: space-between;
-          align-items: space-between;
+  -ms-flex-align: space-between;
+  align-items: space-between;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin: auto !important;
 }
 @media screen and (max-aspect-ratio: 1) {
@@ -66,7 +66,7 @@
   pointer-events: all !important;
   cursor: pointer;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   text-shadow: none;
   color: rgba(255, 255, 255, 0) !important;
 }
@@ -82,8 +82,10 @@
   z-index: 2;
   opacity: 1;
   scale: 1.2;
-  -webkit-filter: invert(0) brightness(100%) drop-shadow(1px 1px 4px rgba(158, 158, 158, 0.483));
-          filter: invert(0) brightness(100%) drop-shadow(1px 1px 4px rgba(158, 158, 158, 0.483));
+  -webkit-filter: invert(0) brightness(100%)
+    drop-shadow(1px 1px 4px rgba(158, 158, 158, 0.483));
+  filter: invert(0) brightness(100%)
+    drop-shadow(1px 1px 4px rgba(158, 158, 158, 0.483));
   /* filter: invert(0)brightness(890%)drop-shadow(1px 1px 10px rgb(203, 203, 203)); */
 }
 @media screen and (max-aspect-ratio: 1) {
@@ -95,4 +97,4 @@
 
 .swiper-button-prev:after {
   background-image: url("../../../Images/icons/ArrowLeftGreen.png");
-}/*# sourceMappingURL=swiperPagination.css.map */
+} /*# sourceMappingURL=swiperPagination.css.map */

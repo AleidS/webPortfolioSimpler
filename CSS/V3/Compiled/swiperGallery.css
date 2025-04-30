@@ -16,11 +16,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   overflow: hidden;
   margin: auto;
   padding-top: 0px;
@@ -40,7 +40,7 @@
     left: 0px;
     float: left;
     -webkit-transform: translateX(1px);
-            transform: translateX(1px);
+    transform: translateX(1px);
   }
 }
 .projectCard .imgContainer .swiper-wrapper {
@@ -61,7 +61,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   -webkit-box-shadow: 0px 0px 10px 10px rgba(212, 212, 212, 0.11);
-          box-shadow: 0px 0px 10px 10px rgba(212, 212, 212, 0.11);
+  box-shadow: 0px 0px 10px 10px rgba(212, 212, 212, 0.11);
   border: 1px solid white;
   border-radius: 10px;
   color: rgb(255, 255, 255);
@@ -71,25 +71,25 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-filter: blur(5px) brightness(90%);
-          filter: blur(5px) brightness(90%);
+  filter: blur(5px) brightness(90%);
   overflow: display;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 @media screen and (max-width: 600px) {
   .projectCard .imgContainer .swiper-slide {
     max-width: 90vw;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
 }
 .projectCard .imgContainer .swiper-slide-active {
   -webkit-filter: blur(0px) brightness(100%);
-          filter: blur(0px) brightness(100%);
+  filter: blur(0px) brightness(100%);
 }
 .projectCard img,
 .projectCard video {
@@ -101,7 +101,7 @@
   margin: auto;
   border-radius: 5px;
   -webkit-clip-path: inset(1% 1% 1% 1% round 5px);
-          clip-path: inset(1% 1% 1% 1% round 5px);
+  clip-path: inset(1% 1% 1% 1% round 5px);
 }
 @media screen and (min-aspect-ratio: 9999) {
   .projectCard img,
@@ -111,9 +111,9 @@
 }
 .projectCard video {
   -webkit-filter: brightness(80%);
-          filter: brightness(80%);
+  filter: brightness(80%);
   -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  transition-duration: 1s;
   will-change: filter;
 }
 
@@ -126,9 +126,9 @@
   cursor: pointer;
   z-index: 2;
   -webkit-filter: drop-shadow(0px 0px 10px rgba(133, 133, 133, 0.322));
-          filter: drop-shadow(0px 0px 10px rgba(133, 133, 133, 0.322));
+  filter: drop-shadow(0px 0px 10px rgba(133, 133, 133, 0.322));
   -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  transition-duration: 0.2s;
   will-change: opacity;
   color: white !important;
 }
@@ -166,7 +166,7 @@
 .fa-pause:hover {
   opacity: 1;
   -webkit-animation: fade 1.5s forwards;
-          animation: fade 1.5s forwards;
+  animation: fade 1.5s forwards;
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}/*# sourceMappingURL=swiperGallery.css.map */
+  animation-delay: 1s;
+} /*# sourceMappingURL=swiperGallery.css.map */

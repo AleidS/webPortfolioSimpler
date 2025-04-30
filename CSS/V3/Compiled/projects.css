@@ -16,11 +16,11 @@
   overflow-wrap: normal;
   overflow-y: visible;
   -webkit-animation-duration: 7s;
-          animation-duration: 7s;
+  animation-duration: 7s;
   scroll-behavior: smooth;
   border: none;
   -webkit-transition-duration: 3s;
-          transition-duration: 3s;
+  transition-duration: 3s;
   overflow-x: visible;
   margin-bottom: 0px;
   display: -webkit-box;
@@ -28,11 +28,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .scrollMargin {
@@ -90,7 +90,7 @@
   background-attachment: fixed;
   background-position: auto;
   -webkit-transition-duration: 3s;
-          transition-duration: 3s;
+  transition-duration: 3s;
   max-width: 900px !important;
 }
 
@@ -172,7 +172,7 @@
 /* Not in use */
 .squeegee {
   -webkit-filter: invert(1);
-          filter: invert(1);
+  filter: invert(1);
   width: 100px;
   height: 100px;
   opacity: 0.5;
@@ -187,5 +187,5 @@
   pointer-events: none;
   display: none;
   -webkit-transition-duration: 2s;
-          transition-duration: 2s;
-}/*# sourceMappingURL=projects.css.map */
+  transition-duration: 2s;
+} /*# sourceMappingURL=projects.css.map */

@@ -1,178 +1,173 @@
-@use './main/variables' as *;
-
+@use "./main/variables" as *;
 
 #menuContainer {
-    height: fit-content;
-    width: fit-content;
-    z-index: 19990;
-    position: fixed;
-    width: 100%;
-    min-height: 60px;
-    margin: 0px !important;
-    width: 100% !important;
-    padding: 0px !important;
-    box-shadow: none !important;
-    border: none !important;
-    background: none !important;
-    // Because background is already blurred, this blur only shows when content gets behind menu
+  height: fit-content;
+  width: fit-content;
+  z-index: 19990;
+  position: fixed;
+  width: 100%;
+  min-height: 60px;
+  margin: 0px !important;
+  width: 100% !important;
+  padding: 0px !important;
+  box-shadow: none !important;
+  border: none !important;
+  background: none !important;
+  // Because background is already blurred, this blur only shows when content gets behind menu
 }
 
 .navbar-dark .navbar-toggler {
-    color: rgba(255, 255, 255, 0.5);
-    border-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 #menu {
-    overflow: initial;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 100%;
-    max-width: 100vw;
-    margin: auto;
-    padding: 10px;
-    padding-left: 25px;
-    padding-right: 10px;
-    height: 60px;
-    top: 0;
-    font-size: 1.2rem;
-    font-size: calc(min(1.1rem, 3.4vw));
-    font-size: clamp(10pt, 1.1rem, 3.4vw);
-    font-weight: 100;
-    font-family: 'roboto';
-    font-stretch: condensed;
-    text-transform: uppercase;
-    white-space: nowrap;
-    box-sizing: border-box;
-    border: none;
-    height: 100%;
-    min-height: calc(max(55px, fit-content));
-    box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.361);
-    backdrop-filter: blur(5px)brightness(100%) !important;
-    background: #ECFAE2;
-    background: $accent-color;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300 !important;
-    color: $text-color2 !important;
-    a{
-        color:white!important;
-    }
+  overflow: initial;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  max-width: 100vw;
+  margin: auto;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 10px;
+  height: 60px;
+  top: 0;
+  font-size: 1.2rem;
+  font-size: calc(min(1.1rem, 3.4vw));
+  font-size: clamp(10pt, 1.1rem, 3.4vw);
+  font-weight: 100;
+  font-family: "roboto";
+  font-stretch: condensed;
+  text-transform: uppercase;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border: none;
+  height: 100%;
+  min-height: calc(max(55px, fit-content));
+  box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.361);
+  backdrop-filter: blur(5px) brightness(100%) !important;
+  background: #ecfae2;
+  background: $accent-color;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300 !important;
+  color: $text-color2 !important;
+  a {
+    color: white !important;
+  }
 }
 
 #ao {
-    max-height: 30px;
-    margin-right: 20px;
+  max-height: 30px;
+  margin-right: 20px;
 }
 
 #menu li {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #menu a,
 .projectsMenu {
-    color: $text-color2 !important;
-    height: auto;
-    margin: auto;
-    width: fit-content;
-    margin: 0px;
-    font-size: clamp(12pt, 1.1rem, 5vw);
-    text-transform: capitalize;
-    font-weight: 300 !important;
-    text-decoration: none;
-    background: $accent-color;
+  color: $text-color2 !important;
+  height: auto;
+  margin: auto;
+  width: fit-content;
+  margin: 0px;
+  font-size: clamp(12pt, 1.1rem, 5vw);
+  text-transform: capitalize;
+  font-weight: 300 !important;
+  text-decoration: none;
+  background: $accent-color;
 }
 
 .nav-item {
-    text-align: right !important;
-    padding-right: 10px;
+  text-align: right !important;
+  padding-right: 10px;
 }
 
 .active {
-    width: 100% !important;
-    font-size: 1.1rem;
+  width: 100% !important;
+  font-size: 1.1rem;
 }
 
 .dropdown-menu {
-    background: $accent-color !important;
-    border: none;
+  background: $accent-color !important;
+  border: none;
 }
-
-
 
 /* dropdownmenu with inline style because of bootstrap issues */
 #expandMenu {
-    flex-direction: column;
-    padding: 10px;
-    transition-duration: 1s;
-    margin-top: -1px;
-    position: absolute;
-    width: 100%;
-    border-radius: 0px;
-    z-index: 20;
-    // background: rgba(128, 0, 128, 0.562) !important;
-    // backdrop-filter: blur(200px)brightness(100%) !important;
+  flex-direction: column;
+  padding: 10px;
+  transition-duration: 1s;
+  margin-top: -1px;
+  position: absolute;
+  width: 100%;
+  border-radius: 0px;
+  z-index: 20;
+  // background: rgba(128, 0, 128, 0.562) !important;
+  // backdrop-filter: blur(200px)brightness(100%) !important;
 }
 
-
 .dropdown-item {
-    width: 100% !important;
-    text-align: left;
+  width: 100% !important;
+  text-align: left;
 }
 
 .dropdown-item:hover {
-    background: inherit !important;
-    font-weight: 800 !important;
+  background: inherit !important;
+  font-weight: 800 !important;
 }
 
-
 #menu a:hover {
-    font-weight: 400 !important;
+  font-weight: 400 !important;
 }
 
 #menuCollapse {
-    display: none;
+  display: none;
 }
 
 .navbar {
-    transition: top 0.5s ease;
+  transition: top 0.5s ease;
 }
 
 .navbar-hide {
-    top: -80px;
+  top: -80px;
 }
 
 .reduceMotion {
-    background: rgba(255, 255, 255, 0) !important;
-    backdrop-filter: blurr(10px)brightness(300%);
-    height: fit-content;
-    line-height: 0.8rem;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    padding: 2px;
-    cursor: pointer;
+  background: rgba(255, 255, 255, 0) !important;
+  backdrop-filter: blurr(10px) brightness(300%);
+  height: fit-content;
+  line-height: 0.8rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2px;
+  cursor: pointer;
 
-    span,
-    i {
-        margin: 4px;
-    }
+  span,
+  i {
+    margin: 4px;
+  }
 
-    span {
-        font-size: 0.7rem;
-    }
+  span {
+    font-size: 0.7rem;
+  }
 
-    .navbar-toggler-icon {
-        color: white !important;
-        background: white !important;
-    }
+  .navbar-toggler-icon {
+    color: white !important;
+    background: white !important;
+  }
 }
 
-@media screen and (max-width:600px) {
-    .hideSpan {
-        display: none !important;
-    }
+@media screen and (max-width: 600px) {
+  .hideSpan {
+    display: none !important;
+  }
 }

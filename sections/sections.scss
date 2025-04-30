@@ -1,95 +1,88 @@
-@use './main/variables' as *;
+@use "./main/variables" as *;
 
 .sectionContainer {
-    z-index: 300;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    /* max-height: fit-content;
+  z-index: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* max-height: fit-content;
     overflow: hidden; */
 }
 
 .section {
-    word-wrap: break-word;
-    padding-top: 50px;
+  word-wrap: break-word;
+  padding-top: 50px;
 }
 
-
 .story {
-    padding-top:50px; 
-    padding-bottom:50px;
-    padding-left:20px;
-    padding-right:20px;
-    max-width: 700px;
-    margin: auto;
-    font-size: 1rem;
-    z-index:1;
-    position:relative;
-
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 700px;
+  margin: auto;
+  font-size: 1rem;
+  z-index: 1;
+  position: relative;
 }
 
 .sectionTitle {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    font-weight: 300;
-    font-size: 20pt;
-    margin: auto;
-    opacity: 1;
-    /* max-width: 800px !important; */
-    margin-bottom: 20px;
-    color: $accent-color-semidark !important;
-    font-size: clamp(18pt, 3rem, 12vw);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 20pt;
+  margin: auto;
+  opacity: 1;
+  /* max-width: 800px !important; */
+  margin-bottom: 20px;
+  color: $accent-color-semidark !important;
+  font-size: clamp(18pt, 3rem, 12vw);
 
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .sectionText {
-    position: relative;
-    margin-top: 0px;
-    /* background-image:url("..Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min.png"); */
-    background-position: auto;
-    background-attachment: fixed;
-    background-size: cover;
-    width: calc(min(100%, 1000px));
-    margin: auto;
-    border: 1px solid rgba(255, 255, 255, 0.216);
-    border-radius: 10px;
-    padding: calc(min(30px, 5vw));
-    padding-bottom: 40px;
-    padding-top: 0px;
-    text-align: justify;
-    font-size: 1.1rem;
-    font-family: 'roboto';
-    font-weight: 300;
-    padding-left: 10px;
-    // background: rgba(211, 218, 219, 0.025);
-    padding-left: 10px;
-    border-radius: 20px;
-    padding: 30px;
+  position: relative;
+  margin-top: 0px;
+  /* background-image:url("..Images/backgrounds/nazar-synytsia-0ybIsh4UPYk-unsplash-bg-min.png"); */
+  background-position: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  width: calc(min(100%, 1000px));
+  margin: auto;
+  border: 1px solid rgba(255, 255, 255, 0.216);
+  border-radius: 10px;
+  padding: calc(min(30px, 5vw));
+  padding-bottom: 40px;
+  padding-top: 0px;
+  text-align: justify;
+  font-size: 1.1rem;
+  font-family: "roboto";
+  font-weight: 300;
+  padding-left: 10px;
+  // background: rgba(211, 218, 219, 0.025);
+  padding-left: 10px;
+  border-radius: 20px;
+  padding: 30px;
 
-    padding-top: 20px;
-    padding-bottom: 80px;
-    // background: $accent-color-light;
-    margin-bottom: 20px;
-
-
+  padding-top: 20px;
+  padding-bottom: 80px;
+  // background: $accent-color-light;
+  margin-bottom: 20px;
 }
-
 
 #edu,
 #tools,
 #contact,
 .scrollMargin {
-    scroll-margin-top: 10px !important;
+  scroll-margin-top: 10px !important;
 }
 
-
 .section:last-child {
-    margin-bottom: 200px !important;
+  margin-bottom: 200px !important;
 }
