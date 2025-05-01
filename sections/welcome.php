@@ -55,19 +55,19 @@
                     <a href="#edu"> graduate</a> Human Technology Interaction (TU Eindhoven).
                     -->
                     <br /><br />
-                    Previously, I've worked as a front-end developer for 7 months on web applications, with Vue.js. Next to that, I've been working on (learning) web development for quite a while. Below you find those websites, along with the tools used for them.
+                    Previously, I've worked as a front-end developer for 7 months on web applications, with Vue.js. Below you find some self-study projects, along with the tools used for them.
 
 
                 </span>
                 <span class='NL'>
-                    Mijn naam is Aleid, een front-end web ontwikkelaar met interesse in fullstack, UX research & design, en in het meebouwen aan applicaties voor onderwijs, zorg, milieu of onderzoeks-doeleinden (of vergelijkbaar).
+                    Mijn naam is Aleid, een front-end web ontwikkelaar met interesse in fullstack, UX research & design, en in applicaties voor onderwijs, zorg, milieu of onderzoeksdoeleinden (of vergelijkbaar).
                      <!-- en ook interesse in het meebouwen aan applicaties met maatschappelijke relevantie. -->
                     <!-- In 2023 ben ik
                     <a href="#edu">afgestudeerd</a> aan de TU Eindhoven (Human Technology Interaction).
                         -->
                     <br /><br />
-                    Voorheen heb ik met veel plezier gewerkt als front-end developer, met onder andere
-                    Vue.js (7 maanden). Daarnaast ben ik al een tijd bezig met zelfstudie/eigen projecten. Hieronder vind je die, samen met de tools die daarvoor gebruikt zijn.
+                    Voorheen heb ik met veel plezier gewerkt als front-ender, met onder andere
+                    Vue.js (7 maanden). Hieronder vind je een aantal zelfstudie projecten, samen met de tools die daarvoor gebruikt zijn.
                    
                 </span>
             </div>
