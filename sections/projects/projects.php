@@ -77,7 +77,7 @@
             [
                 'title' => 'Figma design',
                 'titleNL' => 'Figma Design',
-                'imgName' => 'spiceMixes_figma_recipe.png',
+                'imgName' => 'spicemixes_figma_recipe.png',
                 'thumbnailFrame' => 10,
                 'vidName' => false,
                 'text' => 'Then, one screen design for the recipes. From there, I just started to work out the screens with code.',
