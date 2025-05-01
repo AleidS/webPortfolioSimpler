@@ -142,9 +142,9 @@ $version = 'V3'
                 $lang = 'nl';
 
             // For online
-            // $urlWebsite = "https://www.aleidsuzan.com/portfolio/";
+            $urlWebsite = "https://www.aleidsuzan.com/portfolio/";
             // For local: (uncomment)
-            $urlWebsite = "http://localhost/3d_portfolio%20-%20simple/";
+            // $urlWebsite = "http://localhost/3d_portfolio%20-%20simple/";
 
 
             include "sections/menu.php";
