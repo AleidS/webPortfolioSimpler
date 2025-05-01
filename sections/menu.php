@@ -16,14 +16,14 @@
         </div> -->
 
 
-        <!-- <div class="NL reduceMotion" onClick="changeLanguage('English')">
+        <div class="NL reduceMotion" onClick="changeLanguage('English')">
             EN
             <i class="fa-solid fa-flag"></i>
         </div>
         <div class="EN reduceMotion" onClick="changeLanguage('Dutch')">
             NL
             <i class="fa-solid fa-flag"></i>
-        </div> -->
+        </div>
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <span class='EN'> Projects</span>

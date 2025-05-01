@@ -112,6 +112,7 @@ $version = 'V3'
                     </div>
                 </div>
             </div>
+             <div id="fullpage" onclick="this.style.display='none';"></div>
 
 
             <?php

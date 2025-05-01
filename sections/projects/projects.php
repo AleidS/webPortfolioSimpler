@@ -13,131 +13,122 @@
         <div class="story">
 
             <span class='EN'>
-                The most elaborate project I worked on untill 2023 was an energy saving recommender
-                system (Master thesis project), in which users could obtain personalized saving
-                advice:
+                The last project I worked on was a full-stack spice-mix website to better learn Svelte and Laravel.
+                <br/><br/>
+                Below is a basic process overview. 
+                For more detailed explanation, please refer to the 
+                <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a>. 
+               .
+                There, I explain in detail how this project is structured and which tools are used to achieve it, 
+                and how you can make something similar or alter this project to fit your needs.
             </span>
             <span class='NL'>
-               Het laatste project waar ik aan gewerkt heb was een full-stack receptenwebsite voor kruidenmixen, 
-               om Svelte en Laravel beter onder de knie te krijgen.</span>
+               Het laatste project waar ik aan gewerkt heb was een full-stack receptenwebsite 
+               om Svelte en Laravel beter onder de knie te krijgen. Het heeft o.a. user login en upload-mogelijkheden.
+            
+               <br/><br/>
+                Hieronder vind je een korte uitleg.
+                Voor meer info, zie de 
+                <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a>. 
+                Daarin vertel ik hoe dit project is opgebouwd en met welke tools, 
+                en hoe je zelf zoiets kunt maken. </span>
 
         </div>
 
 
         <?php
-        $projectName = 'Spice mixes';
-        $projectNameNL = 'Spice mixes';
+        $projectName = 'Spicemixes';
+        $projectNameNL = 'Spicemixes';
         $year = '2025';
-        $icon = 'seedling';
-        $projectID = 'savingAid';
-        $showElement = 'savingAid';
+        $projectID = 'spiceMixes';
+        $showElement = 'spiceMixes';
         $prev = '#welcome';
-        $next = '#recipeApp-scroll';
+        $next = '#savingAid-scroll';
         $projectLink = 'https://www.spicemixes.nl/';
         $githubLink = 'https://github.com/AleidS/spiceMixes';
-        $fadeDirection = 'right';
+        $fadeDirection = 'left';
         $toolsObj = [
             [
-                'name' => 'HTML/CSS',
-                'logo' => 'HTML5_logo_wikipedia.png',
+                'name' => 'Svelte',
+               
             ],
             [
-                'name' => 'JavaScript',
-                'logo' => 'JavaScript-Logo.png',
+                'name' => 'Laravel',
+               
             ],
             [
-                'name' => 'React',
-                'logo' => 'React-icon.png',
-            ],
-            [
-                'name' => 'PHP/SQL',
-                'logo' => 'phpsql.png',
-            ],
-            [
-                'name' => 'FramerMotion',
-                'logo' => 'framer-motion-logo.png',
+                'name' => 'Inertia',
+                
             ],
         ];
 
         $slideObj = [
             [
-                'title' => 'Graduation project',
-                'titleNL' => 'afstudeerproject',
-                'imgName' => 'saving_aid_first.png',
+                'title' => 'Design',
+                'titleNL' => 'Design',
+                'imgName' => 'spicemixes_font_color_logo.png',
                 'thumbnailFrame' => 1,
-                'vidName' => 'saving_aid_home3.mp4',
-                'text' => 'I rebuilt this saving aid in React, PHP and SQL, 
-        based on screenshots and descriptions of an earlier system. 
-        (Supervised by Martijn Willemsen and Alain Starke.)',
+                'vidName' => false,
+                'text' => 'First, I created some design foundations in Figma like color palettes, fonts and the logo. ',
 
-                'textNL' => 'Deze besparingshulp heb ik heropgebouwd in React,
-         PHP en SQL, gebaseerd op screenshots en beschrijvingen van 
-        een eerder systeem. (Begeleid door Martijn Willemsen en Alain Starke.)',
+                'textNL' => 'Ik heb om te beginnen wat design elementen met Figma uitgewerkt, zoals kleurenpaletten, logo en lettertypen',
             ],
+           
             [
-                'title' => 'SQL database',
-                'titleNL' => 'SQL database',
-                'imgName' => 'savingAid2.png',
+                'title' => 'Figma design',
+                'titleNL' => 'Figma Design',
+                'imgName' => 'spiceMixes_figma_recipe.png',
                 'thumbnailFrame' => 10,
-                'vidName' => 'saving_aid_scroll.mp4',
-                'text' => 'For the back-end, I used PHP (mostly based on tutorials),
-        and we had an (existing) SQL database with over 130 energy saving measures, 
-        of which participants got 20 personalized recommendations.
-        I had not previously worked with back-end,
-         so used various tutorials to make it work.',
-                'textNL' => 'Voor de back-end heb ik PHP gebruikt (grotendeels m.bv. tutorials),
-         en hadden we een (bestaande) SQL database met meer dan 130 bespaarmaatregelen, 
-         waarvan participanten 20 aanbevelingen te zien kregen.',
+                'vidName' => false,
+                'text' => 'Then, one screen design for the recipes. From there, I just started to work out the screens with code.',
+                'textNL' => 'Daarna een schermontwerp in Figma voor de recepten gemaakt. Vanuit daar heb ik de rest direct met code uitgewerkt.',
             ],
             [
-                'title' => 'Rasch Scale',
-                'titleNL' => 'Rasch Schaal',
-                'imgName' => 'currentActions.png',
-                'thumbnailFrame' => 10,
-                'vidName' => 'saving_aid_current_actions.mp4',
-                'text' => 'Recommendations were based on the number of items someone already performed (Rasch recommender system),
-        u can test this yourself at <a href="www.besparingshulp.nl">besparingshulp.nl</a>.
-        I can show and discuss the code in a face-to-face meeting.',
-                'textNL' => 'Aanbevelingen waren gebaseerd op het aantal maatregelen dat iemand al uitvoerde, 
-       (Rasch aanbevelingssysteem). Je kunt dit op <a href="www.besparingshulp.nl">besparingshulp.nl</a> zelf testen.
-        Ik licht de code graag face-to-face toe.',
+                'title' => 'Main website',
+                'titleNL' => 'Website',
+                'imgName' => 'spicemixes_index.mp4',
+                'thumbnailFrame' => 1,
+                'vidName' => 'spicemixes_index.mp4',
+                'text' => "On the homepage there's around 15-20 mixes, divided amongst various cousines. Users can search and filter these, as well as flip through pages",
+                'textNL' => "Op de homepage staan zo'n 15-20 mixen, verdeeld over verschillende categorieën. Gebruikers kunnen zoeken, filteren en naar een volgende pagina gaan",
             ],
             [
-                'title' => 'Saving Goal',
-                'titleNL' => 'Besparingsdoel',
+                'title' => 'Adding mixes',
+                'titleNL' => 'Zelf content toevoegen',
                 'imgName' => 'currentActions.png',
                 'thumbnailFrame' => 1,
-                'vidName' => 'saving_aid_goalSetting.mp4',
-                'text' => 'Half of the participants in my thesis research chose a saving goal. 
-        We wanted to know if this would lead to higher savings (was not the case).
-        You can read the full results in my thesis (below), 
-        and hopefully also in a publication along the line',
-                'textNL' => 'De helft van de participanten in mijn afstudeeronderzoek koos een besparingsdoel. 
-        We wilden weten of dit zou leiden tot hogere besparing (dit was niet zo).
-        Je kunt de volledige resultaten lezen in mijn thesis, 
-        en hopelijk over een tijdje ook in een publicatie.',
+                'vidName' => 'spicemixes_addrecipe_sped_up.mp4',
+                'text' => "You can create an account with email or oAuth (Google), create their own mixes, favorite mixes and share mixes based on email'",
+                'textNL' => 'Je kunt een account aanmaken met email of oAuth (Google), zelf mixen toevoegen, mixen aan favorieten toevoegen, en mixen delen op basis van email',
             ],
             [
-                'title' => 'Research',
-                'titleNL' => 'Onderzoek',
+                'title' => 'Gimmicks',
+                'titleNL' => 'Gimmicks',
                 'imgName' => 'currentActions.png',
+                'thumbnailFrame' => 1,
+                'vidName' => 'spicemixes_alternativesAndDoubling_Q.mp4',
+                'text' => "Users can see alternative ingredients, and change quantities",
+                'textNL' => 'Gebruikers kunnen hoeveelheden aanpassen en alternatieven zien voor ingrediënten die ze niet hebben, en de Nederlandse vertaling zien',
+            ],
+             [
+                'title' => 'Database structure',
+                'titleNL' => 'Database structuur',
+                'imgName' => 'spicemixes_database.png',
+                'thumbnailFrame' => 1,
+                'vidName' => false,
+                'text' => "This was the first proper full-stack app for me (excluding the saving aid with a simple CRUD API). This is the (approximate) database structure.",
+                'textNL' => "Dit was de eerste 'echte' full-stack app die ik gemaakt heb (afgezien van de saving aid met simpele CRUD API). De back-end werkt met Laravel, en de communicatie tussen front-end en back-end met Inertia. Dit was de database structuur (ongeveer).",
+            ],
+            [
+                'title' => 'More info',
+                'titleNL' => 'Meer info',
+                'imgName' => 'spicemixes_Notion.png',
                 'thumbnailFrame' => 10,
-                'vidName' => 'saving_aid_conditions2.mp4',
+                'vidName' => false,
                 'text' =>
-                    'We also tested a no-goal condition, and 3 different units for displaying savings (kWh, CO2, & Euro). The development menu you see here, I made to easily test pages and conditions during development',
+                    "The precise workings of this app are a bit too complex to explain here. To learn more about this app, checkout the <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a> and the github code. There, I explain how everything works, and how to make something similar",
                 'textNL' =>
-                    'We hebben ook een conditie zonder doel getest, en 3 verschillende eenheden van besparing (kWh, CO2, en Euro). Het \'development\' menu wat je hier ziet had ik gemaakt om makkelijker dingen te kunnen testen.',
-            ],
-            [
-                'title' => 'User Experience',
-                'titleNL' => 'Gebruikservaring',
-                'imgName' => 'saving_aid.png',
-                'vidName' => 'saving_aid_questionnaires.mp4',
-                'thumbnailFrame' => 1,
-                'text' => 'During the experiment, users got various questions about their personal values and user experiences. 
-            Most users indicated they were satisfied with the system and would recommend it to friends.',
-                'textNL' => 'Tijdens het experiment kregen gebruikers ook verschillende vragen over hun persoonlijke waardes en gebruikservaringen.
-        De meeste van hen vonden het een fijn systeem om te gebruiken en zouden het aan vrienden aanbevelen.',
+                    "De precieze werking van deze app leg ik uit in de  <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a>. Daar vertel ik uitgebreid hoe alles werkt, en hoe je zelf zoiets kunt maken.",
             ],
         ];
 
@@ -219,9 +210,7 @@
                 'vidName' => 'saving_aid_scroll.mp4',
                 'text' => 'For the back-end, I used PHP (mostly based on tutorials),
         and we had an (existing) SQL database with over 130 energy saving measures, 
-        of which participants got 20 personalized recommendations.
-        I had not previously worked with back-end,
-         so used various tutorials to make it work.',
+        of which participants got 20 personalized recommendations.',
                 'textNL' => 'Voor de back-end heb ik PHP gebruikt (grotendeels m.bv. tutorials),
          en hadden we een (bestaande) SQL database met meer dan 130 bespaarmaatregelen, 
          waarvan participanten 20 aanbevelingen te zien kregen.',
@@ -286,23 +275,12 @@
                 React
             </h3>
             <span class='EN'>
+                In 2022 I learned 
                 <strong>
                     <a href="https://react.dev/" target="_blank">React</a>
-                </strong> allows for easily re-using code, which is useful when you have repeating layouts like energy
-                saving
-                measures
-                or lots of pages (a news website for example). It also allows you to quickly change things when
-                necessary.
-                <br />
-                <br />
-                I learnt React in 2022 via
-
-                <a href="https://v2.scrimba.com/learn-react-c0e">Scrimba</a> and made a
-
-                <a href="https://www.aleidsuzan.com/recipes" target="_blank"> recipe website </a> and
-                <a href="https://www.aleidsuzan.com/artportfolio" target="_blank"> art portfolio </a> to
-                practice this
-                framework. During the past half year, I've worked with Vue.js, a comparable framework.</span>
+                </strong> to more easily re-use code with components.
+                The recipe website below was made with this framework;
+             </span>
             <span class='NL'>
                 <!-- <i class='fa-solid fa-info-circle'></i> -->
 
@@ -442,7 +420,7 @@
             [
                 'title' => 'Filtering',
                 'titleNL' => 'Filteren',
-                'imgName' => 'artortfolio.png',
+                'imgName' => 'artPortfolio.png',
                 'vidName' => 'artportfolio_filter_new.mp4',
                 'thumbnailFrame' => 3,
                 'text' => 'Items can be filtered based on category, e.g. photos or pen&paper',
@@ -641,35 +619,21 @@
                 Figma & Design
             </h3>
             <span class='EN'>
-                Lately, I've been reading up on UI design and Figma.
-                <br />
-                <br />
-
-                <!-- <i class='fa-solid fa-info-circle'></i> -->
-
+                A good website of course starts with a good design (and a good concept). Although I'm not a designer,
+                I have read various books and experimented with some 
                 <strong>
-                    <a href="https://www.figma.com/" target="_blank">Figma</a>
+                    <a href="https://www.figma.com/" target="_blank">Figma.</a>
                 </strong>
-                is a useful tool to design (different)
-                interface options.
-                This can be the whole design, but also a
-                wireframe that just
-                depicts positions and sizes of elements.
-                <br /><br />
-                This allows you to discuss and alter various design options before they are implemented.
-                <br /><br />
-                These files can also be used to later test new designs!
+                This tool makes it easier to test and discuss various designs before implementing them.
             </span>
             <span class='NL'>
 
-                Een goede website begint natuurlijk bij een goed design. Hoewel ik geen
+                Een goede website begint natuurlijk bij een goed design (en een goed concept). Hoewel ik geen
                 designer ben, heb ik me daar wel wat in verdiept, door hier een aantal boeken over te
                 lezen en te experimenteren met <strong>
                     <a href="https://www.figma.com/" target="_blank">Figma</a></strong>. Figma maakt het wat makkelijker
                 om verschillende designs te testen of te overleggen,
                 voor je deze gaat implementeren.
-
-
             </span>
 
 

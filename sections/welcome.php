@@ -36,11 +36,7 @@
             <h2 id="hello" data-aos="fade-down" class="!text-3xl">
                 <span class='EN'>
                     Hello!
-                    <i data-aos="rotate" class="fa-solid fa-hand" style="transform:rotateZ(20deg)"></i>
-
-                    <br />
-                    <br />
-                    <small>(English version update coming soon:)) )</small>
+                    <i data-aos="rotate" class="fa-solid fa-hand" style="transform:rotateZ(20deg)"></i>                   
                 </span>
                 <span class='NL'>
                     Hallo!
@@ -52,29 +48,27 @@
             <div id="welcomeText">
 
                 <span class='EN'>
-                    I'm Aleid, a junior front-end web developer, with an interest in UX research and design.
+                    I'm Aleid, a front-end web developer with an interest in fullstack, UX research & design, and contributing to applications for education, healthcare, environment, research domains (or similar).
+                    
+                    <!-- and a strong interest in developing applications with societal value. -->
                     <!-- and recent msc.
                     <a href="#edu"> graduate</a> Human Technology Interaction (TU Eindhoven).
                     -->
                     <br /><br />
-                    For the past 6 months, I've worked as a front-end developer, with Vue.js,
-                    Tailwind CSS, Javascript and more.
-                    <br /><br />
-                    Below you find the websites and designs I made before this.
+                    Previously, I've worked as a front-end developer for 7 months on web applications, with Vue.js. Next to that, I've been working on (learning) web development for quite a while. Below you find those websites, along with the tools used for them.
+
 
                 </span>
                 <span class='NL'>
-                    Mijn naam is Aleid, een junior front-end web ontwikkelaar, met interesse in UX research en design.
+                    Mijn naam is Aleid, een front-end web ontwikkelaar met interesse in fullstack, UX research & design, en in het meebouwen aan applicaties voor onderwijs, zorg, milieu of onderzoeks-doeleinden (of vergelijkbaar).
+                     <!-- en ook interesse in het meebouwen aan applicaties met maatschappelijke relevantie. -->
                     <!-- In 2023 ben ik
                     <a href="#edu">afgestudeerd</a> aan de TU Eindhoven (Human Technology Interaction).
                         -->
                     <br /><br />
-                    De afgelopen 7 maanden heb ik met veel plezier gewerkt als front-end developer, met onder andere
-                    Vue.js,
-                    Tailwind CSS en Javascript.
-                    <br /><br />
-                    In dit portfolio vind je de websites die ik voor die tijd heb gemaakt,
-                    samen met de tools die daarvoor gebruikt zijn.
+                    Voorheen heb ik met veel plezier gewerkt als front-end developer, met onder andere
+                    Vue.js (7 maanden). Daarnaast ben ik al een tijd bezig met zelfstudie/eigen projecten. Hieronder vind je die, samen met de tools die daarvoor gebruikt zijn.
+                   
                 </span>
             </div>
 
@@ -92,6 +86,7 @@
                     <span class='skill'>wireframing</span>
                     <span class='skill'>programming</span>
                     <span class='skill'>design</span>
+                    <span class='skill'>some back-end development</span>
                     <span class='skill'>data analysis</span>
                     <span class='skill'>research</span>
                     <span class='skill'>teamwork</span>
@@ -103,6 +98,7 @@
                     <span class='skill'>wireframing (prototyping)</span>
                     <span class='skill'>programmeren</span>
                     <span class='skill'>ontwerpen</span>
+                    <span class='skill'>back-end development (beperkt)</span>
                     <span class='skill'>data analyse</span>
                     <span class='skill'>onderzoek</span>
                     <span class='skill'>teamwork</span>
@@ -123,6 +119,8 @@
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/vuejs.png" />
                 <img loading="lazy" style="filter:saturate(0%)brightness(50%)contrast(120%);" class="logo Lazy"
                     alt="logo" src="Images/logos/react-icon-name.png" />
+                              <img loading="lazy" style="filter:saturate(0%)brightness(50%)contrast(120%);" class="logo Lazy"
+                    alt="logo" src="Images/logos/svelte.png" />
                 <img loading=" lazy" style="transform:scale(0.8);" class="logo Lazy" alt="logo"
                     src="Images/logos/tailwind.png" />
                 <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/photoshop-logo-name.png" />

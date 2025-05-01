@@ -11,7 +11,7 @@
         class="sectionText bg-primary-400 !text-white flex items-center justify-center flex-col font-medium  pt-20 !p-20 pt-28 pb-28">
         <div class="text-center font-normal text-xl gap-y-2 flex flex-col">
             <span class='EN'>
-                Curious to know if we could collaborate? So am I! Let's have a chat →
+                Interested in working together or just want to ask a question? Let's have a chat →
             </span>
             <span class='NL'>
                 Benieuwd of we iets voor elkaar kunnen betekenen?
@@ -40,6 +40,8 @@
             <a href="https://www.linkedin.com/in/aleido" target="_blank" class="!hover:text-white"><i
                     class="fa-brands fa-linkedin-in" data-aos="fade-right"></i></a>
             <a href="https://www.behance.net/aleidsuzan" target="_blank"><i class="fa-brands fa-behance"
+                    data-aos="fade-right"></i></a>
+            <a href="https://bsky.app/profile/aleidsuzan.bsky.social" target="_blank"><i class="fa-brands fa-bluesky"
                     data-aos="fade-down"></i></a>
             <a href="https://www.github.com/aleids" target="_blank"><i class="fa-brands fa-github"
                     data-aos="fade-up"></i></a>

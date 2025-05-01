@@ -51,6 +51,7 @@
 <script src="scripts/<?php echo ($version) ?>/navbarCollapse.js"></script>
 <script src="scripts/<?php echo ($version) ?>/playVideo.js"></script>
 <script src="scripts/<?php echo ($version) ?>/languages.js"></script>
+<script src="scripts/<?php echo ($version) ?>/fullScreenImage.js"></script>
 
 <script>
 $('document').ready(function() {

@@ -124,6 +124,14 @@
                                 <span class="dot" style="color:#52C090">●●●</span>●●<br />
                             </span>
                         </div>
+                        <div class="tool">
+                            Svelte <br />
+                            <small>(Svelte 5 + Inertia)</small>
+                            <span class="dots">
+                                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Svelte.png" />
+                                <span class="dot" style="color:#FF4408">●●●</span>●●<br />
+                            </span>
+                        </div>
                         <!-- <div class="tool">
                             React-Router-Dom<br />
                             <small>URL redirecting</small>
@@ -170,7 +178,66 @@
                     </div>
                 </div>
 
+                 <div class="toolSectionContainer">
+                <h3>
 
+                    <span class='EN'> Back end</span>
+                    <span class='NL'> Back-end </span>
+
+                </h3>
+                <h5>
+                    <span class='EN'> Thesis project, small edits during work, spicemixes project</span>
+                    <span class='NL'> Afstudeerproject, tijdens werk kleine wijzigingen, spicemixes project
+                    </span>
+
+
+                </h5>
+                <!-- <i id='showBackend' style="cursor:pointer" onClick="showTools('backEnd',this.id)"
+                            class="fa-solid fa-plus-circle">
+                        </i> -->
+                </h3>
+                <div class="toolSection" id="backEnd">
+                    <div class="tool">
+                        PHP
+                        <span class="dots">
+                            <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/PHP-logo.svg.png" />
+                            <span class="dot" style="color:#787CB4">●●</span>●●●<br />
+                        </span>
+                    </div>
+                    <div class="tool">
+                        Laravel
+                        <span class="dots">
+                            <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Laravel.png" />
+                            <span class="dot" style="color:#FF3E30">●●</span>●●●<br />
+                        </span>
+                    </div>
+                    <div class="tool">
+                        mySQL
+                        <span class="dots">
+                            <img loading="lazy" class="logo Lazy" alt="logo"
+                                src="Images/logos/mysql-5-logo-png-transparent.png" />
+                            <span class="dot" style="color:#CE8B2C">●</span>●●●●<br />
+                        </span>
+                    </div>
+                    <div class="tool">
+                        cpanel
+                        <span class="dots">
+                            <img loading="lazy" class="logo Lazy" alt="logo"
+                                src="Images/logos/cpanel.svg" />
+                            <span class="dot" style="color:#F27138">●●●</span>●●<br />
+                        </span>
+                    </div>
+                    <!-- <div class="tool">
+                            Firebase
+                            <span class="dots">
+                                <img loading="lazy" class="logo Lazy" alt="logo"
+                                    src="Images/logos/firebase_logo_icon_171157.png" />
+                                <span class="dot" style="color:#FFCA28">●</span>●●●●<br />
+                            </span>
+                        </div> -->
+                    <!-- ●node.js (very limited)<br /> -->
+                </div>
+            </div>
 
                 <div class="toolSectionGroup">
                     <div class="toolSectionContainer">
@@ -399,58 +466,7 @@
                     </div>
                 </div>
             </div>
-            <div class="toolSectionContainer">
-                <h3>
-
-                    <span class='EN'> Back end (very limited)</span>
-                    <span class='NL'> Back-end (heel beperkt)</span>
-
-                </h3>
-                <h5>
-                    <span class='EN'> Thesis project and doing small edits during work</span>
-                    <span class='NL'> Afstudeerproject en tijdens werk kleine wijzigingen doen
-                    </span>
-
-
-                </h5>
-                <!-- <i id='showBackend' style="cursor:pointer" onClick="showTools('backEnd',this.id)"
-                            class="fa-solid fa-plus-circle">
-                        </i> -->
-                </h3>
-                <div class="toolSection" id="backEnd">
-                    <div class="tool">
-                        PHP
-                        <span class="dots">
-                            <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/PHP-logo.svg.png" />
-                            <span class="dot" style="color:#787CB4">●●</span>●●●<br />
-                        </span>
-                    </div>
-                    <div class="tool">
-                        Laravel
-                        <span class="dots">
-                            <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Laravel.png" />
-                            <span class="dot" style="color:#FF3E30">●</span>●●●●<br />
-                        </span>
-                    </div>
-                    <div class="tool">
-                        mySQL
-                        <span class="dots">
-                            <img loading="lazy" class="logo Lazy" alt="logo"
-                                src="Images/logos/mysql-5-logo-png-transparent.png" />
-                            <span class="dot" style="color:#CE8B2C">●</span>●●●●<br />
-                        </span>
-                    </div>
-                    <!-- <div class="tool">
-                            Firebase
-                            <span class="dots">
-                                <img loading="lazy" class="logo Lazy" alt="logo"
-                                    src="Images/logos/firebase_logo_icon_171157.png" />
-                                <span class="dot" style="color:#FFCA28">●</span>●●●●<br />
-                            </span>
-                        </div> -->
-                    <!-- ●node.js (very limited)<br /> -->
-                </div>
-            </div>
+           
         </div>
         <!-- <div class="toolSectionGroup otherSkills">
                 <div data-aos="fade-right" class="toolSectionContainer otherSkills">

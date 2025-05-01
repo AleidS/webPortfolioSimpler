@@ -57,8 +57,8 @@
                         } else {
                             $thumbnail = '#t=0.1';
                         }
-                        if (property_exists($slide, 'vidName')) : ?>
-                    <video class="lazy cardVideo" width='100' height='100' preload="none" muted playsinline loop
+                    if (property_exists($slide, 'vidName') && $slide->vidName!=false) : ?>
+                    <video class="lazy cardVideo fullScreenVideo" width='100' height='100' preload="none" muted controls playsinline loop
                         <?php if (property_exists($slide, 'thumbnail')) : ?>
                         poster=<?php echo ("Images/screenshots/" . $slide->thumbnail) ?> <?php endif ?>>
                         <source src=<?php echo ("Images/screenshots/videos/" . $slide->vidName . $thumbnail) ?>
@@ -70,7 +70,7 @@
                     </i>
                     <?php else : ?>
                     <!-- Lazy loading doesnt work correctly here -->
-                    <img width='700' height='500' src=<?php echo ("Images/screenshots/" . $slide->imgName) ?>
+                    <img width='700' height='500' class='fullscreen' src=<?php echo ("Images/screenshots/" . $slide->imgName) ?>
                         alt='Project Image' />
 
                     <?php endif ?>
