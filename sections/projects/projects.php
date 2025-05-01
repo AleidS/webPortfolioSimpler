@@ -19,8 +19,8 @@
                 For more detailed explanation, please refer to the 
                 <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a>. 
                .
-                There, I explain in detail how this project is structured and which tools are used to achieve it, 
-                and how you can make something similar or alter this project to fit your needs.
+                There, I explain in detail how this project is structured and with which tools, 
+                and how you can make something similar.
             </span>
             <span class='NL'>
                Het laatste project waar ik aan gewerkt heb was een full-stack receptenwebsite 
