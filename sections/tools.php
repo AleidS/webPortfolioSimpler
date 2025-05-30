@@ -128,7 +128,7 @@
                             Svelte <br />
                             <small>(Svelte 5 + Inertia)</small>
                             <span class="dots">
-                                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Svelte.png" />
+                                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/svelte.png" />
                                 <span class="dot" style="color:#FF4408">●●●</span>●●<br />
                             </span>
                         </div>
