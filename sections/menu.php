@@ -31,6 +31,16 @@
 
         </a>
         <div id="expandMenu" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#weerTreinVerkeer-scroll">
+                <span class='EN'> WeerTreinVerkeer</span>
+                <span class='NL'> WeerTreinVerkeer</span>
+
+            </a>
+            <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#spiceMixes-scroll">
+                <span class='EN'> Spicemixes</span>
+                <span class='NL'> Spicemixes </span>
+
+            </a>
             <a class="dropdown-item" href="<?php echo $urlWebsite ?>?lang=nl&reduce=false#savingAid-scroll">
                 <span class='EN'> Saving Aid</span>
                 <span class='NL'> Besparingshulp </span>

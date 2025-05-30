@@ -15,12 +15,12 @@
         <span class='EN'>
             The last project I worked on was an app that shows weather, railway disruptions (Dutch Railways) and traffic data all at once.
             As a practice project for Angular and Typescript. This took around one week.
-            More info can be found on the information page of this website; <a href='https://www.weertreinverkeer.nl/'> Weer Trein Verkeer </a>
+            More info can be found on the information page of this website; <a target='_blank' href='https://www.weertreinverkeer.nl/'> Weer Trein Verkeer </a>
         </span>
         <span class='NL'>
         Het laatste project waar ik aan gewerkt heb was een app waarop je weer, trein en verkeers-data tegelijk kunt zien.
         Als oefen-project voor Angular en Typescript. Dit kostte ongeveer een week.
-        Meer info vind je op de info pagina van deze website: <a href='https://www.weertreinverkeer.nl/'> Weer Trein Verkeer </a>
+        Meer info vind je op de info pagina van deze website: <a target='_blank' href='https://www.weertreinverkeer.nl/'> Weer Trein Verkeer </a>
          </span>
 
         </div>
@@ -62,14 +62,18 @@
 
         $slideObj = [
         [
-            'title' => '',
-            'titleNL' => '',
+            'title' => 'Weer-Trein-Verkeer',
+            'titleNL' => 'Weer-Trein-Verkeer',
             'imgName' => 'spicemixes_font_color_logo.png',
             'thumbnailFrame' => 1,
             'vidName' => 'weerTreinVerkeer.mp4',
-            'text' => ' ',
+            'text' => 'App with weather, train and traffic data, all at once. 
+            And darkmode! By now, it has icons for the train delays (for better clarity), and an info page. For the design, I did that directly in code this time, without Figma.
+            The (Tailwind primary) color palette is based on the water color of the map 
+            Visit with the button below;<br/><br/>',
 
-            'textNL' => '',
+            'textNL' => 'App met weer, trein, verkeersdata tegelijk, en darkmode! Ondertussen staan er icoontjes bij de treinvertragingen om duidelijk te maken wat wat is, 
+            en is er een info pagina. Qua design ben ik direct aan de slag gegaan, dit keer zonder Figma. Het kleurenpalet (Tailwind primary kleuren), heb ik gebaseerd op de waterkleur op de kaart. Bezoek met de knop hieronder;<br/><br/>',
         ],
 
         
@@ -80,8 +84,9 @@
         <div class="story">
 
             <span class='EN'>
-               Before that, I worked on a full-stack spice-mix website to better learn Svelte and Laravel. This was a much more extensive project, even if it might not seem like it at a glance:)
-               It took about 1.5 months.
+               Before that, I worked on a full-stack spice-mix website to better learn Svelte and Laravel. This was a much more extensive project, and it took about 1.5 months. 
+               It has, amongst others, user login and user generated content;
+               <a target='_blank' href='https://www.spicemixes.nl'> spicemixes.nl </a>
                 <br/><br/>
                 Below is a basic process overview. 
                 For more detailed explanation, please refer to the 
@@ -93,7 +98,8 @@
             <span class='NL'>
                Daarvoor heb ik aan een full-stack receptenwebsite gewerkt 
                om Svelte en Laravel beter onder de knie te krijgen. Dit was een veel uitgebreider project en kostte (incl. leren van Svelte en Laravel) ongeveer 1.5 maand.
-               Het heeft o.a. user login en upload-mogelijkheden.
+               Het heeft o.a. user login en upload-mogelijkheden;
+               <a target='_blank' href='https://www.spicemixes.nl'> spicemixes.nl </a>
             
                <br/><br/>
                 Hieronder vind je een korte uitleg.
@@ -132,6 +138,16 @@
         ];
 
         $slideObj = [
+            [
+                'title' => 'Homepage',
+                'titleNL' => 'Homepage',
+                'imgName' => 'spicemixesScreenshot.png',
+                'thumbnailFrame' => 1,
+                'vidName' => false,
+                'text' => 'Website for spice mixes. Swipe to view process and functionality->',
+
+                'textNL' => 'Website voor spicemixes. Swipe voor proces en functies->',
+            ],
             [
                 'title' => 'Design',
                 'titleNL' => 'Design',
