@@ -12,8 +12,76 @@
 
         <div class="story">
 
+        <span class='EN'>
+            The last project I worked on was an app that shows weather, railway disruptions (Dutch Railways) and traffic data all at once.
+            As a practice project for Angular and Typescript. This took around one week.
+            More info can be found on the information page of this website; <a href='https://www.weertreinverkeer.nl/'> Weer Trein Verkeer </a>
+        </span>
+        <span class='NL'>
+        Het laatste project waar ik aan gewerkt heb was een app waarop je weer, trein en verkeers-data tegelijk kunt zien.
+        Als oefen-project voor Angular en Typescript. Dit kostte ongeveer een week.
+        Meer info vind je op de info pagina van deze website: <a href='https://www.weertreinverkeer.nl/'> Weer Trein Verkeer </a>
+         </span>
+
+        </div>
+
+
+        <?php
+        $projectName = 'Weather-Trains-Traffic';
+        $projectNameNL = 'Weer-Trein-Verkeer';
+        $year = '2025';
+        $projectID = 'weerTreinVerkeer';
+        $showElement = 'weerTreinVerkeer';
+        $prev = '#welcome';
+        $next = '#spicemixes-scroll';
+        $projectLink = 'https://www.weertreinverkeer.nl/';
+        $githubLink = 'https://github.com/AleidS/angularEverythingAtOnce';
+        $fadeDirection = 'right';
+        $toolsObj = [
+        [
+            'name' => 'Angular',
+        
+        ],
+        [
+            'name' => 'Typescript',
+        
+        ],
+        [
+            'name' => 'TailwindCSS',
+            
+        ],
+        [
+            'name' => 'Leaflet.js',
+            
+        ],
+        [
+            'name' => 'RainViewer',
+            
+        ],
+        ];
+
+        $slideObj = [
+        [
+            'title' => '',
+            'titleNL' => '',
+            'imgName' => 'spicemixes_font_color_logo.png',
+            'thumbnailFrame' => 1,
+            'vidName' => 'weerTreinVerkeer.mp4',
+            'text' => ' ',
+
+            'textNL' => '',
+        ],
+
+        
+        ];
+
+        include 'projectCardTemplate.php';
+        ?>
+        <div class="story">
+
             <span class='EN'>
-                The last project I worked on was a full-stack spice-mix website to better learn Svelte and Laravel.
+               Before that, I worked on a full-stack spice-mix website to better learn Svelte and Laravel. This was a much more extensive project, even if it might not seem like it at a glance:)
+               It took about 1.5 months.
                 <br/><br/>
                 Below is a basic process overview. 
                 For more detailed explanation, please refer to the 
@@ -23,8 +91,9 @@
                 and how you can make something similar.
             </span>
             <span class='NL'>
-               Het laatste project waar ik aan gewerkt heb was een full-stack receptenwebsite 
-               om Svelte en Laravel beter onder de knie te krijgen. Het heeft o.a. user login en upload-mogelijkheden.
+               Daarvoor heb ik aan een full-stack receptenwebsite gewerkt 
+               om Svelte en Laravel beter onder de knie te krijgen. Dit was een veel uitgebreider project en kostte (incl. leren van Svelte en Laravel) ongeveer 1.5 maand.
+               Het heeft o.a. user login en upload-mogelijkheden.
             
                <br/><br/>
                 Hieronder vind je een korte uitleg.
@@ -42,7 +111,7 @@
         $year = '2025';
         $projectID = 'spiceMixes';
         $showElement = 'spiceMixes';
-        $prev = '#welcome';
+        $prev = '#weerTreinVerkeer';
         $next = '#savingAid-scroll';
         $projectLink = 'https://www.spicemixes.nl/';
         $githubLink = 'https://github.com/AleidS/spiceMixes';
