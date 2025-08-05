@@ -13,6 +13,9 @@ You can run it with a local server like Xampp
  (WITHOUT the index.php extension, then you just see the file contents without styling).
 
 
+Compile css: npm run build:css
+
+
 Live reload: php server & live server plugin vscode, live server chrome extension, 
 click 'start live' bottom bar vscode, open index.php, right click 'php open file', 
 open browser at localhost/foldername

@@ -8,7 +8,7 @@
 
     </h2>
     <div
-        class="sectionText bg-primary-400 !text-white flex items-center justify-center flex-col font-medium  pt-20 !p-20 pt-28 pb-28">
+        class="sectionText contactText !text-white flex items-center justify-center flex-col font-medium  pt-20 !p-20 pt-28 pb-28">
         <div class="text-center font-normal text-xl gap-y-2 flex flex-col">
             <span class='EN'>
                 Interested in working together or just want to ask a question? Let's connect! →

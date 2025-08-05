@@ -29,7 +29,7 @@
   margin-top: 20px;
   font-size: 1.4rem;
   color: white;
-  background: $accent-color-semisemilight;
+  background: $accent-color-semidark;
   padding: 10px;
   border-radius: 4px;
   font-family: "montserrat", sans-serif;
@@ -56,7 +56,7 @@
   background: $accent-color-extra-light;
 
   .welcomeTitle {
-    background: $accent-color;
+    background: $accent-color-semidark;
     color: white;
     border-radius: 10px;
     border-top-left-radius: 0px;
@@ -87,7 +87,7 @@
       background: $accent-color-light;
       color: $accent-color-dark;
       // border: 1px solid $accent-color;
-      font-weight: 400;
+      font-weight: 500;
       padding: 4px;
       padding-left: 10px;
       padding-right: 10px;
@@ -165,7 +165,7 @@
     align-items: center;
 
     border-radius: 60px;
-    background: $accent-color;
+    background: $accent-color-semidark;
     box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
     z-index: 2;
     padding: 10px;

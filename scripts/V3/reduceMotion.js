@@ -32,8 +32,8 @@ function removeAnimations(id) {
 
   if (reduced) {
     understand = false;
-    span.innerHTML = "activate <br/> motion";
-    spanNL.innerHTML = "activeer <br/> animaties";
+    span.innerHTML = "animations <br/> disabled";
+    spanNL.innerHTML = "animaties <br/> staan uit";
     icon.classList.remove("fa-video");
     icon.classList.add("fa-video-slash");
     $("#reduceDetected").css("display", "block");
@@ -82,8 +82,8 @@ function removeAnimations(id) {
     $("#arrow").css("animation-name", "example");
     $("#arrow").css("opacity", "0");
     $("#reduceDetected").css("display", "none");
-    span.innerHTML = "reduce <br/> motion";
-    spanNL.innerHTML = "minder <br/> animaties";
+    span.innerHTML = "animations <br/> enabled";
+    spanNL.innerHTML = "animaties <br/> zichtbaar";
     $(".learnmore").each(function () {
       // alert(this.querySelector('.switch3D'))
       this.style.display = "flex";

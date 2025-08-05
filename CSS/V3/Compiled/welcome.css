@@ -29,7 +29,7 @@
   margin-top: 20px;
   font-size: 1.4rem;
   color: white;
-  background: rgb(148, 194, 153);
+  background: rgb(96, 144, 101);
   padding: 10px;
   border-radius: 4px;
   font-family: "montserrat", sans-serif;
@@ -38,7 +38,7 @@
 
 #portrait {
   -webkit-clip-path: circle(43% at 49% 50%);
-  clip-path: circle(43% at 49% 50%);
+          clip-path: circle(43% at 49% 50%);
 }
 
 .welcomeContainer {
@@ -51,13 +51,13 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   border-radius: 15px;
   overflow: hidden;
   height: -webkit-fit-content;
@@ -67,7 +67,7 @@
   background: #ebf4eb;
 }
 .welcomeContainer .welcomeTitle {
-  background: #73ab79;
+  background: rgb(96, 144, 101);
   color: white;
   border-radius: 10px;
   border-top-left-radius: 0px;
@@ -86,18 +86,18 @@
   width: 550px;
   z-index: 1;
   -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: black !important;
 }
 .welcomeContainer .welcomeToolsSkills .skill {
@@ -106,7 +106,7 @@
   display: inline-flex;
   background: #d5ead6;
   color: #38563a;
-  font-weight: 400;
+  font-weight: 500;
   padding: 4px;
   padding-left: 10px;
   padding-right: 10px;
@@ -131,7 +131,7 @@
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-filter: brightness(80%) saturate(0%) contrast(100%);
-  filter: brightness(80%) saturate(0%) contrast(100%);
+          filter: brightness(80%) saturate(0%) contrast(100%);
   opacity: 0.9;
 }
 .welcomeContainer .welcomeToolsSkills .logoContainer {
@@ -142,16 +142,16 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   padding: 10px;
   max-width: max(100%, 250px);
   overflow: hidden;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-filter: saturate(100%);
-  filter: saturate(100%);
+          filter: saturate(100%);
 }
 .welcomeContainer .welcomeToolsSkills .logoContainer::after {
   content: "";
@@ -182,22 +182,22 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 60px;
-  background: #73ab79;
+  background: rgb(96, 144, 101);
   -webkit-box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
-  box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
+          box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
   z-index: 2;
   padding: 10px;
   padding-top: 20px;
@@ -229,8 +229,8 @@
   width: 90%;
   min-width: min(200px, 100vw);
   -webkit-box-flex: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
   color: white !important;
   text-align: left;
   margin: auto;
@@ -251,11 +251,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 600;
   font-size: 1.2rem;
 }
@@ -263,4 +263,4 @@
   padding: 4px;
   color: white;
   border-radius: 10px;
-} /*# sourceMappingURL=welcome.css.map */
+}/*# sourceMappingURL=welcome.css.map */

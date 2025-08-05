@@ -94,7 +94,7 @@
   border-radius: 20px;
   background-color: rgba(112, 77, 103, 0.505);
   -webkit-backdrop-filter: blur(10px) brightness(50%) !important;
-  backdrop-filter: blur(10px) brightness(50%) !important;
+          backdrop-filter: blur(10px) brightness(50%) !important;
   /* background: rgba(53, 8, 53, 0.082); */
   /* -webkit-backdrop-filter: blur(10px)brightness(10%); */
   /* backdrop-filter: blur(10px)brightness(30%); */
@@ -120,8 +120,8 @@
   -ms-flex-align: center;
   align-items: stretch;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   max-height: none;
@@ -174,4 +174,4 @@
 .explanation a {
   color: rgb(168, 228, 234);
   font-weight: 500;
-} /*# sourceMappingURL=explanations.css.map */
+}/*# sourceMappingURL=explanations.css.map */

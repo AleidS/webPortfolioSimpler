@@ -9,12 +9,18 @@
 
         </a>
 
-        <!-- <div class="reduceMotion" id='reduceMotion' onClick="reduceMotion(this.id)">
-            <span class='EN hideSpan'> Reduce <br /> motion </span>
-            <span class='NL hideSpan'> Minder <br /> animaties </span>
-            <i class="fa-solid fa-video"></i>
-        </div> -->
-
+        <div class="reduceMotion relative" id='reduceMotion' onClick="reduceMotion(this.id)">
+            <span class='EN hideSpan'> Motion <br /> enabled </span>
+            <span class='NL hideSpan'> Animaties <br /> zichtbaar </span>
+          
+            <i class="fa-solid fa-video">
+            </i>
+            <div class="hoverTooltip"> 
+            <span class='EN'> Show/Reduce <br /> motion </span>
+            <span class='NL'> Wel/Geen <br /> animaties </span>
+        </div>
+        </div>
+       
 
         <div class="NL reduceMotion" onClick="changeLanguage('English')">
             EN
