@@ -37,8 +37,7 @@
 }
 
 #portrait {
-  -webkit-clip-path: circle(43% at 49% 50%);
-          clip-path: circle(43% at 49% 50%);
+  clip-path: circle(43% at 49% 50%);
 }
 
 .welcomeContainer {

@@ -69,8 +69,8 @@ window.addEventListener("load", function () {
       loop: false,
       effect: "slide",
       // mousewheelControl: true,
-      // mousewheelControl: true,
-      mousewheel: true,
+      mousewheelControl: false,
+      mousewheel: false,
       // direction: 'horizontal',
       pagination: {
         el: ".swiper-pagination",
@@ -100,8 +100,8 @@ window.addEventListener("load", function () {
       direction: "horizontal",
       // loop: true,
       effect: "coverflow",
-      mousewheelControl: true,
-      mousewheel: true,
+      mousewheelControl: false,
+      mousewheel: false,
       // keyboardControl: true,
 
       // Otherwise scrolling issues IOS

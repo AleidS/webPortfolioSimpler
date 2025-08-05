@@ -66,8 +66,7 @@
   min-height: max(55px, fit-content);
   -webkit-box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.361);
           box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.361);
-  -webkit-backdrop-filter: blur(5px) brightness(100%) !important;
-          backdrop-filter: blur(5px) brightness(100%) !important;
+  backdrop-filter: blur(5px) brightness(100%) !important;
   background: #ecfae2;
   background: rgb(96, 144, 101);
   font-family: "Montserrat", sans-serif;
@@ -183,8 +182,7 @@
 
 .reduceMotion {
   background: rgba(255, 255, 255, 0) !important;
-  -webkit-backdrop-filter: blurr(10px) brightness(300%);
-          backdrop-filter: blurr(10px) brightness(300%);
+  backdrop-filter: blurr(10px) brightness(300%);
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;

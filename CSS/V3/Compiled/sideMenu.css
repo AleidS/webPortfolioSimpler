@@ -44,8 +44,7 @@
   padding-top: 40px;
   padding-bottom: 0px;
   top: 0px;
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   -webkit-transform: translateX(-50px);

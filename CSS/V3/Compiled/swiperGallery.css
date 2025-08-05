@@ -100,8 +100,7 @@
   max-width: 95vw;
   margin: auto;
   border-radius: 5px;
-  -webkit-clip-path: inset(1% 1% 1% 1% round 5px);
-          clip-path: inset(1% 1% 1% 1% round 5px);
+  clip-path: inset(1% 1% 1% 1% round 5px);
 }
 @media screen and (min-aspect-ratio: 9999) {
   .projectCard img,
