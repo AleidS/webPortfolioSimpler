@@ -70,7 +70,7 @@
                     </i>
                     <?php else : ?>
                     <!-- Lazy loading doesnt work correctly here -->
-                    <img width='700' height='500' class='fullscreen' src=<?php echo ("Images/screenshots/" . $slide->imgName) ?>
+                    <img width='700' height='500' class='fullscreen' alt="project screenshot" src=<?php echo ("Images/screenshots/" . $slide->imgName) ?>
                         alt='Project Image' />
 
                     <?php endif ?>

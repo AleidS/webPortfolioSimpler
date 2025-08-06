@@ -13,7 +13,7 @@ You can run it with a local server like Xampp
  (WITHOUT the index.php extension, then you just see the file contents without styling).
 
 
-Compile css: npm run build:css
+Compile css: npm run build:css -> also for menu bar, otherwise conflicts with tailwind on save
 
 
 Live reload: php server & live server plugin vscode, live server chrome extension, 

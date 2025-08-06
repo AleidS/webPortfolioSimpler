@@ -39,7 +39,7 @@
                         <div class="tool">
                             HTML
                             <span class="dots">
-                                <img loading="lazy" class="logo" alt="logo"
+                                <img loading="lazy" class="logo" alt="HTML logo"
                                     src="Images/logos/HTML5_logo_wikipedia.png" />
 
                                 <span class="dot" style="color:#E24C23">●●●●</span>●<br />
@@ -54,7 +54,7 @@
                             CSS
                             <span class="dots">
 
-                                <img loading="lazy" class="logo Lazy" alt="logo"
+                                <img loading="lazy" class="logo Lazy" alt="CSS logo"
                                     src="Images/logos/CSS3_logo_wikipediapng.png" />
                                 <span class="dot" style="color:#214CE5">●●●●</span>●<br />
                             </span>
@@ -62,7 +62,7 @@
                         <div class="tool">
                             Javascript
                             <span class="dots">
-                                <img loading="lazy" class="logo Lazy" alt="logo"
+                                <img loading="lazy" class="logo Lazy" alt="Javascript logo"
                                     src="Images/logos/JavaScript-Logo.png" />
                                 <span class="dot" style="color:#e7b750">●●●</span>●●<br />
                                 <!--<span class="dot" style="color:#E24C23;
@@ -76,7 +76,7 @@
                             SASS/SCSS
                             <small>CSS preprocessing</small>
                             <span class="dots">
-                                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Sass_logo.png" />
+                                <img loading="lazy" class="logo Lazy" alt="SASS logo" src="Images/logos/Sass_logo.png" />
                                 <span class="dot" style="color:#CF649A">●●●</span>●●<br />
                             </span>
                         </div>
@@ -92,7 +92,7 @@
                             Tailwind
                             <small>CSS framework</small>
                             <span class="dots">
-                                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/tailwind.png"
+                                <img loading="lazy" class="logo Lazy" alt="Tailwind logo" src="Images/logos/tailwind.png"
                                     style="height:1.5rem; margin-bottom:5px!important; margin-top:0px!important;" />
                                 <span class="dot" style="color:#38BDF8">●●●●</span>●<br />
                             </span>
@@ -112,7 +112,7 @@
                             React.js <br />
                             <small>(Functional components + <br /> React Router Dom + Redux)</small>
                             <span class="dots">
-                                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/React-icon.png" />
+                                <img loading="lazy" class="logo Lazy" alt="React logo" src="Images/logos/React-icon.png" />
                                 <span class="dot" style="color:#59C3E2">●●●</span>●●<br />
                             </span>
                         </div>
@@ -120,7 +120,7 @@
                             Vue.js (3) <br />
                             <small>(Composition API + <br /> Vue Router)</small>
                             <span class="dots">
-                                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Vue.png" />
+                                <img loading="lazy" class="logo Lazy" alt="Vue logo" src="Images/logos/Vue.png" />
                                 <span class="dot" style="color:#52C090">●●●</span>●●<br />
                             </span>
                         </div>
@@ -128,7 +128,7 @@
                             Svelte <br />
                             <small>(Svelte 5 + Inertia)</small>
                             <span class="dots">
-                                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/svelte.png" />
+                                <img loading="lazy" class="logo Lazy" alt="Svelte logo" src="Images/logos/svelte.png" />
                                 <span class="dot" style="color:#FF4408">●●●</span>●●<br />
                             </span>
                         </div>
@@ -200,21 +200,21 @@
                     <div class="tool">
                         PHP
                         <span class="dots">
-                            <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/PHP-logo.svg.png" />
+                            <img loading="lazy" class="logo Lazy" alt="PHP logo" src="Images/logos/PHP-logo.svg.png" />
                             <span class="dot" style="color:#787CB4">●●</span>●●●<br />
                         </span>
                     </div>
                     <div class="tool">
                         Laravel
                         <span class="dots">
-                            <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/Laravel.png" />
+                            <img loading="lazy" class="logo Lazy" alt="Laravel logo" src="Images/logos/Laravel.png" />
                             <span class="dot" style="color:#FF3E30">●●</span>●●●<br />
                         </span>
                     </div>
                     <div class="tool">
                         mySQL
                         <span class="dots">
-                            <img loading="lazy" class="logo Lazy" alt="logo"
+                            <img loading="lazy" class="logo Lazy" alt="mySQL logo"
                                 src="Images/logos/mysql-5-logo-png-transparent.png" />
                             <span class="dot" style="color:#CE8B2C">●</span>●●●●<br />
                         </span>
@@ -222,7 +222,7 @@
                     <div class="tool">
                         cpanel
                         <span class="dots">
-                            <img loading="lazy" class="logo Lazy" alt="logo"
+                            <img loading="lazy" class="logo Lazy" alt="cpanel logo"
                                 src="Images/logos/cpanel.svg" />
                             <span class="dot" style="color:#F27138">●●●</span>●●<br />
                         </span>
@@ -262,7 +262,7 @@
                             <div class="tool">
                                 Adobe Photoshop
                                 <span class="dots">
-                                    <img loading="lazy" class="logo Lazy" alt="logo"
+                                    <img loading="lazy" class="logo Lazy" alt="Photoshop logo"
                                         src="Images/logos/Adobe_Photoshop_wiki.png" />
                                     <span class="dot" style="color:#2DAAFF">●●●</span>●●<br />
                                     <!-- <span style="
@@ -276,7 +276,7 @@
                             <div class="tool">
                                 Adobe Illustrator
                                 <span class="dots">
-                                    <img loading="lazy" class="logo Lazy" alt="logo"
+                                    <img loading="lazy" class="logo Lazy" alt="Illustrator logo"
                                         src="Images/logos/Adobe_Illustrator_wikipng.png" />
                                     <span class="dot" style="color:#FF9B00">●●</span>●●●<br />
                                 </span>
@@ -284,7 +284,7 @@
                             <div class="tool">
                                 Adobe Lightroom
                                 <span class="dots">
-                                    <img loading="lazy" class="logo Lazy" alt="logo"
+                                    <img loading="lazy" class="logo Lazy" alt="Lightroom logo"
                                         src="Images/logos/Adobe_Photoshop_Lightroom_CC_logo.svg.png" />
                                     <span class="dot" style="color:#2DAAFF">●●●●</span>●<br />
                                     <!-- <span style="
@@ -300,7 +300,7 @@
                                 Photopea <br />
                                 <small>(free Photo/vector editing)</small>
                                 <span class="dots">
-                                    <img loading="lazy" class="logo Lazy" alt="logo"
+                                    <img loading="lazy" class="logo Lazy" alt="Photopea logo"
                                         src="Images/logos/Photopea_logo.svg.png" />
                                     <span class="dot" style="color:#11A598">●●●</span>●●<br />
                                 </span>
@@ -310,7 +310,7 @@
                                 <small> (Interface design) </small>
                                 <span class="dots">
 
-                                    <img loading="lazy" class="logo Lazy" alt="logo"
+                                    <img loading="lazy" class="logo Lazy" alt="Figma logo"
                                         src="Images/logos/600px-Figma-logo.svg.png" />
                                     <span class="dot" style="color:#02D084">●●●</span>●●<br />
                                 </span>
@@ -365,7 +365,7 @@
                             <div class="tool">
                                 Stata
                                 <span class="dots">
-                                    <img loading="lazy" class="logo Lazy" alt="logo" style="height:1.5rem"
+                                    <img loading="lazy" class="logo Lazy" alt="Stata logo" style="height:1.5rem"
                                         src="Images/logos/Stata_logo_med_blue.png" />
                                     <span class="dot" style="color:#1A5F91">●●●</span>●●<br />
                                 </span>
@@ -373,7 +373,7 @@
                             <div class="tool">
                                 SPSS
                                 <span class="dots">
-                                    <img loading="lazy" class="logo Lazy" alt="logo" style="height:1.5rem"
+                                    <img loading="lazy" class="logo Lazy" alt="SPSS logo" style="height:1.5rem"
                                         src="Images/logos/SPSS-logo-32F23C8B51-seeklogo.com.png" />
                                     <span class="dot" style="color:#D31644">●●</span>●●●<br />
                                 </span>
@@ -381,7 +381,7 @@
                             <div class="tool">
                                 Excel
                                 <span class="dots">
-                                    <img loading="lazy" class="logo Lazy" alt="logo"
+                                    <img loading="lazy" class="logo Lazy" alt="Excel logo"
                                         src="Images/logos/Microsoft_Office_Excel.svg.png" />
                                     <span class="dot" style="color:#1BA466">●●●</span>●●<br />
                                 </span>
@@ -389,16 +389,16 @@
                             <div class="tool">
                                 Python Panda's
                                 <span class="dots">
-                                    <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/pandas.png" />
+                                    <img loading="lazy" class="logo Lazy" alt="Python Panda's logo" src="Images/logos/pandas.png" />
                                     <span class="dot" style="color:#E70588">●●●</span>●●<br />
                                 </span>
                             </div>
                             <div class="tool">
-                                SCI-kit Learn
+                                Scikit Learn
                                 <br /><small class="EN">machine learning (very limited)</small>
                                 <small class="NL">machine learning (heel beperkt)</small>
                                 <span class="dots">
-                                    <img loading="lazy" class="logo Lazy" alt="logo"
+                                    <img loading="lazy" class="logo Lazy" alt="Scikit learn logo"
                                         src="Images/logos/2560px-Scikit_learn_logo_small.svg.png" />
                                     <span class="dot" style="color:#F89A36">●●</span>●●●<br />
                                 </span>
@@ -434,7 +434,7 @@
                             Python
                             <span class="dots">
 
-                                <img loading="lazy" class="logo Lazy" alt="logo"
+                                <img loading="lazy" class="logo Lazy" alt="Python logo"
                                     src="Images/logos/Python-logo-notext.svg.png" />
                                 <span class="dot" style="color:#FFDD4F">●●</span>●●●<br />
                             </span>
@@ -443,7 +443,7 @@
                             GIT<br />
                             (-hub&lab)
                             <span class="dots">
-                                <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/github2.png" />
+                                <img loading="lazy" class="logo Lazy" alt="GIT logo" src="Images/logos/github2.png" />
                                 <span class="dot" style="color:#F05033">●●</span>●●●<br />
                             </span>
                         </div>
@@ -458,7 +458,7 @@
                         <div class="tool">
                             Visual studio code
                             <span class="dots">
-                                <img loading="lazy" class="logo Lazy" alt="logo"
+                                <img loading="lazy" class="logo Lazy" alt="VSCode logo"
                                     src="Images/logos/Visual_Studio_Code_1.35_icon.svg.png" />
                                 <span class="dot" style="color:#31A7F1">●●●</span>●●<br />
                             </span>

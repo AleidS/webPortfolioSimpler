@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./sections/**/*.{html,js,php}", "!./sections/**/menu.php"],
-
+  content: [
+    "./sections/**/*.{html,js,php}",
+    // "!./sections/menu.php"
+  ],
   plugins: [require("tailwindcss"), require("autoprefixer")],
+  // Conflict with bootstrap menu collapse property, see;https://stackoverflow.com/questions/74520409/accordion-closing-imediately-after-opening-with-tailwind-css
+  corePlugins: {
+    visibility: false,
+  },
   theme: {
     extend: {
       colors: {

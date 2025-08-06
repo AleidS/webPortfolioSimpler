@@ -180,6 +180,10 @@
   top: -80px;
 }
 
+.projectsDropdown {
+  @apply hidden md:block;
+}
+
 .reduceMotion {
   background: rgba(255, 255, 255, 0) !important;
   backdrop-filter: blurr(10px) brightness(300%);
