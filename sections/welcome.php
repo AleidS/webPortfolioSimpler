@@ -116,17 +116,17 @@
                 <img loading="lazy" class="logo Lazy" alt="CSS logo" src="Images/logos/CSS3_logo_wikipediapng.png" />
                 <img loading="lazy" class="logo Lazy" alt="Sass logo" src="Images/logos/Sass_logo.png" />
                 <img loading="lazy" class="logo Lazy" alt="Javascript logo" src="Images/logos/Javascript-logo-name.png" />
-                <img loading="lazy" class="logo Lazy" alt="Vuejs logo" src="Images/logos/vuejs.png" />
+                <img loading="lazy" class="logo Lazy" alt="Vue js logo" src="Images/logos/vuejs.png" />
                 <img loading="lazy" style="filter:saturate(0%)brightness(50%)contrast(120%);" class="logo Lazy"
-                    alt="logo" src="Images/logos/react-icon-name.png" />
-                              <img loading="lazy" style="filter:saturate(0%)brightness(50%)contrast(120%);" class="logo Lazy"
-                    alt="logo" src="Images/logos/svelte.png" />
-                <img loading=" lazy" style="transform:scale(0.8);" class="logo Lazy" alt="logo"
+                    alt="react logo" src="Images/logos/react-icon-name.png" />
+                <img loading="lazy" style="filter:saturate(0%)brightness(50%)contrast(120%);" class="logo Lazy"
+                    alt="svelte logo" src="Images/logos/svelte.png" />
+                <img loading="lazy" style="transform:scale(0.8);" class="logo Lazy" alt="tailwind logo"
                     src="Images/logos/tailwind.png" />
                 <img loading="lazy" class="logo Lazy" alt="Photoshop logo" src="Images/logos/photoshop-logo-name.png" />
                 <img loading="lazy" class="logo Lazy" alt="Figma logo" src="Images/logos/figma-logo-name.png" />
                 <!-- <img loading="lazy" class="logo Lazy" alt="logo" src="Images/logos/python-logo-name.svg" /> -->
-                <img loading="lazy" style="transform:scale(0.7);" class="logo Lazy" alt="logo"
+                <img loading="lazy" style="transform:scale(0.7);" class="logo Lazy" alt="git logo"
                     src="Images/logos/Git-logo-name.png" />
             </div>
 

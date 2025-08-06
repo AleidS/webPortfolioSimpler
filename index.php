@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" translate="no">
+<html lang="nl" translate="no">
     <!-- Hello there!
     Please refer to github:
     https://github.com/AleidS/webPortfolio

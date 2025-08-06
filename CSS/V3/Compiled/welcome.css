@@ -163,6 +163,7 @@
   left: 2px;
   background-color: #73ab79;
   mix-blend-mode: soft-light;
+  pointer-events: none;
 }
 .welcomeContainer .welcomeToolsSkills a {
   color: black !important;
