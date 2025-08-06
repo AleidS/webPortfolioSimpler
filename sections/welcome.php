@@ -9,7 +9,7 @@
             <div data-aos="fade-right" id="" class="m-0 drop-shadow-lg ">
                 <img loading="lazy"
                     class="lazy !m-0 !p-0 max-w-[400px] w-[350px] h-full bg-none drop-shadow-md rounded-3xl"
-                    id='portrait' alt=" portrait" src="Images/welcome/portraitReduced.jpg" />
+                    id='portrait' alt="portrait" src="Images/welcome/portraitReduced.jpg" />
             </div>
 
             <div id="titles"

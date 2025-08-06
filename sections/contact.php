@@ -37,15 +37,15 @@
 
         <div class="socials flex flex-row gap-x-10 flex-wrap text-white !hover:text-white justify-center">
 
-            <a href="https://www.linkedin.com/in/aleido" target="_blank" class="!hover:text-white"><i
+            <a href="https://www.linkedin.com/in/aleido" target="_blank" class="!hover:text-white" aria-label="linkedin logo/link"><i
                     class="fa-brands fa-linkedin-in" data-aos="fade-right"></i></a>
-            <a href="https://www.behance.net/aleidsuzan" target="_blank"><i class="fa-brands fa-behance"
+            <a href="https://www.behance.net/aleidsuzan" target="_blank" aria-label="behance logo/link"><i class="fa-brands fa-behance"
                     data-aos="fade-right"></i></a>
-            <a href="https://bsky.app/profile/aleidsuzan.bsky.social" target="_blank"><i class="fa-brands fa-bluesky"
+            <a href="https://bsky.app/profile/aleidsuzan.bsky.social" aria-label="bluesky logo/link" target="_blank"><i class="fa-brands fa-bluesky"
                     data-aos="fade-down"></i></a>
-            <a href="https://www.github.com/aleids" target="_blank"><i class="fa-brands fa-github"
+            <a href="https://www.github.com/aleids" target="_blank" aria-label="github logo/link"><i class="fa-brands fa-github"
                     data-aos="fade-up"></i></a>
-            <a href="mailto:aleid_oonk@hotmail.com?subject=Web portfolio"><i class="fa-solid fa-envelope"
+            <a href="mailto:aleid_oonk@hotmail.com?subject=Web portfolio" aria-label="mail logo"><i class="fa-solid fa-envelope"
                     data-aos="fade-left"></i></a>
         </div>
     </div>
