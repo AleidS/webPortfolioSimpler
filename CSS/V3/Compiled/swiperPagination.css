@@ -9,7 +9,7 @@
   position: relative;
   bottom: 0px;
   right: 0px;
-  background: #73ab79;
+  background: rgb(96, 144, 101);
   z-index: 900 !important;
   pointer-events: none;
 }

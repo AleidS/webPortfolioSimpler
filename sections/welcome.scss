@@ -29,7 +29,7 @@
   margin-top: 20px;
   font-size: 1.4rem;
   color: white;
-  background: $accent-color-semidark;
+  background: $accent-color-darker;
   padding: 10px;
   border-radius: 4px;
   font-family: "montserrat", sans-serif;
@@ -56,7 +56,7 @@
   background: $accent-color-extra-light;
 
   .welcomeTitle {
-    background: $accent-color-semidark;
+    background: $accent-color-darker;
     color: white;
     border-radius: 10px;
     border-top-left-radius: 0px;
@@ -85,6 +85,7 @@
     .skill {
       display: inline-flex;
       background: $accent-color-light;
+      filter: saturate(50%);
       color: $accent-color-dark;
       // border: 1px solid $accent-color;
       font-weight: 500;
@@ -165,7 +166,7 @@
     align-items: center;
 
     border-radius: 60px;
-    background: $accent-color-semidark;
+    background: $accent-color-darker;
     box-shadow: 20px 0px 40px -10px rgba(25, 55, 35, 0.26);
     z-index: 2;
     padding: 10px;

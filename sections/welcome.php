@@ -131,7 +131,7 @@
             </div>
 
 
-            <a class='welcomeLink bg-primary-400 !text-white rounded-md p-2 px-4 '
+            <a class='welcomeLink bg-primary-700 !text-white rounded-md p-2 px-4 '
                 href="<?php echo $urlWebsite ?>/tools">
 
                 <span class='EN text-white'> And more! Click to view</span>

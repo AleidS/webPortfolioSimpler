@@ -68,7 +68,7 @@
           box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.361);
   backdrop-filter: blur(5px) brightness(100%) !important;
   background: #ecfae2;
-  background: rgb(96, 144, 101);
+  background: #4c6c4d;
   font-family: "Montserrat", sans-serif;
   font-weight: 300 !important;
   color: white !important;
@@ -99,7 +99,7 @@
   text-transform: capitalize;
   font-weight: 300 !important;
   text-decoration: none;
-  background: rgb(96, 144, 101);
+  background: #4c6c4d;
 }
 
 .nav-item {

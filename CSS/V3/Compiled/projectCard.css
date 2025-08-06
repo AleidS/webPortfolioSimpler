@@ -28,12 +28,12 @@
   color: white;
 }
 .projectCard .cardHeader {
-  background: rgb(96, 144, 101);
+  background: #4c6c4d;
   width: 100%;
 }
 .projectCard .projectTools {
   color: white;
-  background: #73ab79;
+  background: rgb(96, 144, 101);
 }
 @media screen and (max-width: 600px) {
   .projectCard .projectTools {
@@ -49,7 +49,7 @@
 .projectCard .cardFooter {
   color: white !important;
   background-position: auto;
-  background: rgb(96, 144, 101);
+  background: #4c6c4d;
 }
 .projectCard .cardFooter a {
   color: white !important;

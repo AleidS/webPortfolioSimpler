@@ -32,15 +32,14 @@
   }
 
   .cardHeader {
-    background: $accent-color-semidark;
+    background: $accent-color-darker;
 
     width: 100%;
   }
 
   .projectTools {
     color: $text-color2;
-    background: $accent-color;
-
+    background: $accent-color-semidark;
     @media screen and (max-width: $mobileBreakpoint1) {
       padding: 5px;
     }
@@ -59,7 +58,7 @@
 
     background-position: auto;
 
-    background: $accent-color-semidark;
+    background: $accent-color-darker;
 
     a {
       color: $text-color2 !important;
