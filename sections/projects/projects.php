@@ -9,228 +9,17 @@
 
     <div class="!bg-none relative rounded-[1rem] max-w-[99vw] w-[1000px]">
         <div class="absolute top-0 left-0 sm:left-[2.5%] h-full w-full sm:w-[95%] m-auto bg-white rounded-3xl"></div>
-
-        <div class="story">
-
-        <span class='EN'>
-            The last project I worked on was an app that shows weather, railway disruptions (Dutch Railways) and traffic data all at once.
-            As a practice project for Angular and Typescript. This took around one week.
-            More info can be found on the information page of this website; <a target='_blank' href='https://www.weertreinverkeer.nl/'> Weer Trein Verkeer </a>
-        </span>
-        <span class='NL'>
-        Het laatste project waar ik aan gewerkt heb was een app waarop je weer, trein en verkeers-data tegelijk kunt zien.
-        Als oefen-project voor Angular en Typescript. Dit kostte ongeveer een week.
-        Meer info vind je op de info pagina van deze website: <a target='_blank' href='https://www.weertreinverkeer.nl/'> Weer Trein Verkeer </a>
-         </span>
-
-        </div>
-
-
-        <?php
-        $projectName = 'Weather-Trains-Traffic';
-        $projectNameNL = 'Weer-Trein-Verkeer';
-        $year = '2025';
-        $projectID = 'weerTreinVerkeer';
-        $showElement = 'weerTreinVerkeer';
-        $prev = '#welcome';
-        $next = '#spicemixes-scroll';
-        $projectLink = 'https://www.weertreinverkeer.nl/';
-        $githubLink = 'https://github.com/AleidS/angularEverythingAtOnce';
-        $fadeDirection = 'right';
-        $toolsObj = [
-        [
-            'name' => 'Angular',
-        
-        ],
-        [
-            'name' => 'Typescript',
-        
-        ],
-        [
-            'name' => 'TailwindCSS',
-            
-        ],
-        [
-            'name' => 'Leaflet.js',
-            
-        ],
-        [
-            'name' => 'RainViewer',
-            
-        ],
-        ];
-
-        $slideObj = [
-        [
-            'title' => 'Weer-Trein-Verkeer',
-            'titleNL' => 'Weer-Trein-Verkeer',
-            'imgName' => 'spicemixes_font_color_logo.png',
-            'thumbnailFrame' => 1,
-            'vidName' => 'weerTreinVerkeer.mp4',
-            'text' => 'App with weather, train and traffic data, all at once. 
-            And darkmode! By now, it has icons for the train delays (for better clarity), and an info page. For the design, I did that directly in code this time, without Figma.
-            The (Tailwind primary) color palette is based on the water color of the map 
-            Visit with the button below;<br/><br/>',
-
-            'textNL' => 'App met weer, trein, verkeersdata tegelijk, en darkmode! Ondertussen staan er icoontjes bij de treinvertragingen om duidelijk te maken wat wat is, 
-            en is er een info pagina. Qua design ben ik direct aan de slag gegaan, dit keer zonder Figma. Het kleurenpalet (Tailwind primary kleuren), heb ik gebaseerd op de waterkleur op de kaart. Bezoek met de knop hieronder;<br/><br/>',
-        ],
-
-        
-        ];
-
-        include 'projectCardTemplate.php';
-        ?>
-        <div class="story">
+<div class="story">
 
             <span class='EN'>
-               Before that, I worked on a full-stack spice-mix website to better learn Svelte and Laravel. This was a much more extensive project, and it took about 1.5 months. 
-               It has, amongst others, user login and user generated content;
-               <a target='_blank' href='https://www.spicemixes.nl'> spicemixes.nl </a>
-                <br/><br/>
-                Below is a basic process overview. 
-                For more detailed explanation, please refer to the 
-                <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a>. 
-               .
-                There, I explain in detail how this project is structured and with which tools, 
-                and how you can make something similar.
-            </span>
-            <span class='NL'>
-               Daarvoor heb ik aan een full-stack receptenwebsite gewerkt 
-               om Svelte en Laravel beter onder de knie te krijgen. Dit was een veel uitgebreider project en kostte (incl. leren van Svelte en Laravel) ongeveer 1.5 maand.
-               Het heeft o.a. user login en upload-mogelijkheden;
-               <a target='_blank' href='https://www.spicemixes.nl'> spicemixes.nl </a>
-            
-               <br/><br/>
-                Hieronder vind je een korte uitleg.
-                Voor meer info, zie de 
-                <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a>. 
-                Daarin vertel ik hoe dit project is opgebouwd en met welke tools, 
-                en hoe je zelf zoiets kunt maken. </span>
-
-        </div>
-
-
-        <?php
-        $projectName = 'Spicemixes';
-        $projectNameNL = 'Spicemixes';
-        $year = '2025';
-        $projectID = 'spiceMixes';
-        $showElement = 'spiceMixes';
-        $prev = '#weerTreinVerkeer';
-        $next = '#savingAid-scroll';
-        $projectLink = 'https://www.spicemixes.nl/';
-        $githubLink = 'https://github.com/AleidS/spiceMixes';
-        $fadeDirection = 'left';
-        $toolsObj = [
-            [
-                'name' => 'Svelte',
-               
-            ],
-            [
-                'name' => 'Laravel',
-               
-            ],
-            [
-                'name' => 'Inertia',
-                
-            ],
-        ];
-
-        $slideObj = [
-            [
-                'title' => 'Homepage',
-                'titleNL' => 'Homepage',
-                'imgName' => 'spicemixesScreenshot.png',
-                'thumbnailFrame' => 1,
-                'vidName' => false,
-                'text' => 'Website for spice mixes. Swipe to view process and functionality->',
-
-                'textNL' => 'Website voor spicemixes. Swipe voor proces en functies->',
-            ],
-            [
-                'title' => 'Design',
-                'titleNL' => 'Design',
-                'imgName' => 'spicemixes_font_color_logo.png',
-                'thumbnailFrame' => 1,
-                'vidName' => false,
-                'text' => 'First, I created some design foundations in Figma like color palettes, fonts and the logo. ',
-
-                'textNL' => 'Ik heb om te beginnen wat design elementen met Figma uitgewerkt, zoals kleurenpaletten, logo en lettertypen',
-            ],
-           
-            [
-                'title' => 'Figma design',
-                'titleNL' => 'Figma Design',
-                'imgName' => 'spicemixes_figma_recipe.png',
-                'thumbnailFrame' => 10,
-                'vidName' => false,
-                'text' => 'Then, one screen design for the recipes. From there, I just started to work out the screens with code.',
-                'textNL' => 'Daarna een schermontwerp in Figma voor de recepten gemaakt. Vanuit daar heb ik de rest direct met code uitgewerkt.',
-            ],
-            [
-                'title' => 'Main website',
-                'titleNL' => 'Website',
-                'imgName' => 'spicemixes_index.mp4',
-                'thumbnailFrame' => 1,
-                'vidName' => 'spicemixes_index.mp4',
-                'text' => "On the homepage there's around 15-20 mixes, divided amongst various cousines. Users can search and filter these, as well as flip through pages",
-                'textNL' => "Op de homepage staan zo'n 15-20 mixen, verdeeld over verschillende categorieën. Gebruikers kunnen zoeken, filteren en naar een volgende pagina gaan",
-            ],
-            [
-                'title' => 'Adding mixes',
-                'titleNL' => 'Zelf content toevoegen',
-                'imgName' => 'currentActions.png',
-                'thumbnailFrame' => 1,
-                'vidName' => 'spicemixes_addrecipe_sped_up.mp4',
-                'text' => "You can create an account with email or oAuth (Google), create their own mixes, favorite mixes and share mixes based on email'",
-                'textNL' => 'Je kunt een account aanmaken met email of oAuth (Google), zelf mixen toevoegen, mixen aan favorieten toevoegen, en mixen delen op basis van email',
-            ],
-            [
-                'title' => 'Gimmicks',
-                'titleNL' => 'Gimmicks',
-                'imgName' => 'currentActions.png',
-                'thumbnailFrame' => 1,
-                'vidName' => 'spicemixes_alternativesAndDoubling_Q.mp4',
-                'text' => "Users can see alternative ingredients, and change quantities",
-                'textNL' => 'Gebruikers kunnen hoeveelheden aanpassen en alternatieven zien voor ingrediënten die ze niet hebben, en de Nederlandse vertaling zien',
-            ],
-             [
-                'title' => 'Database structure',
-                'titleNL' => 'Database structuur',
-                'imgName' => 'spicemixes_database.png',
-                'thumbnailFrame' => 1,
-                'vidName' => false,
-                'text' => "This was the first proper full-stack app for me (excluding the saving aid with a simple CRUD API). This is the (approximate) database structure.",
-                'textNL' => "Dit was de eerste 'echte' full-stack app die ik gemaakt heb (afgezien van de saving aid met simpele CRUD API). De back-end werkt met Laravel, en de communicatie tussen front-end en back-end met Inertia. Dit was de database structuur (ongeveer).",
-            ],
-            [
-                'title' => 'More info',
-                'titleNL' => 'Meer info',
-                'imgName' => 'spicemixes_Notion.png',
-                'thumbnailFrame' => 10,
-                'vidName' => false,
-                'text' =>
-                    "The precise workings of this app are a bit too complex to explain here. To learn more about this app, checkout the <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a> and the github code. There, I explain how everything works, and how to make something similar",
-                'textNL' =>
-                    "De precieze werking van deze app leg ik uit in de  <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a>. Daar vertel ik uitgebreid hoe alles werkt, en hoe je zelf zoiets kunt maken.",
-            ],
-        ];
-
-        include 'projectCardTemplate.php';
-        ?>
-
-
-        <div class="story">
-
-            <span class='EN'>
-                The most elaborate project I worked on untill 2023 was an energy saving recommender
-                system (Master thesis project), in which users could obtain personalized saving
+                The most elaborate project I worked on was an 
+                <a href="https://www.besparingshulp.nl" target="_blank">energy saving recommender
+                system</a> (Master thesis project), in which users could obtain personalized saving
                 advice:
             </span>
             <span class='NL'>
-                Het meest uitgebreide project waar ik tot 2023 aan gewerkt heb,
-                was een energiebesparingshulp (Afstudeerproject master),
+                Het meest uitgebreide project waar ik aan gewerkt heb,
+                was een  <a href="https://www.besparingshulp.nl" target="_blank">energiebesparingshulp</a> (Afstudeerproject master),
                 waar gebruikers gepersonaliseerde bespaaradviezen konden krijgen; </span>
 
         </div>
@@ -355,6 +144,217 @@
         include 'projectCardTemplate.php';
         ?>
         <div class="story">
+            <span class='EN'>
+               One of the last projects I worked on was an app that shows weather, railway disruptions (Dutch Railways) and traffic data all at once.
+                As a practice project for Angular and Typescript. This took around one week.
+                More info can be found on the information page of this website; <a target='_blank' href='https://www.weertreinverkeer.nl/'> Weer Trein Verkeer </a>
+            </span>
+            <span class='NL'>
+            Een van de laatste projecten waar ik aan gewerkt heb was een app waarop je weer, trein en verkeers-data tegelijk kunt zien.
+            Als oefen-project voor Angular en Typescript. Dit kostte ongeveer een week.
+            Meer info vind je op de info pagina van deze website: <a target='_blank' href='https://www.weertreinverkeer.nl/'> Weer Trein Verkeer </a>
+            </span>
+
+        </div>
+
+
+        <?php
+        $projectName = 'Weather-Trains-Traffic';
+        $projectNameNL = 'Weer-Trein-Verkeer';
+        $year = '2025';
+        $projectID = 'weerTreinVerkeer';
+        $showElement = 'weerTreinVerkeer';
+        $prev = '#welcome';
+        $next = '#spicemixes-scroll';
+        $projectLink = 'https://www.weertreinverkeer.nl/';
+        $githubLink = 'https://github.com/AleidS/angularEverythingAtOnce';
+        $fadeDirection = 'left';
+        $toolsObj = [
+        [
+            'name' => 'Angular',
+        
+        ],
+        [
+            'name' => 'Typescript',
+        
+        ],
+        [
+            'name' => 'TailwindCSS',
+            
+        ],
+        [
+            'name' => 'Leaflet.js',
+            
+        ],
+        [
+            'name' => 'RainViewer',
+            
+        ],
+        ];
+
+        $slideObj = [
+        [
+            'title' => 'Weer-Trein-Verkeer',
+            'titleNL' => 'Weer-Trein-Verkeer',
+            'imgName' => 'spicemixes_font_color_logo.png',
+            'thumbnailFrame' => 1,
+            'vidName' => 'weerTreinVerkeer.mp4',
+            'text' => 'App with weather, train and traffic data, all at once. 
+            And darkmode! By now, it has icons for the train delays (for better clarity), and an info page. For the design, I did that directly in code this time, without Figma.
+            The (Tailwind primary) color palette is based on the water color of the map 
+            Visit with the button below;<br/><br/>',
+
+            'textNL' => 'App met weer, trein, verkeersdata tegelijk, en darkmode! Ondertussen staan er icoontjes bij de treinvertragingen om duidelijk te maken wat wat is, 
+            en is er een info pagina. Qua design ben ik direct aan de slag gegaan, dit keer zonder Figma. Het kleurenpalet (Tailwind primary kleuren), heb ik gebaseerd op de waterkleur op de kaart. Bezoek met de knop hieronder;<br/><br/>',
+        ],
+
+        
+        ];
+
+        include 'projectCardTemplate.php';
+        ?>
+        <div class="story">
+
+            <span class='EN'>
+               Before that, I worked on a full-stack spice-mix website to better learn Svelte and Laravel. This was a much more extensive project, and it took about 1.5 months. 
+               It has, amongst others, user login and user generated content;
+               <a target='_blank' href='https://www.spicemixes.nl'> spicemixes.nl </a>
+                <br/><br/>
+                Below is a basic process overview. 
+                For more detailed explanation, please refer to the 
+                <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a>. 
+               .
+                There, I explain in detail how this project is structured and with which tools, 
+                and how you can make something similar.
+            </span>
+            <span class='NL'>
+               Daarvoor heb ik aan een full-stack receptenwebsite gewerkt 
+               om Svelte en Laravel beter onder de knie te krijgen. Dit was een veel uitgebreider project en kostte (incl. leren van Svelte en Laravel) ongeveer 1.5 maand.
+               Het heeft o.a. user login en upload-mogelijkheden;
+               <a target='_blank' href='https://www.spicemixes.nl'> spicemixes.nl </a>
+            
+               <br/><br/>
+                Hieronder vind je een korte uitleg.
+                Voor meer info, zie de 
+                <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a>. 
+                Daarin vertel ik hoe dit project is opgebouwd en met welke tools, 
+                en hoe je zelf zoiets kunt maken. </span>
+
+        </div>
+
+
+        <?php
+        $projectName = 'Spicemixes';
+        $projectNameNL = 'Spicemixes';
+        $year = '2025';
+        $projectID = 'spiceMixes';
+        $showElement = 'spiceMixes';
+        $prev = '#weerTreinVerkeer';
+        $next = '#savingAid-scroll';
+        $projectLink = 'https://www.spicemixes.nl/';
+        $githubLink = 'https://github.com/AleidS/spiceMixes';
+        $fadeDirection = 'right';
+        $toolsObj = [
+            [
+                'name' => 'Svelte',
+               
+            ],
+            [
+                'name' => 'Laravel',
+               
+            ],
+            [
+                'name' => 'Inertia',
+                
+            ],
+        ];
+
+        $slideObj = [
+            [
+                'title' => 'Homepage',
+                'titleNL' => 'Homepage',
+                'imgName' => 'spicemixesScreenshot.png',
+                'thumbnailFrame' => 1,
+                'vidName' => false,
+                'text' => 'Website for spice mixes. Swipe to view process and functionality->',
+
+                'textNL' => 'Website voor spicemixes. Swipe voor proces en functies->',
+            ],
+            [
+                'title' => 'Design',
+                'titleNL' => 'Design',
+                'imgName' => 'spicemixes_font_color_logo.png',
+                'thumbnailFrame' => 1,
+                'vidName' => false,
+                'text' => 'First, I created some design foundations in Figma like color palettes, fonts and the logo. ',
+
+                'textNL' => 'Ik heb om te beginnen wat design elementen met Figma uitgewerkt, zoals kleurenpaletten, logo en lettertypen',
+            ],
+           
+            [
+                'title' => 'Figma design',
+                'titleNL' => 'Figma Design',
+                'imgName' => 'spicemixes_figma_recipe.png',
+                'thumbnailFrame' => 10,
+                'vidName' => false,
+                'text' => 'Then, one screen design for the recipes. From there, I just started to work out the screens with code.',
+                'textNL' => 'Daarna een schermontwerp in Figma voor de recepten gemaakt. Vanuit daar heb ik de rest direct met code uitgewerkt.',
+            ],
+            [
+                'title' => 'Main website',
+                'titleNL' => 'Website',
+                'imgName' => 'spicemixes_index.mp4',
+                'thumbnailFrame' => 1,
+                'vidName' => 'spicemixes_index.mp4',
+                'text' => "On the homepage there's around 15-20 mixes, divided amongst various cousines. Users can search and filter these, as well as flip through pages",
+                'textNL' => "Op de homepage staan zo'n 15-20 mixen, verdeeld over verschillende categorieën. Gebruikers kunnen zoeken, filteren en naar een volgende pagina gaan",
+            ],
+            [
+                'title' => 'Adding mixes',
+                'titleNL' => 'Zelf content toevoegen',
+                'imgName' => 'currentActions.png',
+                'thumbnailFrame' => 1,
+                'vidName' => 'spicemixes_addrecipe_sped_up.mp4',
+                'text' => "You can create an account with email or oAuth (Google), create their own mixes, favorite mixes and share mixes based on email'",
+                'textNL' => 'Je kunt een account aanmaken met email of oAuth (Google), zelf mixen toevoegen, mixen aan favorieten toevoegen, en mixen delen op basis van email',
+            ],
+            [
+                'title' => 'Gimmicks',
+                'titleNL' => 'Gimmicks',
+                'imgName' => 'currentActions.png',
+                'thumbnailFrame' => 1,
+                'vidName' => 'spicemixes_alternativesAndDoubling_Q.mp4',
+                'text' => "Users can see alternative ingredients, and change quantities",
+                'textNL' => 'Gebruikers kunnen hoeveelheden aanpassen en alternatieven zien voor ingrediënten die ze niet hebben, en de Nederlandse vertaling zien',
+            ],
+             [
+                'title' => 'Database structure',
+                'titleNL' => 'Database structuur',
+                'imgName' => 'spicemixes_database.png',
+                'thumbnailFrame' => 1,
+                'vidName' => false,
+                'text' => "This was the first proper full-stack app for me (excluding the saving aid with a simple CRUD API). This is the (approximate) database structure.",
+                'textNL' => "Dit was de eerste 'echte' full-stack app die ik gemaakt heb (afgezien van de saving aid met simpele CRUD API). De back-end werkt met Laravel, en de communicatie tussen front-end en back-end met Inertia. Dit was de database structuur (ongeveer).",
+            ],
+            [
+                'title' => 'More info',
+                'titleNL' => 'Meer info',
+                'imgName' => 'spicemixes_Notion.png',
+                'thumbnailFrame' => 10,
+                'vidName' => false,
+                'text' =>
+                    "The precise workings of this app are a bit too complex to explain here. To learn more about this app, checkout the <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a> and the github code. There, I explain how everything works, and how to make something similar",
+                'textNL' =>
+                    "De precieze werking van deze app leg ik uit in de  <a target='_blank' href='https://www.notion.so/Spicemixes-project-1d1bb3b2e78080ecb630c03ee0738bfc?pvs=4'>Notion docs</a>. Daar vertel ik uitgebreid hoe alles werkt, en hoe je zelf zoiets kunt maken.",
+            ],
+        ];
+
+        include 'projectCardTemplate.php';
+        ?>
+
+
+        
+        <div class="story">
 
             <h3 class='sectionTitle'>
                 React
@@ -363,17 +363,18 @@
                 In 2022 I learned 
                 <strong>
                     <a href="https://react.dev/" target="_blank">React</a>
-                </strong> to more easily re-use code with components.
-                The recipe website below was made with this framework;
+                </strong> (via <a href="https://scrimba.com/learn-react-c0e" target="_blank">Scrimba</a>) to more easily re-use code with components.
+                The <a href="https://www.aleidsuzan.com/recipes/" target="_blank">recipe website</a> below was made with this framework;
              </span>
             <span class='NL'>
                 <!-- <i class='fa-solid fa-info-circle'></i> -->
 
 
-                In 2022 heb ik <strong> <a href="https://react.dev/" target="_blank">React</a> </strong> geleerd om
-                makkelijker
-                code te kunnen hergebruiken (met components).
-                De receptenwebsite hieronder is hier ook mee gemaakt;
+                In 2022 heb ik <strong> <a href="https://react.dev/" target="_blank">React</a> </strong> geleerd (via 
+                <a href="https://scrimba.com/learn-react-c0e" target="_blank">Scrimba</a>) om
+                makkelijker code te kunnen hergebruiken (met components).
+                De 
+                <a href="https://www.aleidsuzan.com/recipes/" target="_blank">receptenwebsite</a> hieronder is hier ook mee gemaakt;
 
 
             </span>
@@ -532,11 +533,13 @@
                 Javascript
             </h3>
             <span class='EN'>
-                In 2021, I made a drawing app to learn the basics of JavaScript.
+                In 2021, I made a 
+                <a href="https://www.aleidsuzan.com/canvas/" target="_blank">drawing app</a> to learn the basics of JavaScript.
                 I tried to follow best coding practices, following a software development course.
             </span>
             <span class='NL'>
-                Hieronder zie je een teken-app gemaakt in Javascript, gemaakt in ~2019/2020 en later gerefactord. Om te
+                Hieronder zie je een <a href="https://www.aleidsuzan.com/canvas/" target="_blank">teken app</a>,
+                gemaakt in Javascript, uit ~2019/2020 en later gerefactord. Om te
                 zorgen dat de code bruikbaar blijft,
                 ook voor anderen, probeer ik zoveel mogelijk best code practices te volgen en goed te documenteren.
 
@@ -602,16 +605,17 @@
             <span class='EN'>
                 I also enjoy creating out-of-the-box designs and experimenting with different techniques.
                 The first version of this portfolio was 3D animated with blender animations:
+                <a href="https://www.aleidsuzan.com/portfolioOld/">version 1</a> & <a href="https://www.aleidsuzan.com/portfolioDarkV1">version 2</a>
                 <!-- (<a href="http://www.aleidsuzan.com/portfolioOld" target="_blank">View here</a>) -->
                 <br /><br />
                 When you have ideas about a unique design or element on a website, I gladly will explore if and how this
-                would
-                be possible!
+                would be possible!
             </span>
             <span class='NL'>
                 Heb je een idee voor een out-of-the-box ontwerp, dan denk ik daar graag over mee.
 
                 De eerste versie van dit portfolio had bijvoorbeeld 3D animaties van de projecten, gemaakt met Blender:
+                <a href="https://www.aleidsuzan.com/portfolioOld/">versie 1</a> & <a href="https://www.aleidsuzan.com/portfolioDarkV1">versie 2</a>
 
             </span>
 
