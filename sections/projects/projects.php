@@ -15,12 +15,17 @@
                 The most elaborate project I worked on was an 
                 <a href="https://www.besparingshulp.nl" target="_blank">energy saving recommender
                 system</a> (Master thesis project), in which users could obtain personalized saving
-                advice:
+                advice. The research demo (where you can change conditions and user ability) can be found <a href="https://www.besparingshulp.nl/demo" target="_blank">here</a>. 
+                A paper on this study can be found <a href="https://link.springer.com/article/10.1007/s12053-025-10332-2" target="_blank">here</a>.
             </span>
             <span class='NL'>
                 Het meest uitgebreide project waar ik aan gewerkt heb,
                 was een  <a href="https://www.besparingshulp.nl" target="_blank">energiebesparingshulp</a> (Afstudeerproject master),
-                waar gebruikers gepersonaliseerde bespaaradviezen konden krijgen; </span>
+                waar gebruikers gepersonaliseerde bespaaradviezen konden krijgen. De onderzoeksdemo (waar je o.a. condities kan aanpassen) staat <a href="https://www.besparingshulp.nl/demo" target="_blank">hier</a>,
+                en een paper over dit onderzoek vind je
+                <a href="https://link.springer.com/article/10.1007/s12053-025-10332-2" target="_blank">hier</a>.
+            
+            </span>
 
         </div>
 
@@ -110,12 +115,10 @@
                 'vidName' => 'saving_aid_goalSetting.mp4',
                 'text' => 'Half of the participants in my thesis research chose a saving goal. 
         We wanted to know if this would lead to higher savings (was not the case).
-        You can read the full results in my thesis (below), 
-        and hopefully also in a publication along the line',
+        You can also read the full results in my thesis (below).',
                 'textNL' => 'De helft van de participanten in mijn afstudeeronderzoek koos een besparingsdoel. 
         We wilden weten of dit zou leiden tot hogere besparing (dit was niet zo).
-        Je kunt de volledige resultaten lezen in mijn thesis, 
-        en hopelijk over een tijdje ook in een publicatie.',
+        Je kunt de volledige resultaten ook teruglezen in mijn thesis.',
             ],
             [
                 'title' => 'Research',
