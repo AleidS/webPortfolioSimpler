@@ -169,6 +169,7 @@
         $showElement = 'weerTreinVerkeer';
         $prev = '#welcome';
         $next = '#spicemixes-scroll';
+          $thesis = null;
         $projectLink = 'https://www.weertreinverkeer.nl/';
         $githubLink = 'https://github.com/AleidS/angularEverythingAtOnce';
         $fadeDirection = 'left';
@@ -254,6 +255,7 @@
         $showElement = 'spiceMixes';
         $prev = '#weerTreinVerkeer';
         $next = '#savingAid-scroll';
+        $thesis = null;
         $projectLink = 'https://www.spicemixes.nl/';
         $githubLink = 'https://github.com/AleidS/spiceMixes';
         $fadeDirection = 'right';
@@ -468,6 +470,7 @@
         $prev = '#drawingApp-scroll';
         $next = '#portfolioOld-scroll';
         $icon = 'pencil';
+        $thesis = null;
         $projectLink = 'https://www.aleidsuzan.com/artportfolio/';
         $githubLink = 'https://github.com/AleidS/artPortfolio';
         $fadeDirection = 'right';
@@ -557,6 +560,7 @@
         $prev = '#recipeApp-scroll';
         $next = '#artPortfolio-scroll';
         $icon = 'pencil';
+        $thesis = null;
         $projectLink = 'https://www.aleidsuzan.com/canvas/';
         $githubLink = 'https://github.com/AleidS/drawingApp';
         $fadeDirection = 'right';
@@ -632,6 +636,7 @@
         $showElement = 'portfolio3D';
         $prev = '#artPortfolio-scroll';
         $next = '#edu';
+        $thesis = null;
         $projectLink = 'https://www.aleidsuzan.com/portfolioOld/';
         $githubLink = 'https://www.github.com/AleidS/webPortfolio';
         $fadeDirection = 'left';
@@ -739,6 +744,7 @@
         $year = '2024';
         $projectLink = 'https://www.behance.net/aleidsuzan/';
         $githubLink = null;
+        $thesis = null;
         $fadeDirection = 'right';
         $toolsObj = [
             [
